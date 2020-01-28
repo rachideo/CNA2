@@ -19,6 +19,7 @@
 
 // ** Réglages MySQL - Votre hébergeur doit vous fournir ces informations. ** //
 /** Nom de la base de données de WordPress. */
+
 define( 'DB_NAME', 'wp-cna' );
 
 /** Utilisateur de la base de données MySQL. */
@@ -93,3 +94,12 @@ if ( !defined('ABSPATH') )
 
 /** Réglage des variables de WordPress et de ses fichiers inclus. */
 require_once(ABSPATH . 'wp-settings.php');
+
+
+
+
+
+
+
+
+

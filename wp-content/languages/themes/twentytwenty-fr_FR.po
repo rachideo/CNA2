@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Themes - Twenty Twenty package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2019-11-13 18:41:02+0000\n"
+"PO-Revision-Date: 2019-12-13 06:28:05+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,6 +19,10 @@ msgstr "Notre thème par défaut pour 2020 est conçu pour tirer pleinement part
 msgid "Twenty Twenty"
 msgstr "Twenty Twenty"
 
+#: classes/class-twentytwenty-customize.php:246
+msgid "Show author bio"
+msgstr "Afficher la bio de l’auteur"
+
 #: inc/starter-content.php:38
 msgctxt "Theme starter content"
 msgid "The New UMoMA Opens its Doors"
@@ -28,7 +32,7 @@ msgstr "Le nouveau E-Mucem ouvre ses portes"
 msgid "View Archive <span aria-hidden=\"true\">&rarr;</span>"
 msgstr "Voir l’archive <span aria-hidden=\"true\">&rarr;</span>"
 
-#: inc/template-tags.php:387
+#: inc/template-tags.php:393
 msgctxt "A string that is output before one or more categories"
 msgid "In"
 msgstr "Dans"
@@ -61,19 +65,19 @@ msgstr "Théâtre des opérations"
 msgid "August 1 -- December 1"
 msgstr "1er août au 1er décembre"
 
-#: classes/class-twentytwenty-customize.php:354
+#: classes/class-twentytwenty-customize.php:375
 msgid "The color used for the text in the overlay."
 msgstr "La couleur utilisée pour le texte de la superposition."
 
-#: classes/class-twentytwenty-customize.php:353
+#: classes/class-twentytwenty-customize.php:374
 msgid "Overlay Text Color"
 msgstr "Couleur du texte de superposition"
 
-#: classes/class-twentytwenty-customize.php:332
+#: classes/class-twentytwenty-customize.php:353
 msgid "The color used for the overlay. Defaults to the accent color."
 msgstr "La couleur utilisée pour la superposition. La couleur par défaut est la couleur d'accentuation."
 
-#: classes/class-twentytwenty-customize.php:331
+#: classes/class-twentytwenty-customize.php:352
 msgid "Overlay Background Color"
 msgstr "Couleur de superposition de l’arrière-plan"
 
@@ -109,7 +113,7 @@ msgstr "Appliquer une couleur personnalisée aux boutons, liens, images mises en
 msgid "The New UMoMA Opens its Doors"
 msgstr "Le nouveau E-Mucem ouvre ses portes"
 
-#: classes/class-twentytwenty-customize.php:262
+#: classes/class-twentytwenty-customize.php:283
 msgid "Settings for the \"Cover Template\" page template. Add a featured image to use as background."
 msgstr "Réglages pour le modèle de page « Modèle avec bannière ». Utilise une image mise en avant en tant qu’arrière-plan."
 
@@ -130,11 +134,11 @@ msgstr "Lire la suite"
 msgid "”Cyborgs, as the philosopher Donna Haraway established, are not reverent. They do not remember the cosmos.”"
 msgstr "« Les cyborgs, comme l’a fait remarquer la philosophe Donna Haraway, ne sont pas respectueux. Ils ne se souviennent pas du cosmos. »"
 
-#: classes/class-twentytwenty-customize.php:374
+#: classes/class-twentytwenty-customize.php:395
 msgid "Overlay Opacity"
 msgstr "Opacité de la superposition"
 
-#: searchform.php:24 template-parts/modal-search.php:20
+#: template-parts/modal-search.php:20 searchform.php:24
 msgid "Search for:"
 msgstr "Rechercher :"
 
@@ -208,7 +212,7 @@ msgstr "Commentaires"
 msgid "Comments are closed."
 msgstr "Les commentaires sont fermés."
 
-#: inc/starter-content.php:176 inc/starter-content.php:186 functions.php:491
+#: functions.php:491 inc/starter-content.php:176 inc/starter-content.php:186
 msgid "Primary"
 msgstr "Principal"
 
@@ -266,7 +270,7 @@ msgid "Social links"
 msgstr "Réseaux sociaux"
 
 #. translators: %s: Author name
-#: template-parts/entry-author-bio.php:20 inc/template-tags.php:348
+#: template-parts/entry-author-bio.php:20 inc/template-tags.php:354
 msgid "By %s"
 msgstr "Par %s"
 
@@ -288,24 +292,24 @@ msgstr "Rechercher&hellip;"
 msgid "Search:"
 msgstr "Recherche :"
 
-#: inc/template-tags.php:439
+#: inc/template-tags.php:445
 msgid "Sticky post"
 msgstr "Article épinglé"
 
-#: inc/template-tags.php:401
+#: inc/template-tags.php:407
 msgid "Tags"
 msgstr "Étiquettes"
 
-#: template-parts/entry-header.php:36 template-parts/content-cover.php:70
-#: inc/template-tags.php:383
+#: template-parts/content-cover.php:70 template-parts/entry-header.php:36
+#: inc/template-tags.php:389
 msgid "Categories"
 msgstr "Catégories"
 
-#: inc/template-tags.php:365
+#: inc/template-tags.php:371
 msgid "Post date"
 msgstr "Date de l’article"
 
-#: inc/template-tags.php:341
+#: inc/template-tags.php:347
 msgid "Post author"
 msgstr "Auteur de l’article"
 
@@ -405,7 +409,7 @@ msgstr "Commentaires plus anciens"
 msgid "Newer Comments"
 msgstr "Commentaires plus récents"
 
-#: classes/class-twentytwenty-walker-page.php:134 inc/template-tags.php:545
+#: classes/class-twentytwenty-walker-page.php:134 inc/template-tags.php:555
 msgid "Show sub menu"
 msgstr "Afficher le sous-menu"
 
@@ -422,23 +426,23 @@ msgstr "Par auteur de l’article"
 msgid "says:"
 msgstr "dit :"
 
-#: classes/class-twentytwenty-customize.php:375
+#: classes/class-twentytwenty-customize.php:396
 msgid "Make sure that the contrast is high enough so that the text is readable."
 msgstr "Assurez-vous que le contraste soit suffisamment élevé pour que le texte soit lisible."
 
-#: classes/class-twentytwenty-customize.php:285
+#: classes/class-twentytwenty-customize.php:306
 msgid "Creates a parallax effect when the visitor scrolls."
 msgstr "Crée un effet de parallaxe lorsque le visiteur défile."
 
-#: classes/class-twentytwenty-customize.php:284
+#: classes/class-twentytwenty-customize.php:305
 msgid "Fixed Background Image"
 msgstr "Image d’arrière-plan fixe"
 
-#: classes/class-twentytwenty-customize.php:248
+#: classes/class-twentytwenty-customize.php:269
 msgid "Full text"
 msgstr "Le texte complet"
 
-#: classes/class-twentytwenty-customize.php:246
+#: classes/class-twentytwenty-customize.php:267
 msgid "On archive pages, posts show:"
 msgstr "Sur les pages d'archive, les articles affichent :"
 
@@ -458,7 +462,7 @@ msgstr "Couleur d’arrière-plan de l’en-tête et du pied de page"
 msgid "Page Not Found"
 msgstr "Page introuvable"
 
-#: classes/class-twentytwenty-customize.php:249
+#: classes/class-twentytwenty-customize.php:270
 msgid "Summary"
 msgstr "Résumé"
 
@@ -507,7 +511,7 @@ msgid "Desktop Expanded Menu"
 msgstr "Menu étendu grands écrans"
 
 #. Template Name of the theme
-#: classes/class-twentytwenty-customize.php:260
+#: classes/class-twentytwenty-customize.php:281
 msgid "Cover Template"
 msgstr "Modèle avec bannière"
 

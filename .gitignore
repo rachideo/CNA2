@@ -1,0 +1,13 @@
+# fichier wp-config.php, il contient les informations de la base de donnée (qui sont différents en local et en ligne)
+wp-config.php
+
+# Ignore tous fichiers log ou de base de donnée
+*.log
+*.sql
+*.sqlite
+
+# Ignore les thèmes par défaut commencant par twenty
+wp-content/themes/twenty*/
+
+
+
