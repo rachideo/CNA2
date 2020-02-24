@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Procedurally generated minimal environment</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="bootstrap.min.css">
+<link rel="shortcut icon" type="image/png" href="./img/favicon_swing.png"/>
+<!-- jquery -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<!-- js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<!-- js bootstrap -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,700,900' rel='stylesheet' type='text/css'>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
+</head>
+<body>
+
+
+
+
+<canvas>
+  <script src='https://jeromeetienne.github.io/threex.terrain/examples/vendor/three.js/build/three-min.js'></script>
+  <script src='https://jeromeetienne.github.io/threex.terrain/examples/vendor/three.js/examples/js/SimplexNoise.js'></script>
+  <script src='https://jeromeetienne.github.io/threex.terrain/threex.terrain.js'></script>
+  <script  src="js/script.js"></script>
+</canvas>
+
+<div class="row">
+  <div>
+    <div class="moving-letters">
+      <h1 class="ml4">
+        <span class="letters letters-1">Annecy</span>
+        <span class="letters letters-2">Chambéry</span>
+        <span class="letters letters-3">Grenoble</span>
+        <span class="letters letters-4">Valence</span>
+      </h1>
+    </div>
+    <div id="particles-js"></div>
+  </div>
+</div>
+
+
+
+
+
+<!-- scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+<script src="js/particles.js"></script>
+<script src="js/app.js"></script>
+<script>
+  var ml = { timelines: {}};
+  var ml4 = {};
+  ml4.opacityIn = [0,1];
+  ml4.scaleIn = [0.2, 1];
+  ml4.scaleOut = 3;
+  ml4.durationIn = 800;
+  ml4.durationOut = 600;
+  ml4.delay = 500;
+
+  ml.timelines["ml4"] = anime.timeline({loop: true})
+          .add({
+            targets: '.ml4 .letters-1',
+            opacity: ml4.opacityIn,
+            scale: ml4.scaleIn,
+            duration: ml4.durationIn
+          }).add({
+            targets: '.ml4 .letters-1',
+            opacity: 0,
+            scale: ml4.scaleOut,
+            duration: ml4.durationOut,
+            easing: "easeInExpo",
+            delay: ml4.delay
+          }).add({
+            targets: '.ml4 .letters-2',
+            opacity: ml4.opacityIn,
+            scale: ml4.scaleIn,
+            duration: ml4.durationIn
+          }).add({
+            targets: '.ml4 .letters-2',
+            opacity: 0,
+            scale: ml4.scaleOut,
+            duration: ml4.durationOut,
+            easing: "easeInExpo",
+            delay: ml4.delay
+          }).add({
+            targets: '.ml4 .letters-3',
+            opacity: ml4.opacityIn,
+            scale: ml4.scaleIn,
+            duration: ml4.durationIn
+          }).add({
+            targets: '.ml4 .letters-3',
+            opacity: 0,
+            scale: ml4.scaleOut,
+            duration: ml4.durationOut,
+            easing: "easeInExpo",
+            delay: ml4.delay
+          }).add({
+            targets: '.ml4 .letters-4',
+            opacity: ml4.opacityIn,
+            scale: ml4.scaleIn,
+            duration: ml4.durationIn
+          }).add({
+            targets: '.ml4 .letters-4',
+            opacity: 0,
+            scale: ml4.scaleOut,
+            duration: ml4.durationOut,
+            easing: "easeInExpo",
+            delay: ml4.delay
+          }).add({
+            targets: '.ml4',
+            opacity: 0,
+            duration: 500,
+            delay: 500
+          });
+</script>
+
+</body>
+</html>

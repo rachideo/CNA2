@@ -617,7 +617,7 @@ a:hover, a:active {
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
     font-weight: 300;
-    font-family: 'Raleway';
+    font-family: 'Open Sans';
 }
 
 .site-title:hover {
@@ -915,7 +915,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
     font-size: 14px;
     line-height: 24px;
-    font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #001c28;
     overflow-x: hidden;
 }
@@ -1019,7 +1019,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, table, blockquote, input, textarea {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -1263,7 +1263,7 @@ footer {
 /*!---------- 6. BUTTONS ----------*/
 
 .btn, .button {
-    font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     border: 2px solid #e81341;
     padding: 0 26px;
     min-width: 150px;
@@ -1446,7 +1446,7 @@ nav .btn, .nav-bar .btn {
 .menu {
     width: 100%;
     height: 55px;
-    font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .menu li a {
@@ -1677,7 +1677,7 @@ nav.fixed.scrolled {
 }
 
 .module.widget-handle .title {
-    font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     letter-spacing: 1px;
     text-transform: uppercase;
     font-size: 11px;
@@ -1927,7 +1927,7 @@ nav.fixed.scrolled {
 /*!---------- 8. FORMS ----------*/
 
 input, textarea {
-    font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 input[type="text"], textarea {
@@ -3184,7 +3184,7 @@ blockquote {
 * Widgets
 */
 .widget .widget-title {
-  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 22px;
   line-height: 24px;
   color: #001c28;
@@ -3202,12 +3202,12 @@ blockquote {
       padding-bottom: 0; }
     .widget.widget_archive > div ul li span, .widget.widget_archive ul li span, .widget.widget_categories > div ul li span, .widget.widget_categories ul li span, .widget.widget_meta > div ul li span, .widget.widget_meta ul li span, .widget.widget_pages > div ul li span, .widget.widget_pages ul li span, .widget.widget_nav_menu > div ul li span, .widget.widget_nav_menu ul li span {
       font-size: 12px;
-      font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
       color: #8c979e;
       float: right; }
     .widget.widget_archive > div ul li a, .widget.widget_archive ul li a, .widget.widget_categories > div ul li a, .widget.widget_categories ul li a, .widget.widget_meta > div ul li a, .widget.widget_meta ul li a, .widget.widget_pages > div ul li a, .widget.widget_pages ul li a, .widget.widget_nav_menu > div ul li a, .widget.widget_nav_menu ul li a {
       font-size: 14px;
-      font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
       color: #8c979e;
       font-weight: 400; }
       .widget.widget_archive > div ul li a:focus, .widget.widget_archive > div ul li a:hover, .widget.widget_archive ul li a:focus, .widget.widget_archive ul li a:hover, .widget.widget_categories > div ul li a:focus, .widget.widget_categories > div ul li a:hover, .widget.widget_categories ul li a:focus, .widget.widget_categories ul li a:hover, .widget.widget_meta > div ul li a:focus, .widget.widget_meta > div ul li a:hover, .widget.widget_meta ul li a:focus, .widget.widget_meta ul li a:hover, .widget.widget_pages > div ul li a:focus, .widget.widget_pages > div ul li a:hover, .widget.widget_pages ul li a:focus, .widget.widget_pages ul li a:hover, .widget.widget_nav_menu > div ul li a:focus, .widget.widget_nav_menu > div ul li a:hover, .widget.widget_nav_menu ul li a:focus, .widget.widget_nav_menu ul li a:hover {
@@ -3219,7 +3219,7 @@ blockquote {
   .widget.widget_recent_comments ul li {
     color: #8c979e; }
     .widget.widget_recent_comments ul li a {
-      font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
       font-weight: 400; }
     .widget.widget_recent_comments ul li .comment-author-link {
       color: #8c979e; }
@@ -3232,7 +3232,7 @@ blockquote {
   .widget.widget_nav_menu .menu > li a {
     text-transform: initial;
     font-size: 14px;
-    font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #8c979e;
     font-weight: 400;
     opacity: 1; }
@@ -3241,7 +3241,7 @@ blockquote {
 .widget.widget_tag_cloud a {
   text-transform: initial;
   font-size: 14px;
-  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #8c979e;
   font-weight: 400; }
   .widget.widget_tag_cloud a:focus, .widget.widget_tag_cloud a:hover {
@@ -3265,7 +3265,7 @@ blockquote {
     .widget.widget_recent_entries ul li a {
       text-transform: initial;
       font-size: 14px;
-      font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
       color: #8c979e;
       font-weight: 400;
       display: inline-block;
@@ -3275,7 +3275,7 @@ blockquote {
 .widget.widget_rss .rss-widget-icon {
   display: none; }
 .widget.widget_rss .widget-title a {
-  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 22px;
   line-height: 24px;
   color: #001c28;
@@ -3289,7 +3289,7 @@ blockquote {
     margin-bottom: 40px; }
     .widget.widget_rss ul li .rsswidget {
       font-size: 22px;
-      font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
       line-height: 24px;
       font-weight: 400;
       color: #001c28;
@@ -3347,21 +3347,21 @@ blockquote {
     letter-spacing: initial;
     color: #8c979e;
     font-size: 14px;
-    font-family: 'Raleway'; }
+    font-family: 'Open Sans'; }
   .widget.widget_search .search-form ::-moz-placeholder {
     text-transform: initial;
     font-weight: 400;
     letter-spacing: initial;
     color: #8c979e;
     font-size: 14px;
-    font-family: 'Raleway'; }
+    font-family: 'Open Sans'; }
   .widget.widget_search .search-form :-ms-input-placeholder {
     text-transform: initial;
     font-weight: 400;
     letter-spacing: initial;
     color: #8c979e;
     font-size: 14px;
-    font-family: 'Raleway'; }
+    font-family: 'Open Sans'; }
 .widget.widget_calendar {
   position: relative; }
   .widget.widget_calendar .widget-title, .widget.widget_calendar h3 {
@@ -3374,7 +3374,7 @@ blockquote {
     font-size: 12px; }
     .widget.widget_calendar #wp-calendar > caption {
       color: #001c28;
-      font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
       text-align: center;
       font-size: 18px;
       font-weight: 400;
@@ -3546,7 +3546,7 @@ blockquote {
     bottom: 0;
     left: 0; }
     .post-content .shapely-category a {
-      font-family: 'Raleway', 'Helvetica Neue', 'Helvetica', 'sans-serif';
+      font-family: 'Open Sans', 'Helvetica Neue', 'Helvetica', 'sans-serif';
       font-size: 12px;
       font-weight: 900;
       text-transform: uppercase;

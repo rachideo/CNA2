@@ -2,8 +2,8 @@
 Tags: page builder, responsive, widget, widgets, builder, page, admin, gallery, content, cms, pages, post, css, layout, grid
 Requires at least: 4.7
 Tested up to: 5.3
-Stable tag: 2.10.13
-Build time: 2019-11-09T12:06:24+02:00
+Stable tag: 2.10.14
+Build time: 2020-02-04T13:02:14+02:00
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl.html
 Donate link: https://siteorigin.com/downloads/premium/
@@ -95,6 +95,9 @@ Page Builder is actively developed and updated, so generally I'd recommend that 
 We've tried to ensure that Page Builder is compatible with most plugin widgets. It's best to just download Page Builder and test for yourself.
 
 == Changelog ==
+
+= 2.10.14 - 04 February 2020 =
+* Several Classic and Block Editor admin styling fixes.
 
 = 2.10.13 - 9 November 2019 =
 * Fixed check for content.php post loop templates

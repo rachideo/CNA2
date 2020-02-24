@@ -50,19 +50,30 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 # MODIFICATION DE RACHIDEO
 --------------------------------------------------------------*/
 
-/*------- Page Accueil - Bouton descendre ---------*/
-#goDown {
-    display: block;
-    text-align: center;
-    font-size: 2em;
+
+/*----- Page Accueil - Navbar -----*/
+
+.navbar-bg-color {
+    background-color : #262626;
 }
 
-.goDown a { color: #000; }
-.goDown a:link { color: #000; }
-.goDown a:visited { color: #000; }
-.goDown a:hover { color: #000; }
-.goDown a:focus { color: #000; }
-.goDown a:active { color: #000; }
+.pink-down-arrow {
+    color : #EE2961;
+}
+
+.menu-item-object-category {
+    color : #EE2961;
+}
+
+.menu-item-object-custom {
+    padding: 0px 5px 0px 15px !important;
+}
+
+
+.menu-item-object-custom:last-child {
+    padding: 0px 5px 0px 0px !important;
+}
+
 
 
 /*------- Page Accueil - Image Cover ---------*/
@@ -113,6 +124,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     outline: none;
 }
 
+
 /*------- Page Ville - Mise en forme du dernier article ---------*/
 .columnArticleVille {
     float: left;
@@ -124,6 +136,328 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     display: table;
     clear: both;
 }
+
+
+/* ----- Page Home - Block Campus ----- */
+.img-campus-hexa {
+    margin: 0px 8px 12px 0px;
+}
+
+.font-campus-hexa-label {
+    font-weight: bold;
+    font-size: 28px;
+}
+
+
+/* ----- Page Home - Titre des blocks ----- */
+.img-icone-block {
+    margin: 0px 8px 12px 0px;
+    height: 50px;
+    width: 50px;
+}
+
+.font-titre-block {
+    font-weight: bold;
+    font-size: 36px;
+}
+
+/* ----- Page Home - Hexagone Formations ----- */
+
+.hexa-title {
+    font-size: 38px;
+    font-weight: 900;
+}
+
+.hexa-text {
+    font-size: 22px;
+}
+
+.hex-formation-centered {
+    display: flex;
+    justify-content: center !important;
+}
+
+.hex-formation {
+    float: left;
+    margin-left: 9px;
+    margin-bottom: -91px;
+}
+
+.hex-formation .top-formation {
+    width: 0;
+    border-bottom: 90px solid var(--couleur-hexa);
+    border-left: 156px solid transparent;
+    border-right: 156px solid transparent;
+}
+
+.hex-formation .middle-formation {
+    width: 312px;
+    height: 210px;
+    padding: 20px;
+    background: var(--couleur-hexa);
+}
+
+.hex-formation .bottom-formation {
+    width: 0;
+    border-top: 90px solid var(--couleur-hexa);
+    border-left: 156px solid transparent;
+    border-right: 156px solid transparent;
+}
+.hex-formation-row {
+    clear: left;
+    margin-right: 161px;
+
+}
+.hex-formation-row.even {
+    margin-left: 322px;
+}
+
+
+@media (max-width: 1010px) {
+
+    .hexa-title {
+        font-size: 19px;
+        font-weight: 900;
+    }
+
+    .hexa-text {
+        font-size: 11px;
+    }
+
+    .hex-formation-centered {
+        display: flex;
+        justify-content: center !important;
+    }
+
+    .hex-formation {
+        float: left;
+        margin-left: 9px;
+        margin-bottom: -60px;
+    }
+
+    .hex-formation .top-formation {
+        width: 0;
+        border-bottom: 60px solid var(--couleur-hexa);
+        border-left: 104px solid transparent;
+        border-right: 104px solid transparent;
+    }
+    .hex-formation .middle-formation {
+        width: 208px;
+        height: 120px;
+        padding: 20px;
+        background: var(--couleur-hexa);
+    }
+    .hex-formation .bottom-formation {
+        width: 0;
+        border-top: 60px solid var(--couleur-hexa);
+        border-left: 104px solid transparent;
+        border-right: 104px solid transparent;
+    }
+    .hex-formation-row {
+        clear: left;
+        margin-right: 106px;
+    }
+    .hex-formation-row.even {
+        margin-left: 212px;
+    }
+
+}
+
+
+/* ----- Page Home - Mini hexagone hero ----- */
+
+.minihex-top {
+    width: 0;
+    border-bottom: 20px solid #ee2961;
+    border-left: 34px solid transparent;
+    border-right: 34px solid transparent;
+}
+.minihex-middle {
+    width: 68px;
+    height: 40px;
+    background-color: #ee2961;
+}
+.minihex-bottom {
+    width: 0;
+    border-top: 20px solid #ee2961;
+    border-left: 34px solid transparent;
+    border-right: 34px solid transparent;
+}
+
+
+/* ----- Page Home ----- */
+
+@media all and (min-width: 990px) {
+    .introdesk {
+        display: contents;
+        color: white !important;
+        text-align: center !important;
+    }
+    .intromobile {
+        display: none;
+    }
+}
+
+@media all and (max-width: 990px) {
+    .introdesk {
+        display: none !important;
+    }
+    .intromobile {
+        display: contents;
+        color: white !important;
+        text-align: center !important;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----- Footer - Widget Area Size ----- */
+
+.footer-widget-area .footer-widget:first-child {
+    width: 33.3%;
+}
+.footer-widget-area .footer-widget:nth-child(4n+2) .footer-widget:nth-child(4n+3){
+    width: 25%;
+}
+
+.footer-widget-area .footer-widget:last-child {
+    width: 16.6%;
+}
+
+@media all and (max-width: 990px) {
+
+    .footer-widget-area .footer-widget:first-child {
+        display: none;
+    }
+
+    .footer-widget-area .footer-widget:last-child {
+        display: none;
+    }
+
+    .footer-widget-area .footer-widget {
+        width: 50%;
+        float: left;
+    }
+}
+
+
+/* ----- Footer - Derniers éléments  ----- */
+
+.footer-nav-new:not(:last-child) {
+    color : #ffffff;
+    font-weight: 600;
+    font-size: 14px;
+    border-right: solid 1px;
+    padding: 5px 20px 10px 0px
+}
+
+
+.footer-nav-new:not(:first-child) {
+    padding: 5px 20px 10px 20px
+}
+
+.footer-hr {
+    margin-bottom: 20px;
+    height: 1px;
+    background-color: #ffffff;
+}
+
+.footer-icon {
+    color: white;
+    margin: 100px 10px 20px 10px;
+    font-size: 24px;
+    float:right;
+}
+
+
+
+/* ----- Page Accueuil - Mesh 3D Hero ----- */
+
+.moving-letters {
+    position: relative;
+    margin: 20px;
+    text-align:center;
+    height: 200px;
+    z-index: 2;
+}
+
+canvas{
+    position: absolute;
+    top: 100px;
+    width: 100vw !important;
+    height: 90vh !important;
+    background-color: #ee2961;
+    z-index: 0;
+}
+
+#herocanvas {
+    margin-top: -100px;
+}
+
+
+.ml4 {
+    position: relative;
+    font-weight: 900;
+    font-size: 4.5vw;
+    color:white;
+    flex-wrap: nowrap;
+}
+
+
+.ml4 .letters {
+    font-weight: 900;
+    font-size: 4.5vw;
+    color:white;
+    position: relative;
+    margin: auto;
+    left: 0;
+    top: 0;
+    right: 0;
+    opacity: 0;
+}
+
+/* particles-js-canvas-el est utilisé par le script js */
+.particles-js-canvas-el{
+    position: absolute;
+    z-index: 1;
+    top: 0px !important;
+    width: 100vw !important;
+    height: 90vh !important;
+    background-color: transparent !important;
+}
+
+
+
+
+
+
+
+
+
+/* ----- Test : Page Ville, tabs ----- */
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -332,9 +666,6 @@ h1, h2, h3, h4, h5, h6 {
     clear: both;
 }
 
-p {
-    margin-bottom: 1.5em;
-}
 
 dfn, cite, em, i {
     font-style: italic;
@@ -413,7 +744,7 @@ blockquote, q {
 hr {
     border: 0;
     height: 1px;
-    margin-bottom: 1.5em;
+    margin-bottom: 20px;
 }
 
 ul, ol {
@@ -523,13 +854,24 @@ a:hover, a:active {
     display: none;
     list-style: none;
     margin: 0;
-    padding-left: 0;
+    padding-left: 20px;
+}
+
+.main-navigation li:not(:last-child) {
+    border-right: 1px solid #ffffff;
+}
+
+@media all and (max-width: 1200px) {
+    .main-navigation li:not(:last-child) {
+        border-right: 0px solid #ffffff;
+    }
 }
 
 .main-navigation li {
     float: left;
     position: relative;
 }
+
 
 .main-navigation a {
     display: block;
@@ -584,7 +926,7 @@ a:hover, a:active {
     display: block;
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1200px) {
     .menu-toggle {
         display: none;
     }
@@ -618,7 +960,7 @@ a:hover, a:active {
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
     font-weight: 300;
-    font-family: 'Raleway';
+    font-family: 'Open Sans';
 }
 
 .site-title:hover {
@@ -915,8 +1257,8 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-size: 14px;
-    line-height: 24px;
-    font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: normal;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #001c28;
     overflow-x: hidden;
 }
@@ -997,7 +1339,7 @@ hr {
     -webkit-flex-direction: row;
 }
 
-@media all and (max-width: 991px) {
+@media all and (max-width: 1200px) {
     .align-children {
         display: block !important;
     }
@@ -1013,14 +1355,14 @@ hr {
 
 /*!---------- 3. TYPOGRAPHY ----------*/
 
-h1, h2, h3, h4, h5, h6, p, ul, ol, table, blockquote, input, textarea {
+h1, h2, h3, h4, h5, h6, ul, ol, table, blockquote, input, textarea {
     margin-bottom: 24px;
     margin-top: 0;
     padding: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -1179,15 +1521,15 @@ th, td {
 /*!---------- 4. COLOURS ----------*/
 
 .bg-primary {
-    background: #e81341 !important;
+    background: #ee2961 !important;
 }
 
 .bg-secondary {
-    background: #f5f5f5;
+    background: #ffffff;
 }
 
 .bg-dark {
-    background: #0e1015;
+    background: #111111;
 }
 
 /*!---------- 5. SECTIONS ----------*/
@@ -1203,7 +1545,7 @@ section, footer {
 }
 
 footer {
-    padding: 72px 0;
+    padding: 50px 0px 20px 0px;
 }
 
 .fullscreen {
@@ -1220,7 +1562,7 @@ footer {
 
 @media all and (max-width: 767px) {
     section {
-        padding: 80px 0;
+        padding: 0px 0;
     }
 }
 
@@ -1264,7 +1606,7 @@ footer {
 /*!---------- 6. BUTTONS ----------*/
 
 .btn, .button {
-    font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     border: 2px solid #e81341;
     padding: 0 26px;
     min-width: 150px;
@@ -1372,10 +1714,11 @@ input[type="submit"]:hover {
 .nav-container {
     -webkit-backface-visibility: hidden;
     max-width: 100%;
+
 }
 
 nav {
-    background: #fff;
+    background: #262626;
     -webkit-backface-visibility: hidden;
     max-width: 100%;
 }
@@ -1407,23 +1750,24 @@ nav .btn, .nav-bar .btn {
 }
 
 .nav-bar {
-    max-height: 10vh;
-    line-height: 53px;
+    height: 10vh;
+    line-height: 23px;
 }
 
 
 .nav-bar .module, .nav-bar .module-group {
-    height: 55px;
+    padding-top: 10px;
+    height: auto;
 }
 
 .nav-bar a {
     margin-top: 5px;
     display: inline-block;
-    height: 55px;
+    color: #fff;
 }
 
 .logo {
-    max-height: 80%;
+    height: 100%;
 }
 
 .menu > li.dropdown {
@@ -1432,31 +1776,50 @@ nav .btn, .nav-bar .btn {
 
 .dropdown:after {
     position: relative;
-    top: 0;
-    right: 0;
-    font-size: 11px;
-    content: "\f107";
+    top: 18px;
+    right: 18px;
+    font-size: 18px;
+    content: "\f0d7";
     font-family: 'fontawesome';
     speak: none;
     font-style: normal;
     font-weight: normal;
     font-variant: normal;
     text-transform: none;
+    color: #EE2961;
 }
+
+@media all and (max-width: 1200px) {
+
+    .dropdown:after {
+        position: relative;
+        top: 0px;
+        left: 5px;
+        font-size: 18px;
+        content: "\f0da";
+        font-family: 'fontawesome';
+        speak: none;
+        font-style: normal;
+        font-weight: normal;
+        font-variant: normal;
+        text-transform: none;
+        color: #EE2961;
+    }
+}
+
 
 .menu {
     width: 100%;
-    height: 55px;
-    font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #ffffff;
 }
 
 .menu li a {
-    font-size: 11px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
     text-transform: uppercase;
-    font-weight: 600;
     letter-spacing: 1px;
-    color: #0e1015;
-    opacity: 0.5;
     transition: all 0.3s ease;
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
@@ -1469,7 +1832,7 @@ nav .btn, .nav-bar .btn {
 }
 
 .menu > li {
-    margin-right: 32px;
+    padding: 0 15px;
     float: left;
     position: relative;
     transition: all 0.3s ease;
@@ -1486,7 +1849,6 @@ nav .btn, .nav-bar .btn {
     left: 0;
     width: 200px;
     padding: 0;
-    background: #0e1015;
     position: absolute;
     z-index: 99;
     top: 100%;
@@ -1498,10 +1860,11 @@ nav .btn, .nav-bar .btn {
     -webkit-transform: translate3d(0, 10px, 0);
     -moz-transform: translate3d(0, 10px, 0);
     visibility: hidden;
-    margin-top: -1px;
+    margin-top: 20px;
 }
 
 .menu > li > ul > li {
+    text-transform: lowercase !important;
     position: relative;
     line-height: 24px;
     width: 100%;
@@ -1511,7 +1874,7 @@ nav .btn, .nav-bar .btn {
 .menu > li > ul > .dropdown:after {
     color: #0e1015;
     top: 1px;
-    right: 24px;
+    right: 18px;
     content: "\f105";
 }
 
@@ -1555,7 +1918,7 @@ nav.outOfSight {
     -moz-transition: all 0.3s ease;
 }
 
-/*---- NAVBAR STICK TOP
+
 nav.scrolled {
     transform: translate3d(0, 0px, 0);
     -webkit-transform: translate3d(0, 0px, 0);
@@ -1594,9 +1957,6 @@ nav.fixed.scrolled {
     opacity: 1;
 }
 
-
- --------*/
-
 .dropdown-menu {
     border-radius: 0;
 }
@@ -1608,6 +1968,7 @@ nav.fixed.scrolled {
 
 .nav-open .navbar-collapse, .nav-open #menu {
     display: block;
+    margin-bottom: 20px;
 }
 
 .module.widget-handle {
@@ -1623,22 +1984,21 @@ nav.fixed.scrolled {
     margin: 0;
 }
 
-@media all and (max-width: 1100px) {
+@media all and (max-width: 1200px) {
     .module.widget-handle {
         padding: 0 16px;
     }
 }
 
-@media all and (max-width: 991px) {
+@media all and (max-width: 1200px) {
     .toggle-sub > ul {
         display: block !important;
     }
 }
 
 .module.widget-handle i {
-    font-size: 20px;
+    font-size: 28px;
     line-height: 53px;
-    opacity: 0.5;
     transition: all 0.3s ease;
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
@@ -1678,7 +2038,7 @@ nav.fixed.scrolled {
 }
 
 .module.widget-handle .title {
-    font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     letter-spacing: 1px;
     text-transform: uppercase;
     font-size: 11px;
@@ -1762,10 +2122,6 @@ nav.fixed.scrolled {
     background: #fff;
 }
 
-.menu > li ul {
-    background: #fff;
-}
-
 .menu > li > ul li a {
     color: #292929;
     width: 100%;
@@ -1790,19 +2146,14 @@ nav.fixed.scrolled {
     color: #fff;
 }
 
-@media all and (max-width: 1120px) {
-    .menu > li {
-        margin-right: 24px;
-    }
-}
 
-@media all and (max-width: 991px) {
+@media all and (max-width: 1200px) {
     .site-title-container {
-        width: 84%;
+        width: calc(100% - 60px);
     }
 
     .nav-bar, .nav-bar .module-group, .nav-bar .module {
-        height: auto;
+        /*height: auto;*/
     }
 
     .nav-bar .module {
@@ -1836,6 +2187,10 @@ nav.fixed.scrolled {
         max-width: 100%;
     }
 
+    .menu > li {
+        margin-right: 24px;
+    }
+
     .menu > li ul {
         position: relative;
         width: 100%;
@@ -1847,6 +2202,8 @@ nav.fixed.scrolled {
         left: 0;
         border: 0 !important;
         box-shadow: none;
+        margin-top: 3px;
+        padding-bottom: 10px;
     }
 
     .menu > li > ul {
@@ -1880,6 +2237,36 @@ nav.fixed.scrolled {
     .dropdown {
         padding-right: 0;
     }
+
+    .menu > li ul {
+        background: transparent;
+    }
+
+    .menu > li > ul li a {
+        color: #292929;
+        width: 100%;
+    }
+
+    .menu > li > ul li a:hover, .dropdown-menu > .active > a:hover {
+        background: transparent;
+        color: #e81341;
+    }
+
+    .dropdown-menu > .active > a, .dropdown-menu > .active > a:focus {
+        color: #e81341;
+        background-color: transparent;
+    }
+
+    .menu > li > ul li a {
+        color: #e81341;
+        width: 100%;
+    }
+
+    .menu > li > ul > .dropdown:hover:after {
+        color: transparent;
+    }
+
+
 
     .module.widget-handle {
         border-left: none;
@@ -1921,14 +2308,16 @@ nav.fixed.scrolled {
     }
 
     .mobile-toggle i {
+        padding-top: 10px;
         line-height: 53px !important;
+        color: #ffffff;
     }
 }
 
 /*!---------- 8. FORMS ----------*/
 
 input, textarea {
-    font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 input[type="text"], textarea {
@@ -1966,26 +2355,23 @@ textarea:focus {
 }
 
 :-moz-placeholder {
-    text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 1px;
-    color: #777;
+    color: #ffffff;
     font-size: 11px;
 }
 
 ::-moz-placeholder {
-    text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 1px;
-    color: #777;
+    color: #ffffff;
     font-size: 11px;
 }
 
 :-ms-input-placeholder {
-    text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 1px;
-    color: #777;
+    color: #ffffff;
     font-size: 11px;
 }
 
@@ -2303,7 +2689,7 @@ img {
     border: none;
 }
 
-@media all and (max-width: 991px) {
+@media all and (max-width: 1200px) {
     .lightbox-grid li {
         width: 33.33333%;
     }
@@ -2974,11 +3360,11 @@ footer.bg-dark a {
 
 @media all and (max-width: 767px) {
     .mb-xs-24 {
-        margin-bottom: 24px;
+        margin-bottom: 0px;
     }
 
     .mb-xs-40 {
-        margin-bottom: 40px;
+        margin-bottom: 0px;
     }
 }
 
@@ -3181,7 +3567,7 @@ blockquote {
 * Widgets
 */
 .widget .widget-title {
-  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 22px;
   line-height: 24px;
   color: #001c28;
@@ -3199,12 +3585,12 @@ blockquote {
       padding-bottom: 0; }
     .widget.widget_archive > div ul li span, .widget.widget_archive ul li span, .widget.widget_categories > div ul li span, .widget.widget_categories ul li span, .widget.widget_meta > div ul li span, .widget.widget_meta ul li span, .widget.widget_pages > div ul li span, .widget.widget_pages ul li span, .widget.widget_nav_menu > div ul li span, .widget.widget_nav_menu ul li span {
       font-size: 12px;
-      font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
       color: #8c979e;
       float: right; }
     .widget.widget_archive > div ul li a, .widget.widget_archive ul li a, .widget.widget_categories > div ul li a, .widget.widget_categories ul li a, .widget.widget_meta > div ul li a, .widget.widget_meta ul li a, .widget.widget_pages > div ul li a, .widget.widget_pages ul li a, .widget.widget_nav_menu > div ul li a, .widget.widget_nav_menu ul li a {
       font-size: 14px;
-      font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
       color: #8c979e;
       font-weight: 400; }
       .widget.widget_archive > div ul li a:focus, .widget.widget_archive > div ul li a:hover, .widget.widget_archive ul li a:focus, .widget.widget_archive ul li a:hover, .widget.widget_categories > div ul li a:focus, .widget.widget_categories > div ul li a:hover, .widget.widget_categories ul li a:focus, .widget.widget_categories ul li a:hover, .widget.widget_meta > div ul li a:focus, .widget.widget_meta > div ul li a:hover, .widget.widget_meta ul li a:focus, .widget.widget_meta ul li a:hover, .widget.widget_pages > div ul li a:focus, .widget.widget_pages > div ul li a:hover, .widget.widget_pages ul li a:focus, .widget.widget_pages ul li a:hover, .widget.widget_nav_menu > div ul li a:focus, .widget.widget_nav_menu > div ul li a:hover, .widget.widget_nav_menu ul li a:focus, .widget.widget_nav_menu ul li a:hover {
@@ -3216,7 +3602,7 @@ blockquote {
   .widget.widget_recent_comments ul li {
     color: #8c979e; }
     .widget.widget_recent_comments ul li a {
-      font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
       font-weight: 400; }
     .widget.widget_recent_comments ul li .comment-author-link {
       color: #8c979e; }
@@ -3229,7 +3615,7 @@ blockquote {
   .widget.widget_nav_menu .menu > li a {
     text-transform: initial;
     font-size: 14px;
-    font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #8c979e;
     font-weight: 400;
     opacity: 1; }
@@ -3238,7 +3624,7 @@ blockquote {
 .widget.widget_tag_cloud a {
   text-transform: initial;
   font-size: 14px;
-  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #8c979e;
   font-weight: 400; }
   .widget.widget_tag_cloud a:focus, .widget.widget_tag_cloud a:hover {
@@ -3262,7 +3648,7 @@ blockquote {
     .widget.widget_recent_entries ul li a {
       text-transform: initial;
       font-size: 14px;
-      font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
       color: #8c979e;
       font-weight: 400;
       display: inline-block;
@@ -3272,7 +3658,7 @@ blockquote {
 .widget.widget_rss .rss-widget-icon {
   display: none; }
 .widget.widget_rss .widget-title a {
-  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 22px;
   line-height: 24px;
   color: #001c28;
@@ -3286,7 +3672,7 @@ blockquote {
     margin-bottom: 40px; }
     .widget.widget_rss ul li .rsswidget {
       font-size: 22px;
-      font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
       line-height: 24px;
       font-weight: 400;
       color: #001c28;
@@ -3344,21 +3730,21 @@ blockquote {
     letter-spacing: initial;
     color: #8c979e;
     font-size: 14px;
-    font-family: 'Raleway'; }
+    font-family: 'Open Sans'; }
   .widget.widget_search .search-form ::-moz-placeholder {
     text-transform: initial;
     font-weight: 400;
     letter-spacing: initial;
     color: #8c979e;
     font-size: 14px;
-    font-family: 'Raleway'; }
+    font-family: 'Open Sans'; }
   .widget.widget_search .search-form :-ms-input-placeholder {
     text-transform: initial;
     font-weight: 400;
     letter-spacing: initial;
     color: #8c979e;
     font-size: 14px;
-    font-family: 'Raleway'; }
+    font-family: 'Open Sans'; }
 .widget.widget_calendar {
   position: relative; }
   .widget.widget_calendar .widget-title, .widget.widget_calendar h3 {
@@ -3371,7 +3757,7 @@ blockquote {
     font-size: 12px; }
     .widget.widget_calendar #wp-calendar > caption {
       color: #001c28;
-      font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
       text-align: center;
       font-size: 18px;
       font-weight: 400;
@@ -3543,7 +3929,7 @@ blockquote {
     bottom: 0;
     left: 0; }
     .post-content .shapely-category a {
-      font-family: 'Raleway', 'Helvetica Neue', 'Helvetica', 'sans-serif';
+      font-family: 'Open Sans', 'Helvetica Neue', 'Helvetica', 'sans-serif';
       font-size: 12px;
       font-weight: 900;
       text-transform: uppercase;

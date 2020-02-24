@@ -10615,7 +10615,7 @@ return array (
 			2 => 'latin-ext',
 		),
 	),
-	'Raleway' => 
+	'Open Sans' =>
 	array (
 		'category' => 'sans-serif',
 		'variants' => 
@@ -10645,7 +10645,7 @@ return array (
 			1 => 'latin-ext',
 		),
 	),
-	'Raleway Dots' => 
+	'Open Sans Dots' =>
 	array (
 		'category' => 'display',
 		'variants' => 

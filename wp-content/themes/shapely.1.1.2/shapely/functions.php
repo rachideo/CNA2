@@ -33,8 +33,8 @@ if ( ! function_exists( 'shapely_setup' ) ) :
 		 * Add support for the custom logo functionality
 		 */
 		add_theme_support( 'custom-logo', array(
-			'height'     => 55,
-			'width'      => 135,
+			'height'     => 71,
+			'width'      => 317,
 			'flex-width' => true,
 		) );
 
@@ -236,7 +236,7 @@ function shapely_scripts() {
 	wp_enqueue_style( 'font-awesome', get_template_directory_uri() . '/inc/css/font-awesome.min.css' );
 
 	// Add Google Fonts
-	wp_enqueue_style( 'shapely-fonts', '//fonts.googleapis.com/css?family=Raleway:100,300,400,500,600,700%7COpen+Sans:400,500,600' );
+	wp_enqueue_style( 'shapely-fonts', '//fonts.googleapis.com/css?family=Open Sans:100,300,400,500,600,700%7COpen+Sans:400,500,600' );
 
 
 	// Add slider CSS

@@ -1,0 +1,59 @@
+/* Remove overflow */
+body{
+  margin: 0px; background-color: #222222; overflow: hidden;
+  font: 13px "Source Sans Pro", Arial, Helvetica, sans-serif;
+  color: #fff;
+  text-align: center;
+}
+
+.moving-letters {
+  position: relative;
+  top: 200px;
+  margin: 0 auto;
+  left: auto;
+  bottom: 0;
+  margin: 60px;
+  height: 200px;
+}
+
+canvas{
+  position:absolute;
+  top:90px;
+  width:100vw;
+  height:90vh;
+  background-color: #ee2961;
+  z-index: 0;
+}
+
+.block{
+  position:relative;
+  top:90px;
+  width:100vw;
+  height:90vh;
+}
+
+.ml4 {
+  position: relative;
+  font-weight: 900;
+  font-size: 4.5vw;
+  color:white;
+}
+
+.ml4 .letters {
+  position: relative;
+  margin: auto;
+  left: 0;
+  top: 0;
+  right: 0;
+  opacity: 0;
+}
+
+/* particles-js-canvas-el est utilisé par le script js */
+.particles-js-canvas-el{
+  position:absolute;
+  z-index: 1;
+  top: 0px !important;
+  width:100vw;
+  height:100% !important;
+  background-color: transparent !important;
+}

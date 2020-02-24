@@ -1,7 +1,292 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6359801e-977c-4580-a417-254de4093bb0" name="Default Changelist" comment="" />
+    <list default="true" id="6359801e-977c-4580-a417-254de4093bb0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-config.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/languages/fr_FR-0ce75ad2f775d1cac9696967d484808c.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/fr_FR-0ce75ad2f775d1cac9696967d484808c.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/languages/fr_FR-1a0cd6a7128913b15c1a10dd68951869.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/fr_FR-1a0cd6a7128913b15c1a10dd68951869.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/languages/fr_FR-1bba9045bb07c89671c88a3f328548e8.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/fr_FR-1bba9045bb07c89671c88a3f328548e8.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/languages/fr_FR-28b3c3d595952907e08d98287077426c.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/fr_FR-28b3c3d595952907e08d98287077426c.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/languages/fr_FR-2c5d274ea625dd91556554ad82901529.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/fr_FR-2c5d274ea625dd91556554ad82901529.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/languages/fr_FR-68f2cec7514bf8563c723a4d675fcfe6.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/fr_FR-68f2cec7514bf8563c723a4d675fcfe6.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/languages/fr_FR-7f13c36c641b114bf18cd0bcc9ecc7e0.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/fr_FR-7f13c36c641b114bf18cd0bcc9ecc7e0.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/languages/fr_FR-803bf1ce2131e13efc590c1bc47851fc.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/fr_FR-803bf1ce2131e13efc590c1bc47851fc.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/languages/fr_FR-81c889563f09dd13de1701135dc62941.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/fr_FR-81c889563f09dd13de1701135dc62941.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/languages/fr_FR-8860e58c20c6a2ab5876a0f07be43bd9.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/fr_FR-8860e58c20c6a2ab5876a0f07be43bd9.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/languages/fr_FR-a25d1cc7bf7ca0b4e114f6bea64943f4.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/fr_FR-a25d1cc7bf7ca0b4e114f6bea64943f4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/languages/fr_FR-bf0f094965d3d4a95b47babcb35fc136.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/fr_FR-bf0f094965d3d4a95b47babcb35fc136.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/languages/fr_FR-daeb084aab42199d26393a56c3465bc0.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/fr_FR-daeb084aab42199d26393a56c3465bc0.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/languages/fr_FR-e2791ba830489d23043be8650a22a22b.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/fr_FR-e2791ba830489d23043be8650a22a22b.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/languages/fr_FR-f8f49d9fc4a9cf7d78ec99285417bd9c.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/fr_FR-f8f49d9fc4a9cf7d78ec99285417bd9c.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/languages/fr_FR.mo" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/fr_FR.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/languages/fr_FR.po" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/fr_FR.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/languages/plugins/debug-bar-fr_FR.mo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/languages/plugins/debug-bar-fr_FR.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/languages/themes/twentysixteen-fr_FR.mo" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/themes/twentysixteen-fr_FR.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/languages/themes/twentysixteen-fr_FR.po" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/themes/twentysixteen-fr_FR.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/blackbar/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/blackbar/activate.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/blackbar/assets/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/blackbar/assets/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/blackbar/assets/syntax.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/blackbar/autoload.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/blackbar/blackbar.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/blackbar/compatibility.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/blackbar/languages/blackbar-en_US.mo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/blackbar/languages/blackbar-en_US.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/blackbar/languages/blackbar.pot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/blackbar/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/blackbar/src/Application.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/blackbar/src/Console.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/blackbar/src/Controller.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/blackbar/src/Profiler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/blackbar/views/debug-bar.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/blackbar/views/panels/console.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/blackbar/views/panels/globals.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/blackbar/views/panels/profiler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/blackbar/views/panels/queries.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/blackbar/views/panels/templates.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/debug-bar/css/debug-bar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/debug-bar/css/debug-bar.dev.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/debug-bar/debug-bar.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/debug-bar/js/debug-bar-js.dev.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/debug-bar/js/debug-bar-js.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/debug-bar/js/debug-bar.dev.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/debug-bar/js/debug-bar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/debug-bar/js/ui-dockable.dev.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/debug-bar/js/ui-dockable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/debug-bar/panels/class-debug-bar-deprecated.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/debug-bar/panels/class-debug-bar-js.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/debug-bar/panels/class-debug-bar-object-cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/debug-bar/panels/class-debug-bar-panel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/debug-bar/panels/class-debug-bar-php.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/debug-bar/panels/class-debug-bar-queries.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/debug-bar/panels/class-debug-bar-request.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/debug-bar/panels/class-debug-bar-wp-query.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/debug-bar/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/hello.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/shapely-companion/assets/css/admin.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/shapely-companion/assets/img/placeholder-image.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/shapely-companion/assets/img/placeholder.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/shapely-companion/assets/img/placeholder_wide.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/shapely-companion/assets/js/admin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/shapely-companion/assets/js/nav-menu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/shapely-companion/assets/js/previewer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/shapely-companion/assets/js/vendor/jquery-cloneya.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/shapely-companion/assets/js/vendor/jquery-cloneya.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/shapely-companion/assets/js/vendor/jquery.vide.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/shapely-companion/assets/js/vendor/jquery.vide.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/shapely-companion/assets/js/vendor/jquery.youtubebackground.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/shapely-companion/assets/js/vendor/player.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/shapely-companion/assets/js/vendor/player.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/shapely-companion/assets/js/widget.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/shapely-companion/inc/class-shapely-walker-nav-menu-edit.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/shapely-companion/inc/epsilon-dashboard/class-epsilon-dashboard.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/shapely-companion/inc/shapely-demo-content.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/shapely-companion/inc/shapely-enqueues.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/shapely-companion/inc/shapely-helper.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/shapely-companion/inc/shapely-metabox.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/shapely-companion/inc/shapely-navmenu.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/shapely-companion/inc/shapely-widgets.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/shapely-companion/inc/views/shapely-demo-content.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/shapely-companion/inc/widgets/class-shapely-categories.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/shapely-companion/inc/widgets/class-shapely-home-call-for-action.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/shapely-companion/inc/widgets/class-shapely-home-clients.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/shapely-companion/inc/widgets/class-shapely-home-contact.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/shapely-companion/inc/widgets/class-shapely-home-features.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/shapely-companion/inc/widgets/class-shapely-home-parallax.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/shapely-companion/inc/widgets/class-shapely-home-portfolio.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/shapely-companion/inc/widgets/class-shapely-home-testimonials.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/shapely-companion/inc/widgets/class-shapely-page-content.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/shapely-companion/inc/widgets/class-shapely-page-title.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/shapely-companion/inc/widgets/class-shapely-recent-posts.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/shapely-companion/inc/widgets/class-shapely-social.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/shapely-companion/inc/widgets/class-shapely-video.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/shapely-companion/languages/shapely.pot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/shapely-companion/license.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/shapely-companion/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/shapely-companion/shapely-companion.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/siteorigin-panels/compat/js/siteorigin-panels-layout-block.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/siteorigin-panels/compat/js/siteorigin-panels-layout-block.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/siteorigin-panels/css/admin.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/siteorigin-panels/css/admin.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/siteorigin-panels/css/admin.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/siteorigin-panels/css/admin.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/siteorigin-panels/js/siteorigin-panels-21013.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/siteorigin-panels/js/siteorigin-panels-21013.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/siteorigin-panels/js/styling-21013.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/siteorigin-panels/js/styling-21013.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/siteorigin-panels/lang/siteorigin-panels.pot" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/siteorigin-panels/lang/siteorigin-panels.pot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/siteorigin-panels/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/siteorigin-panels/readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/siteorigin-panels/siteorigin-panels.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/siteorigin-panels/siteorigin-panels.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/siteorigin-premium/addons/plugin/web-font-selector/fonts/google.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/siteorigin-premium/addons/plugin/web-font-selector/fonts/google.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-css/css/admin.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-css/css/admin.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-css/css/admin.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-css/css/inspector.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-css/css/inspector.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-css/css/inspector.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-css/css/mixins.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-css/js/URI.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-css/js/URI.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-css/js/css.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-css/js/css.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-css/js/css.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-css/js/css.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-css/js/csslint.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-css/js/csslint.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-css/js/editor.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-css/js/editor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-css/js/editor.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-css/js/editor.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-css/js/inspector.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-css/js/inspector.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-css/js/inspector.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-css/js/inspector.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-css/js/jquery.sizes.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-css/js/jquery.sizes.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-css/js/specificity.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-css/js/specificity.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-css/lang/so-css.pot" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-css/lang/so-css.pot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-css/lib/codemirror/addon/dialog/dialog.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-css/lib/codemirror/addon/dialog/dialog.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-css/lib/codemirror/addon/dialog/dialog.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-css/lib/codemirror/addon/dialog/dialog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-css/lib/codemirror/addon/dialog/dialog.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-css/lib/codemirror/addon/dialog/dialog.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-css/lib/codemirror/addon/fold/brace-fold.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-css/lib/codemirror/addon/fold/brace-fold.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-css/lib/codemirror/addon/fold/comment-fold.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-css/lib/codemirror/addon/fold/comment-fold.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-css/lib/codemirror/addon/fold/foldcode.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-css/lib/codemirror/addon/fold/foldcode.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-css/lib/codemirror/addon/fold/foldgutter.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-css/lib/codemirror/addon/fold/foldgutter.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-css/lib/codemirror/addon/fold/indent-fold.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-css/lib/codemirror/addon/fold/indent-fold.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-css/lib/codemirror/addon/fold/markdown-fold.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-css/lib/codemirror/addon/fold/markdown-fold.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-css/lib/codemirror/addon/fold/xml-fold.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-css/lib/codemirror/addon/fold/xml-fold.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-css/lib/codemirror/addon/hint/anyword-hint.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-css/lib/codemirror/addon/hint/anyword-hint.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-css/lib/codemirror/addon/hint/css-hint.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-css/lib/codemirror/addon/hint/css-hint.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-css/lib/codemirror/addon/hint/html-hint.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-css/lib/codemirror/addon/hint/html-hint.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-css/lib/codemirror/addon/hint/javascript-hint.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-css/lib/codemirror/addon/hint/javascript-hint.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-css/lib/codemirror/addon/hint/show-hint.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-css/lib/codemirror/addon/hint/show-hint.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-css/lib/codemirror/addon/hint/sql-hint.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-css/lib/codemirror/addon/hint/sql-hint.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-css/lib/codemirror/addon/hint/xml-hint.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-css/lib/codemirror/addon/hint/xml-hint.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-css/lib/codemirror/addon/lint/coffeescript-lint.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-css/lib/codemirror/addon/lint/coffeescript-lint.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-css/lib/codemirror/addon/lint/css-lint.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-css/lib/codemirror/addon/lint/css-lint.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-css/lib/codemirror/addon/lint/html-lint.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-css/lib/codemirror/addon/lint/html-lint.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-css/lib/codemirror/addon/lint/javascript-lint.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-css/lib/codemirror/addon/lint/javascript-lint.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-css/lib/codemirror/addon/lint/json-lint.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-css/lib/codemirror/addon/lint/json-lint.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-css/lib/codemirror/addon/lint/lint.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-css/lib/codemirror/addon/lint/lint.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-css/lib/codemirror/addon/lint/yaml-lint.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-css/lib/codemirror/addon/lint/yaml-lint.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-css/lib/codemirror/addon/merge/merge.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-css/lib/codemirror/addon/merge/merge.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-css/lib/codemirror/addon/scroll/annotatescrollbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-css/lib/codemirror/addon/scroll/annotatescrollbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-css/lib/codemirror/addon/scroll/annotatescrollbar.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-css/lib/codemirror/addon/scroll/annotatescrollbar.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-css/lib/codemirror/addon/search/jump-to-line.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-css/lib/codemirror/addon/search/jump-to-line.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-css/lib/codemirror/addon/search/jump-to-line.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-css/lib/codemirror/addon/search/jump-to-line.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-css/lib/codemirror/addon/search/match-highlighter.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-css/lib/codemirror/addon/search/match-highlighter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-css/lib/codemirror/addon/search/match-highlighter.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-css/lib/codemirror/addon/search/match-highlighter.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-css/lib/codemirror/addon/search/matchesonscrollbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-css/lib/codemirror/addon/search/matchesonscrollbar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-css/lib/codemirror/addon/search/matchesonscrollbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-css/lib/codemirror/addon/search/matchesonscrollbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-css/lib/codemirror/addon/search/matchesonscrollbar.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-css/lib/codemirror/addon/search/matchesonscrollbar.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-css/lib/codemirror/addon/search/search.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-css/lib/codemirror/addon/search/search.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-css/lib/codemirror/addon/search/search.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-css/lib/codemirror/addon/search/search.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-css/lib/codemirror/addon/search/searchcursor.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-css/lib/codemirror/addon/search/searchcursor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-css/lib/codemirror/addon/search/searchcursor.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-css/lib/codemirror/addon/search/searchcursor.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-css/lib/codemirror/lib/codemirror.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-css/lib/codemirror/lib/codemirror.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-css/lib/codemirror/mode/css/css.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-css/lib/codemirror/mode/css/css.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-css/lib/codemirror/mode/css/less_test.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-css/lib/codemirror/mode/css/less_test.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-css/lib/codemirror/mode/css/scss_test.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-css/lib/codemirror/mode/css/scss_test.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-css/lib/codemirror/mode/css/test.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-css/lib/codemirror/mode/css/test.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-css/lib/codemirror/mode/sass/sass.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-css/lib/codemirror/mode/sass/sass.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-css/lib/codemirror/mode/sass/test.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-css/lib/codemirror/mode/sass/test.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-css/lib/minicolors/jquery.minicolors.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-css/lib/minicolors/jquery.minicolors.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-css/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-css/readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-css/so-css.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-css/so-css.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-css/tpl/js-templates.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-css/tpl/js-templates.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-css/tpl/page.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-css/tpl/page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/admin/admin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/admin/admin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/admin/trianglify.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/admin/trianglify.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/base/base.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/base/base.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/base/css/admin.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/base/css/admin.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/base/inc/fields/css/measurement-field.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/base/inc/fields/css/measurement-field.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/base/inc/fields/css/media-field.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/base/inc/fields/css/media-field.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/base/inc/fields/js/autocomplete-field.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/base/inc/fields/js/autocomplete-field.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/base/inc/fields/js/code-field.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/base/inc/fields/js/code-field.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/base/inc/fields/js/date-range-field.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/base/inc/fields/js/date-range-field.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/base/inc/fields/js/icon-field.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/base/inc/fields/js/icon-field.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/base/inc/fields/js/image-radio-field.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/base/inc/fields/js/image-radio-field.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/base/inc/fields/js/media-field.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/base/inc/fields/js/media-field.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/base/inc/fields/js/multi-measurement-field.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/base/inc/fields/js/multi-measurement-field.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/base/inc/fields/js/order-field.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/base/inc/fields/js/order-field.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/base/inc/fields/js/posts-field.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/base/inc/fields/js/posts-field.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/base/inc/fields/js/presets-field.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/base/inc/fields/js/presets-field.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/base/inc/fields/js/tinymce-field-pre48.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/base/inc/fields/js/tinymce-field-pre48.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/base/inc/fields/js/tinymce-field.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/base/inc/fields/js/tinymce-field.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/base/inc/lib/Less/Configurable.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/base/inc/lib/Less/Configurable.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/base/inc/lib/Less/Exception/Chunk.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/base/inc/lib/Less/Exception/Chunk.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/base/inc/lib/Less/Exception/Compiler.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/base/inc/lib/Less/Exception/Compiler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/base/inc/lib/Less/Exception/Parser.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/base/inc/lib/Less/Exception/Parser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/base/inc/lib/Less/Output/Mapped.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/base/inc/lib/Less/Output/Mapped.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/base/inc/lib/Less/Parser.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/base/inc/lib/Less/Parser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/base/inc/lib/Less/SourceMap/Generator.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/base/inc/lib/Less/SourceMap/Generator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/base/inc/lib/Less/Tree/Dimension.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/base/inc/lib/Less/Tree/Dimension.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/base/inc/post-selector.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/base/inc/post-selector.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/base/inc/routes/siteorigin-widgets-resource.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/base/inc/routes/siteorigin-widgets-resource.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/base/inc/widget-manager.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/base/inc/widget-manager.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/base/js/admin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/base/js/admin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/base/js/meta-box-manager.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/base/js/meta-box-manager.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/base/siteorigin-widget.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/base/siteorigin-widget.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/base/tpl/posts-selector/modal.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/base/tpl/posts-selector/post.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/base/tpl/posts-selector/selector.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/compat/beaver-builder/sowb-beaver-builder.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/compat/beaver-builder/sowb-beaver-builder.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/compat/block-editor/widget-block.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/compat/block-editor/widget-block.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/compat/block-editor/widget-block.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/compat/block-editor/widget-block.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/compat/block-editor/widget-block.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/compat/block-editor/widget-block.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/compat/elementor/sowb-elementor.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/compat/elementor/sowb-elementor.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/compat/visual-composer/front_enqueue_js.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/compat/visual-composer/front_enqueue_js.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/compat/visual-composer/sowb-vc-widget.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/compat/visual-composer/sowb-vc-widget.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/js/jquery.cycle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/js/jquery.cycle.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/js/jquery.cycle.swipe.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/js/jquery.cycle.swipe.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/js/jquery.touchSwipe.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/js/jquery.touchSwipe.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/js/lib/imagesloaded.pkgd.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/js/lib/imagesloaded.pkgd.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/js/lib/packery.pkgd.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/js/lib/packery.pkgd.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/js/lib/pikaday.jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/js/lib/pikaday.jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/js/lib/pikaday.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/js/lib/pikaday.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/js/slider/jquery.slider.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/js/slider/jquery.slider.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/js/sow.google-map.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/js/sow.google-map.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/js/sow.jquery.fittext.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/js/sow.jquery.fittext.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/lang/so-widgets-bundle.pot" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/lang/so-widgets-bundle.pot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/so-widgets-bundle.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/so-widgets-bundle.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/widgets/accordion/js/accordion.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/widgets/accordion/js/accordion.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/widgets/accordion/js/accordion.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/widgets/accordion/js/accordion.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/widgets/accordion/styles/default.less" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/widgets/accordion/styles/default.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/widgets/accordion/tpl/default.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/widgets/accordion/tpl/default.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/widgets/contact/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/widgets/contact/contact.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/widgets/contact/js/contact.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/widgets/contact/js/contact.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/widgets/contact/styles/default.less" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/widgets/contact/styles/default.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/widgets/cta/js/cta.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/widgets/cta/js/cta.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/widgets/editor/editor.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/widgets/editor/editor.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/widgets/features/features.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/widgets/features/features.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/widgets/features/styles/default.less" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/widgets/features/styles/default.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/widgets/features/tpl/default.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/widgets/features/tpl/default.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/widgets/google-map/fields/js/location-field.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/widgets/google-map/fields/js/location-field.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/widgets/google-map/js/static-map.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/widgets/google-map/js/static-map.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/widgets/hero/styles/default.less" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/widgets/hero/styles/default.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/widgets/image-grid/image-grid.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/widgets/image-grid/image-grid.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/widgets/image-grid/js/image-grid.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/widgets/image-grid/js/image-grid.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/widgets/layout-slider/styles/default.less" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/widgets/layout-slider/styles/default.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/widgets/post-carousel/js/carousel.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/widgets/post-carousel/js/carousel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/widgets/post-carousel/js/carousel.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/widgets/post-carousel/js/carousel.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/widgets/post-carousel/post-carousel.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/widgets/post-carousel/post-carousel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/widgets/post-carousel/tpl/base.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/widgets/post-carousel/tpl/base.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/widgets/price-table/js/pricetable.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/widgets/price-table/js/pricetable.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/widgets/price-table/price-table.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/widgets/price-table/price-table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/widgets/simple-masonry/js/simple-masonry.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/widgets/simple-masonry/js/simple-masonry.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/widgets/simple-masonry/tpl/default.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/widgets/simple-masonry/tpl/default.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/widgets/social-media-buttons/js/social-media-buttons-admin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/widgets/social-media-buttons/js/social-media-buttons-admin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/widgets/social-media-buttons/social-media-buttons.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/widgets/social-media-buttons/social-media-buttons.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/widgets/social-media-buttons/styles/atom.less" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/widgets/social-media-buttons/styles/atom.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/widgets/social-media-buttons/styles/flat.less" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/widgets/social-media-buttons/styles/flat.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/widgets/social-media-buttons/styles/widget-mixins.less" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/widgets/social-media-buttons/styles/widget-mixins.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/widgets/social-media-buttons/styles/wire.less" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/widgets/social-media-buttons/styles/wire.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/widgets/social-media-buttons/tpl/default.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/widgets/social-media-buttons/tpl/default.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/widgets/tabs/js/tabs.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/widgets/tabs/js/tabs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/widgets/tabs/js/tabs.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/widgets/tabs/js/tabs.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/widgets/tabs/styles/default.less" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/widgets/tabs/styles/default.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/widgets/tabs/tpl/default.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/widgets/tabs/tpl/default.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/widgets/testimonial/styles/default.less" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/widgets/testimonial/styles/default.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/widgets/testimonial/testimonial.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/widgets/testimonial/testimonial.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/widgets/testimonial/tpl/default.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/widgets/testimonial/tpl/default.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/widgets/video/js/so-video-widget.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/so-widgets-bundle/widgets/video/js/so-video-widget.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely.1.1.2/shapely/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/shapely.1.1.2/shapely/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely.1.1.2/shapely/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/shapely.1.1.2/shapely/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely.1.1.2/shapely/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/shapely.1.1.2/shapely/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely.1.1.2/shapely/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/shapely.1.1.2/shapely/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely.1.1.2/shapely/style.css.bak" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/shapely.1.1.2/shapely/style.css.bak" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/siteorigin-widgets/sow-testimonials-default-9422947dad2a.css" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,11 +313,13 @@
   </component>
   <component name="ProjectId" id="1WU0fFy1GU5sizoS2h9VhpxqwGc" />
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -58,6 +345,17 @@
       <updated>1573566458485</updated>
       <workItem from="1573566459569" duration="560000" />
       <workItem from="1579188969156" duration="4363000" />
+      <workItem from="1580307277459" duration="34534000" />
+      <workItem from="1580910366624" duration="717000" />
+      <workItem from="1580913173448" duration="8338000" />
+      <workItem from="1581327209287" duration="9833000" />
+      <workItem from="1581486089726" duration="9905000" />
+      <workItem from="1581580697863" duration="2875000" />
+      <workItem from="1581592569513" duration="212000" />
+      <workItem from="1581594333888" duration="11598000" />
+      <workItem from="1581695382077" duration="5103000" />
+      <workItem from="1581946609659" duration="3777000" />
+      <workItem from="1582126496412" duration="610000" />
     </task>
     <servers />
   </component>
@@ -69,7 +367,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
