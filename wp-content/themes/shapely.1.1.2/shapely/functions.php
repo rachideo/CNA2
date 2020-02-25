@@ -322,3 +322,91 @@ require get_template_directory() . '/inc/class-shapely-related-posts.php';
  * Load the system checks ( used for notifications )
  */
 require get_template_directory() . '/inc/admin/welcome-screen/notify-system-checks.php';
+
+
+
+
+/** Charge le widget Post Hero  **/
+
+
+
+class rachideo_Post_Hero extends WP_Widget {
+
+
+    // Set up the widget name and description.
+    public function __construct() {
+        $widget_options = array( 'classname' => 'post_hero', 'description' => 'Affiche le dernier article d une catégorie au format hero' );
+        parent::__construct( 'post_hero', 'Post Hero', $widget_options );
+    }
+
+
+    // Create the widget output.
+    public function widget( $args, $instance ) {
+        $title = apply_filters( 'widget_title', $instance[ 'title' ] );
+        $blog_title = get_bloginfo( 'name' );
+        $tagline = get_bloginfo( 'description' );
+
+        $postargs = array(
+            'posts_per_page' => 1, // we need only the latest post, so get that post only
+            'cat' => $title, // Use the category id, can also replace with category_name which uses category slug
+            'category_name' => $title,
+        );
+        $q = new WP_Query( $postargs);
+
+        if ( $q->have_posts() ) {
+            while ( $q->have_posts() ) {
+                $q->the_post();
+                //Your template tags and markup like:
+                echo $args['before_widget'] ?>
+                <div class="post-hero" style="background-image: url(<?php echo get_the_post_thumbnail_url() ?>); ">
+                        <div class="col-6 post-hero-title">
+                            <a href="<?php echo get_post_permalink() ?>"><?php echo the_title(); ?></a>
+                        </div>
+                        <div class="col-6 post-hero-desc">
+                            <div style="font-size: 18px; font-weight: 600;">
+                                <?php echo the_excerpt(); ?>
+                            </div>
+                            <div style="font-size: 14px;">
+                                <?php echo the_date(); ?> / par <?php echo get_the_author(); ?>
+                            </div>
+                        </div>
+                </div>
+
+                <?php echo $args['after_widget'];
+            }
+            wp_reset_postdata();
+        }
+
+    }
+
+
+    // Create the admin area widget settings form.
+    public function form( $instance ) {
+        $title = ! empty( $instance['title'] ) ? $instance['title'] : ''; ?>
+        <p>
+        <label for="<?php echo $this->get_field_id( 'title' ); ?>">Catégorie d'article à afficher :</label>
+        <select id = "<?php echo $this->get_field_id( 'title' ); ?>" name="<?php echo $this->get_field_name( 'title' ); ?>">
+            <option value = "annecy">Annecy</option>
+            <option value = "chambery">Chambéry</option>
+            <option value = "grenoble">Grenoble</option>
+            <option value = "valence">Valence</option>
+        </select>
+        </p><?php
+    }
+
+
+    // Apply settings to the widget instance.
+    public function update( $new_instance, $old_instance ) {
+        $instance = $old_instance;
+        $instance[ 'title' ] = strip_tags( $new_instance[ 'title' ] );
+        return $instance;
+    }
+
+}
+
+// Register the widget.
+function rachideo_register_post_hero() {
+    register_widget( 'rachideo_Post_Hero' );
+}
+add_action( 'widgets_init', 'rachideo_register_post_hero' );
+

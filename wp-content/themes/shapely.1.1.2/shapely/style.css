@@ -51,6 +51,15 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 --------------------------------------------------------------*/
 
 
+
+/*----- Général -----*/
+
+.heading-cna {
+    font-size: 36px;
+    vertical-align: bottom;
+}
+
+
 /*----- Page Accueil - Navbar -----*/
 
 .navbar-bg-color {
@@ -449,7 +458,42 @@ canvas{
 
 /* ----- Test : Page Ville, tabs ----- */
 
+/* ----- Page Ville - Post Hero ----- */
 
+.post-hero {
+    background-color: #262626;
+    box-shadow: inset 0em -5em 15em black;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 15px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.post-hero-title {
+    background-color: #7F41AB;
+    font-size: 30px;
+    width: 524px;
+    height: auto;
+    font-weight: 900;
+    padding: 10px 10px 15px 15px;
+    text-decoration: none;
+}
+
+.post-hero-title a:link, .post-hero-title a:visited, .post-hero-title a:hover, .post-hero-title a:active {
+    color: white;
+    font-weight: 900;
+}
+
+.post-hero-desc {
+    width: 600px;
+    height: auto;
+    color: white !important;
+    padding: 10px;
+    margin-left: 15px;
+}
 
 
 
