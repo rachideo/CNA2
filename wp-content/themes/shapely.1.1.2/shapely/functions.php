@@ -328,7 +328,18 @@ require get_template_directory() . '/inc/admin/welcome-screen/notify-system-chec
 
 /** Charge le widget Post Hero  **/
 
+// Fonction qui supprime le bouton "Read more" du résumé de l'article
+function custom_excerpt_more_link($more){
+    return '...';
+}
 
+add_filter('excerpt_more', 'custom_excerpt_more_link');
+
+// Fonction qui réduit le résumé d'un article à 30 mots
+function set_custom_excerpt_length(){
+    return 30;
+}
+add_filter('excerpt_length', 'set_custom_excerpt_length', 10);
 
 class rachideo_Post_Hero extends WP_Widget {
 
@@ -343,8 +354,6 @@ class rachideo_Post_Hero extends WP_Widget {
     // Create the widget output.
     public function widget( $args, $instance ) {
         $title = apply_filters( 'widget_title', $instance[ 'title' ] );
-        $blog_title = get_bloginfo( 'name' );
-        $tagline = get_bloginfo( 'description' );
 
         $postargs = array(
             'posts_per_page' => 1, // we need only the latest post, so get that post only
