@@ -57,6 +57,15 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 .heading-cna {
     font-size: 36px;
     vertical-align: bottom;
+    margin-left: 10px;
+}
+
+.white-link {
+    color: white;
+}
+
+.white-link a:link, .white-link a:visited, .white-link a:hover, .white-link a:active {
+    color: white;
 }
 
 
@@ -145,6 +154,24 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     display: table;
     clear: both;
 }
+
+/*------ Page Ville - Block Adresse ------*/
+
+.ville-adresse-titre {
+    font-size: 18px;
+    display: block;
+    padding-bottom: 5px;
+    margin-bottom: 5px !important;
+}
+
+#icon-adresse {
+    padding-top: 5px !important;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
 
 
 /* ----- Page Home - Block Campus ----- */
