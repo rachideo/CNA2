@@ -31,7 +31,7 @@
 		<div class="nav-container">
 			<nav id="site-navigation" class="main-navigation" role="navigation">
 				<div class="container nav-bar">
-					<div class="row">
+					<div class="flex-center">
 						<div class="module left site-title-container">
 							<?php shapely_get_header_logo(); ?>
 						</div>
