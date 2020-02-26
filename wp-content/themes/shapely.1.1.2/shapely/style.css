@@ -1821,24 +1821,23 @@ nav .btn, .nav-bar .btn {
 }
 
 .nav-bar {
-    height: 10vh;
     line-height: 23px;
 }
 
 
 .nav-bar .module, .nav-bar .module-group {
-    padding-top: 10px;
+    padding-top: 12px;
+    padding-bottom: 12px;
     height: auto;
 }
 
 .nav-bar a {
-    margin-top: 5px;
     display: inline-block;
     color: #fff;
 }
 
 .logo {
-    height: 100%;
+    height: 62px;
 }
 
 .menu > li.dropdown {
