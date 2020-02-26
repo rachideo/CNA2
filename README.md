@@ -1,15 +1,26 @@
 # CNA-website
 
-Projet sous Wordpress
+## Stack
+* PHP 7.2
+* Apache
+* Wordpress 5.3.2
 
-Thème de base : [Shapely de Colorlib](https://colorlib.com/wp/themes/shapely/)
+- jQuery 3.3.1
+- Bootstrap 3.3.6
+- Particles.js 2.0.0
+- OWL Carousel
 
-___
+
+Wordpress core theme : [Shapely de Colorlib](https://colorlib.com/wp/themes/shapely/)
+
+Used wordpress theme : **campusnum1219**
+
+## Modifications de thème
 
 __Fichiers PHP modifiés :__
 * Désactivation des sidebars dans les pages : inc/extra.php, archive.php, attachment.php, index.php, page.php, search.php, single.php
 * Suppression de `<?php echo esc_attr( $layout_class ); ?>` : page-templates/full-width.php, sidebar-left.php, sidebar-right.php
-* Autres modifications spécifiques : 
+* Autres modifications spécifiques :
     - template-parts/content-grid-small.php (Passage d'un H2 en H5)
     - template-parts/content-page.php (suppresion d'un titre `<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>`)
     - header.php (modification des classes de div : passage de right en left, suppression d'un lien vide)
@@ -27,7 +38,7 @@ __Fichiers CSS modfiés :__
         - propriétés pour empêcher Chrome d'ajouter la sélection d'une div
         - propriétés d'une div dans les pages villes
         - ajout de "scroll-behavior: smooth;" à html
-    - Modifiés : 
+    - Modifiés :
         - couleurs des liens de la navigation
         - margin de .hentry dans Content/Posts and pages
         - max-width de `.content hr` dans Global Styles
@@ -44,9 +55,9 @@ __Fichiers CSS modfiés :__
         - bg-color de .video-widget .video-controls button
         - couleur bordure blockquote
         - d'autres couleurs en général dans la section Layout, Widget, Content
-    - Supprimés : 
-        - du margice entre content et footer 
+    - Supprimés :
+        - du margice entre content et footer
         - bloquequote dans Typography
         - propriétés inutiles des réseaux sociaux dont on a pas besoin dans Layout
         - toutes la parties concernant les commentaires
-        
+
