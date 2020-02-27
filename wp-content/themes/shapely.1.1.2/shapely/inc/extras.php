@@ -562,7 +562,7 @@ function shapely_get_header_logo() {
 	$logo_id = get_theme_mod( 'custom_logo', '' );
 	$logo    = wp_get_attachment_image_src( $logo_id, 'full' ); ?>
 
-	<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php
+	<a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="logo-link"><?php
 	if ( $logo[0] != '' ) { ?>
 		<img src="<?php echo esc_url( $logo[0] ); ?>" class="logo"
 		     alt="<?php echo esc_html( get_bloginfo( 'name' ) ); ?>"><?php
