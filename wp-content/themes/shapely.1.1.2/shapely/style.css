@@ -228,7 +228,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 
 .hex-formation .middle-formation {
     width: 312px;
-    height: 210px;
+    height: 180px;
     padding: 20px;
     background: var(--couleur-hexa);
 }
@@ -488,11 +488,10 @@ canvas{
 /* ----- Page Ville - Post Hero ----- */
 
 .post-hero {
-    background-color: #262626;
+    background-position: center;
+    background-size: cover;
     box-shadow: inset 0em -5em 15em black;
     height: 400px;
-    background-size: cover;
-    background-position: center;
     padding-bottom: 15px;
     display: flex;
     align-items: flex-end;
