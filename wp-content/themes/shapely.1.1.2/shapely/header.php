@@ -32,16 +32,13 @@
 			<nav id="site-navigation" class="main-navigation" role="navigation">
 				<div class="container nav-bar">
 					<div class="flex-center">
-						<div class="module left site-title-container">
+						<div class="site-title-container">
 							<?php shapely_get_header_logo(); ?>
 						</div>
-						<div class="module widget-handle mobile-toggle right visible-md visible-sm visible-xs">
+						<div class="widget-handle mobile-toggle right visible-sm visible-xs">
 							<i class="fa fa-bars fa-bars-color"></i>
 						</div>
-						<div class="module-group right">
-							<div class="module right">
-								<?php shapely_header_menu(); // main navigation ?>
-							</div>
+						<?php shapely_header_menu(); // main navigation ?>
 							<!--end of menu module-->
 						</div>
 						<!--end of module group-->

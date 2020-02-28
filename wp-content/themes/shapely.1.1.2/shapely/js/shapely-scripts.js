@@ -45,20 +45,20 @@
 		cl_nav = $('body .nav-container nav:first');
 		cl_navOuterHeight = $('body .nav-container nav:first').outerHeight();
 		var window_w = jQuery(window).width();
-		if ( window_w > 991 ) {
+		// if ( window_w > 991 ) {
 			window.addEventListener("scroll", updateNav, false);
 			updateNav();
-		}
+		// }
 
-		$(window).resize(function () {
-			window_w = $(window).width();
-			if ( window_w < 992 ) {
-				cl_nav.removeClass('fixed scrolled outOfSight');
-			} else {
-				window.addEventListener("scroll", updateNav, false);
-				updateNav();
-			}
-		});
+		// $(window).resize(function () {
+			// window_w = $(window).width();
+			// if ( window_w < 992 ) {
+				// cl_nav.removeClass('fixed scrolled outOfSight');
+			// } else {
+				// window.addEventListener("scroll", updateNav, false);
+				// updateNav();
+			// }
+		// });
 
 		// Menu dropdown positioning
 
@@ -340,9 +340,9 @@
 		var scroll = $(window).scrollTop();
 		var window_w = jQuery(window).width();
 
-		if ( window_w < 992 ) {
-			return;
-		}
+		// if ( window_w < 992 ) {
+			// return;
+		// }
 
 		if ( scroll > cl_navOuterHeight ) {
 			cl_nav.addClass('outOfSight');
