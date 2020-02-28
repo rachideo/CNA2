@@ -319,30 +319,107 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 
 /* ----- Page Home ----- */
 
+.introdesk {
+    display: none;
+}
+.intromobile {
+    color: white;
+}
+
 @media all and (min-width: 990px) {
     .introdesk {
-        display: contents;
-        color: white !important;
-        text-align: center !important;
+        color: white;
+        margin-bottom: 50px;
+        display: block;
     }
     .intromobile {
         display: none;
     }
 }
 
-@media all and (max-width: 990px) {
+@media all and (min-width: 1200px) {
     .introdesk {
-        display: none !important;
-    }
-    .intromobile {
-        display: contents;
-        color: white !important;
-        text-align: center !important;
+        margin-bottom: 60px;
     }
 }
 
+/* First mobile line of content */
+.intromobile.row {
+    margin-bottom: 50px;
+}
+.intromobile.row p {
+    font-size: 16px;
+    padding: 0 30px;
+}
 
+/* Mobile KPI blocs  */
+.intromobile .col-xs-6 {
+    margin: 0 auto; 
+    position: relative; 
+    text-align: center; 
+    padding-top: 28px; 
+}
 
+.intromobile .col-xs-6:first-child:after {
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    right: 1px;
+    top: 0;
+}
+
+.intromobile span {
+    font-size: 60px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    display: inline-block;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.1);
+}
+
+.intromobile p {
+    font-size: 16px;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+/* DESKTOP KPI blocs  */
+.introdesk .col-xs-3 {
+    margin: 0 auto; 
+    position: relative; 
+    text-align: center; 
+    padding-top: 20px; 
+    padding-bottom: 20px; 
+}
+
+.introdesk .col-xs-3:after {
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    right: 1px;
+    top: 0;
+}
+
+.introdesk .col-xs-3:last-child:after {
+    content: none;
+}
+
+.introdesk span {
+    font-size: 60px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    display: inline-block;
+    text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.1);
+}
+
+.introdesk p {
+    font-size: 16px;
+    margin-bottom: 0;
+    font-weight: bold;
+}
 
 
 
@@ -420,10 +497,13 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 
 .moving-letters {
     position: relative;
-    margin: 20px;
     text-align:center;
-    height: 200px;
     z-index: 2;
+}
+
+@media screen and (min-width: 990px) {
+    .moving-letters {
+    }   
 }
 
 canvas{
