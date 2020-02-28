@@ -3,15 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6359801e-977c-4580-a417-254de4093bb0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/img/trombi-comex/jean-pierre.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/img/trombi-comex/raphael.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/img/trombi-comex/thomas.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/img/trombi/audrey.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/img/trombi/jean-pierre.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/img/trombi/marcelline.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/img/trombi/philippe.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/img/trombi/raphael.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/img/trombi/thomas.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely.1.1.2/shapely/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/shapely.1.1.2/shapely/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -85,7 +76,7 @@
       <workItem from="1582126496412" duration="610000" />
       <workItem from="1582560617894" duration="19253000" />
       <workItem from="1582714381542" duration="1905000" />
-      <workItem from="1582728715453" duration="13379000" />
+      <workItem from="1582728715453" duration="16053000" />
     </task>
     <servers />
   </component>

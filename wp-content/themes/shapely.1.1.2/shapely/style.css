@@ -583,6 +583,27 @@ canvas{
     margin-top: 50px;
     text-align: center;
 }
+
+.partenaire-gallery-about {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 70px 60px;
+    height: 611px;
+    background-image: url(/wp-content/img/about/white-hexagone-transparent.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+@media all and (max-width: 990px) {
+
+    .partenaire-gallery-about {
+        height: auto;
+        padding: 20px 20px;
+        margin: 30px 0px;
+        background-image: none;
+        background-color: rgba(255,255,255,0.9);
+    }
+
 }
 
 
@@ -1286,6 +1307,9 @@ embed, iframe, object {
 
 .gallery {
     margin-bottom: 1.5em;
+
+    color: #707070;
+    font-size: 14px;
 }
 
 .gallery-item {
