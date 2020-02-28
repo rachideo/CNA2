@@ -948,7 +948,6 @@ a:hover, a:active {
     display: none;
     list-style: none;
     margin: 0;
-    padding-left: 20px;
 }
 
 .main-navigation li {
@@ -984,24 +983,12 @@ a:hover, a:active {
     width: 100%;
 }
 
-.main-navigation li:hover > a, .main-navigation li.focus > a {
-}
-
-.main-navigation ul ul:hover > a, .main-navigation ul ul .focus > a {
-}
-
-.main-navigation ul ul a:hover, .main-navigation ul ul a.focus {
-}
-
 .main-navigation ul li:hover > ul, .main-navigation ul li.focus > ul {
     left: auto;
 }
 
 .main-navigation ul ul li:hover > ul, .main-navigation ul ul li.focus > ul {
     left: 100%;
-}
-
-.main-navigation .current_page_item > a, .main-navigation .current-menu-item > a, .main-navigation .current_page_ancestor > a, .main-navigation .current-menu-ancestor > a {
 }
 
 /* Small menu. */
@@ -1017,6 +1004,7 @@ a:hover, a:active {
 
     .main-navigation ul {
         display: block;
+        padding-left: 20px;
     }
 }
 
@@ -1828,6 +1816,7 @@ nav .btn, .nav-bar .btn {
 .nav-bar .flex-center {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -1846,12 +1835,6 @@ nav .btn, .nav-bar .btn {
 
 .logo-link:hover {
     opacity: .8;
-}
-
-@media all and (max-width: 990px) {
-    .logo {
-        height: auto;
-    }
 }
 
 .menu li a.dropdown-toggle {
@@ -1884,12 +1867,21 @@ nav .btn, .nav-bar .btn {
         font-size: 18px;
         content: "\f0da";
     }
+    .toggle-sub .dropdown-toggle:after {
+        /* top: 50%; */
+        /* right: 12px; */
+        content: "\f0d7";
+    }
 }
 
 .menu {
     width: 100%;
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #ffffff;
+}
+
+.menu .dropdown-menu {
+    border: 0;
 }
 
 .menu li a {
@@ -1915,8 +1907,21 @@ nav .btn, .nav-bar .btn {
     }
 }
 
+@media all and (max-width: 990px) {
+    .menu li a {
+        padding: 16px 12px 16px 0;
+        font-size: 20px;
+        width: 100%;
+    }
+
+    .menu li a:hover {
+        color: #ee2960;
+    }
+}
+
+
 .menu li a:hover {
-    opacity: .8;
+    opacity: .7;
 }
 
 .menu > li {
@@ -1934,6 +1939,12 @@ nav .btn, .nav-bar .btn {
     height: 12px;
     margin-top: -5px;
     top: 50%;
+}
+
+@media all and (max-width: 990px) {
+    .menu > li:after {
+        content: none;
+    }
 }
 
 .menu > li:last-child:after {
@@ -1974,7 +1985,7 @@ nav .btn, .nav-bar .btn {
 .menu > li > ul li a {
     color: #fff;
     height: auto;
-    padding: 6px 24px;
+    padding: 8px 16px;
 }
 
 .menu > li > ul > li > ul {
@@ -2059,50 +2070,50 @@ nav.fixed.scrolled {
     height: auto !important;
 }
 
-.nav-open .navbar-collapse, .nav-open #menu {
+.nav-open .navbar-collapse {
     display: block;
-    margin-bottom: 20px;
+    margin: 12px 0;
+    padding: 0;
 }
 
-.module.widget-handle {
+.nav-open #menu {
+    display: block;
+    margin-top: 12px;
+}
+
+.widget-handle {
     padding: 0 24px;
     cursor: pointer;
     position: relative;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
     user-select: none;
     margin: 0;
 }
 
-@media all and (max-width: 1200px) {
-    .module.widget-handle {
-        padding: 0 16px;
+@media all and (max-width: 990px) {
+    .navbar-collapse {
+        flex-basis: 100%;
     }
-}
 
-@media all and (max-width: 1200px) {
+    .widget-handle {
+        padding: 11px 14px;
+    }
+
     .toggle-sub > ul {
         display: block !important;
     }
 }
 
-.module.widget-handle i {
+.widget-handle i {
     font-size: 28px;
-    transition: all 0.3s ease;
-    -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
+    opacity: 0.9;
+    transition: opacity .2s ease;
 }
 
-.module.widget-handle:hover i {
-    opacity: 1;
+.widget-handle:hover i {
+    opacity: 0.6;
 }
 
 .widget-handle .function {
-    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
-    -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
     cursor: default;
     width: 200px;
@@ -2111,25 +2122,19 @@ nav.fixed.scrolled {
     z-index: 99;
     opacity: 0;
     transition: all 0.3s ease;
-    -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
     transform: translate3d(0, 10px, 0);
-    -webkit-transform: translate3d(0, 10px, 0);
-    -moz-transform: translate3d(0, 10px, 0);
     visibility: hidden;
     margin-top: -2px;
     right: 0;
 }
 
-.module.widget-handle:hover .function {
+.widget-handle:hover .function {
     opacity: 1;
     transform: translate3d(0, 0px, 0);
-    -webkit-transform: translate3d(0, 0px, 0);
-    -moz-transform: translate3d(0, 0px, 0);
     visibility: visible;
 }
 
-.module.widget-handle .title {
+.widget-handle .title {
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -2138,11 +2143,9 @@ nav.fixed.scrolled {
     display: none;
     opacity: .5;
     transition: all 0.3s ease;
-    -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
 }
 
-.module.widget-handle .title:hover {
+.widget-handle .title:hover {
     opacity: 1;
 }
 
@@ -2225,7 +2228,7 @@ nav.fixed.scrolled {
 }
 
 .dropdown-menu > .active > a, .dropdown-menu > .active > a:focus {
-    color: #0e1015;
+    color: #e81341;
     background-color: #fff;
 }
 
@@ -2237,7 +2240,6 @@ nav.fixed.scrolled {
 .menu > li > ul > .dropdown:hover:after {
     color: #fff;
 }
-
 
 @media all and (max-width: 990px) {
     .menu {
@@ -2297,7 +2299,7 @@ nav.fixed.scrolled {
     }
 
     .menu > li > ul li a {
-        padding: 4px 16px;
+        padding: 8px 16px;
     }
 
     .dropdown .dropdown li {
@@ -2317,9 +2319,10 @@ nav.fixed.scrolled {
         width: 100%;
     }
 
-    .menu > li > ul li a:hover, .dropdown-menu > .active > a:hover {
+    .menu > li > a:hover, .menu > li > ul li a:hover, .dropdown-menu > .active > a:hover {
         background: transparent;
-        color: #e81341;
+        color: #ee2960;
+        opacity: 1;
     }
 
     .dropdown-menu > .active > a, .dropdown-menu > .active > a:focus {
@@ -2328,7 +2331,7 @@ nav.fixed.scrolled {
     }
 
     .menu > li > ul li a {
-        color: #e81341;
+        color: #fff;
         width: 100%;
     }
 
@@ -2336,13 +2339,7 @@ nav.fixed.scrolled {
         color: transparent;
     }
 
-    .module.widget-handle {
-        border-left: none;
-        line-height: 40px;
-        min-height: 40px;
-    }
-
-    .module.widget-handle .title {
+    .widget-handle .title {
         display: inline-block;
         position: relative;
         bottom: 3px;
@@ -2355,8 +2352,6 @@ nav.fixed.scrolled {
         position: relative;
         opacity: 1;
         transform: translate3d(0, 0px, 0);
-        -webkit-transform: translate3d(0, 0px, 0);
-        -moz-transform: translate3d(0, 0px, 0);
         visibility: visible;
         margin-top: 0;
         display: none;
@@ -2372,10 +2367,17 @@ nav.fixed.scrolled {
     }
 
     .mobile-toggle i {
-        padding-top: 10px;
         color: #ffffff;
+        font-size: 36px;
     }
 }
+
+@media all and (max-width: 1200px) {
+    .menu > li > ul li a {
+        padding: 8px 12px;
+    }
+}
+
 
 /*!---------- 8. FORMS ----------*/
 
