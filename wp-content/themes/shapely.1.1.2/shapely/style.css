@@ -476,11 +476,6 @@ canvas{
 
 
 
-
-
-
-/* ----- Test : Page Ville, tabs ----- */
-
 /* ----- Page Ville - Post Hero ----- */
 
 .post-hero {
@@ -517,6 +512,39 @@ canvas{
     margin-left: 15px;
 }
 
+
+/* ------ Page Formation - Fenêtre ------*/
+
+.formation-window {
+    font-family: "Courier New" !important;
+    font-size: 16px;
+    font-weight: 600 !important;
+    padding: 60px 10px 20px 50px;
+    margin: 0 auto;
+    background-color: #262626;
+    background-position: top;
+    background-repeat: repeat-x;
+    border-radius: 30px;
+    color: #ffffff;
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.25);
+}
+
+.bg-formation-dev {
+    background-image: url("/wp-content/img/formation/bg-window-dev-top.png");
+}
+
+.bg-formation-data8 {
+    background-image: url("/wp-content/img/formation/bg-window-data8-top.png");
+}
+
+.bg-formation-asperger {
+    background-image: url("/wp-content/img/formation/bg-window-asperger-top.png");
+}
+
+.dl-formation {
+    float: right;
+    margin-right: 10px;
+}
 
 
 
