@@ -1010,7 +1010,7 @@ a:hover, a:active {
     display: block;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 990px) {
     .menu-toggle {
         display: none;
     }
@@ -1609,7 +1609,7 @@ th, td {
 }
 
 .bg-dark {
-    background: #111111;
+    background: #262626;
 }
 
 /*!---------- 5. SECTIONS ----------*/
@@ -1807,14 +1807,6 @@ nav ul {
     margin-bottom: 0;
 }
 
-.module {
-
-}
-
-.module-group {
-
-}
-
 nav .btn, .nav-bar .btn {
     margin: 0;
     height: auto;
@@ -1826,7 +1818,7 @@ nav .btn, .nav-bar .btn {
     padding-bottom: 12px;
 }
 
-@media all and (max-width: 1200px) {
+@media all and (max-width: 990px) {
     .nav-bar {
         padding-top: 8px;
         padding-bottom: 8px;
@@ -1856,7 +1848,7 @@ nav .btn, .nav-bar .btn {
     opacity: .8;
 }
 
-@media all and (max-width: 1200px) {
+@media all and (max-width: 990px) {
     .logo {
         height: auto;
     }
@@ -1879,23 +1871,20 @@ nav .btn, .nav-bar .btn {
 }
 
 @media all and (max-width: 1200px) {
+    .dropdown-toggle:after {
+        right: 8px;
+    }
+}
 
+@media all and (max-width: 990px) {
     .dropdown-toggle:after {
         position: relative;
         top: 0px;
         left: 5px;
         font-size: 18px;
         content: "\f0da";
-        font-family: 'fontawesome';
-        speak: none;
-        font-style: normal;
-        font-weight: normal;
-        font-variant: normal;
-        text-transform: none;
-        color: #EE2961;
     }
 }
-
 
 .menu {
     width: 100%;
@@ -1910,9 +1899,20 @@ nav .btn, .nav-bar .btn {
     color: #ffffff;
     text-transform: uppercase;
     letter-spacing: 1px;
-    transition: opacity 0.2s ease;
+    transition: opacity .2s ease;
     max-width: 100%;
     white-space: normal;
+}
+
+@media all and (max-width: 1200px) {
+    .menu li a {
+        padding: 10px 12px;
+        font-size: 14px;
+    }
+
+    .menu li a.dropdown-toggle {
+        padding-right: 24px;
+    }
 }
 
 .menu li a:hover {
@@ -2239,13 +2239,7 @@ nav.fixed.scrolled {
 }
 
 
-@media all and (max-width: 1200px) {
-    .nav-bar .module-group {
-    }
-
-    .nav-bar .module-group .module {
-    }
-
+@media all and (max-width: 990px) {
     .menu {
         height: auto;
     }
@@ -2341,8 +2335,6 @@ nav.fixed.scrolled {
     .menu > li > ul > .dropdown:hover:after {
         color: transparent;
     }
-
-
 
     .module.widget-handle {
         border-left: none;

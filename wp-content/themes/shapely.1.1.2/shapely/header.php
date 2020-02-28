@@ -35,7 +35,7 @@
 						<div class="module left site-title-container">
 							<?php shapely_get_header_logo(); ?>
 						</div>
-						<div class="module widget-handle mobile-toggle right visible-md visible-sm visible-xs">
+						<div class="module widget-handle mobile-toggle right visible-sm visible-xs">
 							<i class="fa fa-bars fa-bars-color"></i>
 						</div>
 						<div class="module-group right">
