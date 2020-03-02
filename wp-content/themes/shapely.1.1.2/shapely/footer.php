@@ -27,7 +27,9 @@
 		<div class="row">
 			<div class="site-info col-sm-6 col-xs-6">
 				<div style="margin: 70px 0 20px 0;">
-					<img src="wp-content/img/footer/footer_datadock.png" alt="Nous sommes DataDocké !" />
+                    <a href="https://www.data-dock.fr/" target="_blank">
+					    <img src="/wp-content/img/footer/footer_datadock.png" alt="Nous sommes DataDocké !" />
+                    </a>
 				</div>
 			</div>
             <div class="col-sm-6 col-xs-6">
@@ -55,13 +57,13 @@
                 <a href="/">ACCUEIL</a>
             </div>
             <div class="footer-nav-new">
-                <a href="/">MENTIONS LÉGALES</a>
+                <a href="/mentions-legales/">MENTIONS LÉGALES</a>
             </div>
             <div class="footer-nav-new">
-                <a href="/">CONTACT</a>
+                <a href="mailto:contact@le-campus-numerique.fr">CONTACT</a>
             </div>
             <div class="footer-nav-new">
-                <a href="/">TITRES RNCP</a>
+                <a href="https://www.service-public.fr/particuliers/vosdroits/R40438" target="_blank">TITRES RNCP</a>
             </div> {
         </div>
 	</div>

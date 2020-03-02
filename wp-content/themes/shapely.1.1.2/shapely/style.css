@@ -68,6 +68,10 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     color: white;
 }
 
+#inline-block {
+    display: inline-block;
+}
+
 
 /*----- Page Accueil - Navbar -----*/
 
@@ -225,7 +229,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 .hex-formation .middle-formation {
     width: 312px;
     height: 180px;
-    padding: 20px;
+    padding: 0px 20px;
     background: var(--couleur-hexa);
 }
 
@@ -346,8 +350,31 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 
 
 
+/* ----- Footer - Liens ----- */
 
+.footer-grey-link {
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    color: #707070 !important;
+    line-height: 200% !important;
+}
 
+ .footer-grey-link a:visited, .footer-grey-link a:link, .footer-grey-link a:active, .footer-grey-link a:hover, .footer-grey-link a:focus {
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    color: #707070 !important;
+    line-height: 200% !important;
+}
+
+.footer-mini-link {
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.footer-mini-link a:visited, .footer-mini-link a:link, .footer-mini-link a:active, .footer-mini-link a:hover, .footer-mini-link a:focus {
+    font-size: 14px;
+    color: #ffffff;
+}
 
 
 
@@ -357,6 +384,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 
 
 /* ----- Footer - Widget Area Size ----- */
+
 
 .footer-widget-area .footer-widget:first-child {
     width: 33.3%;
@@ -604,6 +632,18 @@ canvas{
         background-color: rgba(255,255,255,0.9);
     }
 
+}
+
+.equipe-paragraphe-rose {
+    font-size: 18px;
+    line-height: 25px;
+    color: #EE2961;
+}
+
+.equipe-rapagraphe-noir {
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
 }
 
 
