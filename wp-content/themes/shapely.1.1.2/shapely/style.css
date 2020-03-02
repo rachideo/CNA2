@@ -202,10 +202,12 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 .hexa-title {
     font-size: 38px;
     font-weight: 900;
+    color: white;
 }
 
 .hexa-text {
     font-size: 22px;
+    color: white;
 }
 
 .hex-formation-centered {
@@ -254,10 +256,12 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     .hexa-title {
         font-size: 19px;
         font-weight: 900;
+        color: white;
     }
 
     .hexa-text {
         font-size: 11px;
+        color: white;
     }
 
     .hex-formation-centered {
@@ -300,25 +304,32 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 }
 
 
-/* ----- Page Home - Mini hexagone hero ----- */
+/* ----- Page Home - Testimonial ----- */
 
-.minihex-top {
-    width: 0;
-    border-bottom: 20px solid #ee2961;
-    border-left: 34px solid transparent;
-    border-right: 34px solid transparent;
+#pg-43-5 {
+    margin-bottom: 100px !important;
 }
-.minihex-middle {
-    width: 68px;
-    height: 40px;
-    background-color: #ee2961;
+
+#panel-w5e5d754123009-0-0-0 {
+    margin-bottom: 30px;
 }
-.minihex-bottom {
-    width: 0;
-    border-top: 20px solid #ee2961;
-    border-left: 34px solid transparent;
-    border-right: 34px solid transparent;
+
+/* ----- Page Home - Recrute ----- */
+
+#pgc-w5e5d7b55dcd66-0-0 {
+    margin-top: 80px;
 }
+
+#pgc-w5e5d7b55e02f5-0-0 {
+    margin-top: 80px;
+}
+
+#recrute-home {
+    color: white;
+    height: 696px;
+    background-position: center right !important;
+}
+
 
 
 /* ----- Page Home ----- */
@@ -582,8 +593,14 @@ canvas{
 
 /* ----- Page Accueil - Block Les Campus ----- */
 
-#panel-w5e5d346ec4c43-1-1-0 {
-    display: inline-block;
+.widget_sow-button {
+    display: inline-block !important;
+    margin: 5px !important;
+}
+
+
+.ow-icon-placement-left {
+    white-space: nowrap;
 }
 
 
@@ -1271,7 +1288,7 @@ a:hover, a:active {
 .alignleft {
     display: inline;
     float: left;
-    margin-right: 1.5em;
+    margin-right: 1em;
 }
 
 .alignright {
