@@ -3,27 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6359801e-977c-4580-a417-254de4093bb0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-config.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely.1.1.2/shapely/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/shapely.1.1.2/shapely/footer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely.1.1.2/shapely/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/shapely.1.1.2/shapely/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/siteorigin-widgets/sow-button-flat-26dd51839dd5.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/siteorigin-widgets/sow-button-flat-3a83cab2c611.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/siteorigin-widgets/sow-button-flat-4f8ba57ed9ca.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/siteorigin-widgets/sow-button-flat-5f1b1d20f407.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/siteorigin-widgets/sow-button-flat-8940f036d0e0.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/siteorigin-widgets/sow-button-flat-c943958f2b38.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/siteorigin-widgets/sow-button-flat-dee17af70fb5.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/siteorigin-widgets/sow-button-wire-2d87af7a803d.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/siteorigin-widgets/sow-button-wire-865eee653e16.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/siteorigin-widgets/sow-button-wire-fc04f9676d34.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/siteorigin-widgets/sow-headline-default-43d2f8ed16fd.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/siteorigin-widgets/sow-headline-default-8b8fcac18744.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/siteorigin-widgets/sow-headline-default-8d8ed0dedf8a.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/siteorigin-widgets/sow-hero-default-779edd49de42.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/siteorigin-widgets/sow-hero-default-e84d68bea198.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/siteorigin-widgets/sow-image-default-d70c3388eec3.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/siteorigin-widgets/sow-image-grid-default-fc4e170b1047.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/siteorigin-widgets/sow-tabs-default-60cc77dbe31a.css" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -97,7 +77,7 @@
       <workItem from="1582560617894" duration="19253000" />
       <workItem from="1582714381542" duration="1905000" />
       <workItem from="1582728715453" duration="19939000" />
-      <workItem from="1583003735579" duration="2877000" />
+      <workItem from="1583003735579" duration="4209000" />
     </task>
     <servers />
   </component>
