@@ -1354,6 +1354,41 @@ a:hover, a:active {
     max-width: 100%;
 }
 
+/* So widgets bundle button */
+/* // Big white button */
+body .so-widget-sow-button-flat-a64f0c8da63a .ow-button-base a {
+    border-radius: 1px;
+    box-shadow: 0 0 0 0 white;
+    transition: .2s box-shadow ease;
+}
+
+body .so-widget-sow-button-flat-a64f0c8da63a .ow-button-base a:hover,
+body .so-widget-sow-button-flat-a64f0c8da63a .ow-button-base a:focus,
+body .so-widget-sow-button-flat-a64f0c8da63a .ow-button-base a:active {
+    box-shadow: 0 0 0 4px white;
+}
+
+/* // Small pink button */
+body .so-widget-sow-button-flat-4436a56391d1 .ow-button-base a.ow-button-hover {
+    border-radius: 1px;
+    box-shadow: 0 0 0 0 #ee2961;
+    padding: 0.75em 1.25em;
+    transition: .2s box-shadow ease,
+                .2s background-color ease;
+}
+
+body .so-widget-sow-button-flat-4436a56391d1 .ow-button-base a.ow-button-hover span{
+    font-weight: bold;
+}
+
+body .so-widget-sow-button-flat-4436a56391d1 .ow-button-base a.ow-button-hover:hover,
+body .so-widget-sow-button-flat-4436a56391d1 .ow-button-base a.ow-button-hover:focus,
+body .so-widget-sow-button-flat-4436a56391d1 .ow-button-base a.ow-button-hover:active {
+    background: #ee2961;
+    box-shadow: 0 0 0 3px #ee2961;
+}
+
+
 /*--------------------------------------------------------------
 # Content
 --------------------------------------------------------------*/
