@@ -538,10 +538,12 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     position: relative;
     text-align:center;
     z-index: 2;
+    margin-top: 60px;
 }
 
 @media screen and (min-width: 990px) {
     .moving-letters {
+        margin-top: 0;
     }   
 }
 
@@ -2290,8 +2292,8 @@ nav.fixed.scrolled {
 }
 
 .nav-open {
-    max-height: 10000px !important;
-    height: auto !important;
+    z-index: 1;
+    background-color: #262626;
 }
 
 .nav-open .navbar-collapse {
