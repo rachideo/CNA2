@@ -1,0 +1,67 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:600&display=swap);
+.so-widget-sow-tabs-default-60cc77dbe31a .sow-tabs .sow-tabs-tab-container {
+  background-color: #ffffff;
+  padding: 15px 9px 0px 9px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: left;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 0px 0px 2px 0px;
+  
+}
+.so-widget-sow-tabs-default-60cc77dbe31a .sow-tabs .sow-tabs-tab-container .sow-tabs-tab {
+  display: inline-block;
+  cursor: pointer;
+  background-color: #ffffff;
+  padding: 11px 11px 11px 11px;
+  margin: 0px 11px 0px 11px;
+  color: #828282;
+  font-family: Open Sans;
+  font-weight: 600;
+  font-size: 18px;
+  transition: all 0.3s;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 0px 0px 2px 0px;
+  
+}
+.so-widget-sow-tabs-default-60cc77dbe31a .sow-tabs .sow-tabs-tab-container .sow-tabs-tab.sow-tabs-tab-selected,
+.so-widget-sow-tabs-default-60cc77dbe31a .sow-tabs .sow-tabs-tab-container .sow-tabs-tab:hover {
+  background-color: #ffffff;
+  color: #000000;
+  border-style: solid;
+  border-color: #2d2d2d;
+  border-width: 0px 0px 2px 0px;
+  
+}
+.so-widget-sow-tabs-default-60cc77dbe31a .sow-tabs .sow-tabs-tab-container .sow-tabs-tab .sow-tabs-title {
+  line-height: 1;
+  display: flex;
+  align-items: center;
+}
+.so-widget-sow-tabs-default-60cc77dbe31a .sow-tabs .sow-tabs-tab-container .sow-tabs-tab .sow-tab-icon-image {
+  width: auto;
+  height: 18px;
+}
+.so-widget-sow-tabs-default-60cc77dbe31a .sow-tabs .sow-tabs-tab-container .sow-tabs-tab .sow-tabs-title-icon-left > .sow-tab-icon-image,
+.so-widget-sow-tabs-default-60cc77dbe31a .sow-tabs .sow-tabs-tab-container .sow-tabs-tab .sow-tabs-title-icon-left > span[data-sow-icon] {
+  margin-right: 5px;
+}
+.so-widget-sow-tabs-default-60cc77dbe31a .sow-tabs .sow-tabs-tab-container .sow-tabs-tab .sow-tabs-title-icon-right > .sow-tab-icon-image,
+.so-widget-sow-tabs-default-60cc77dbe31a .sow-tabs .sow-tabs-tab-container .sow-tabs-tab .sow-tabs-title-icon-right > span[data-sow-icon] {
+  margin-left: 5px;
+}
+.so-widget-sow-tabs-default-60cc77dbe31a .sow-tabs .sow-tabs-panel-container {
+  position: relative;
+  background-color: #ffffff;
+  color: #626262;
+}
+.so-widget-sow-tabs-default-60cc77dbe31a .sow-tabs .sow-tabs-panel-container .sow-tabs-panel {
+  padding: 23px 30px 27px 30px;
+}
+.so-widget-sow-tabs-default-60cc77dbe31a .sow-tabs .sow-tabs-panel-container .sow-tabs-panel .sow-tabs-panel-content {
+  
+  
+  font-size: 16px;
+}

@@ -369,15 +369,17 @@ class rachideo_Post_Hero extends WP_Widget {
                 echo $args['before_widget'] ?>
                 <div class="post-hero" style="background-image: url(<?php echo get_the_post_thumbnail_url() ?>); ">
                         <div class="col-6 post-hero-title">
-                            <a href="<?php echo get_post_permalink() ?>"><?php echo the_title(); ?></a>
+                            <!--<a href="<?php// echo get_post_permalink() ?>">-->
+                                <?php echo the_title(); ?>
+                            <!--</a>-->
                         </div>
                         <div class="col-6 post-hero-desc">
-                            <div style="font-size: 18px; font-weight: 600;">
-                                <?php echo the_excerpt(); ?>
-                            </div>
-                            <div style="font-size: 14px;">
-                                <?php echo the_date(); ?> / par <?php echo get_the_author(); ?>
-                            </div>
+                           <!-- <div style="font-size: 18px; font-weight: 600;">-->
+                                <?php// echo the_excerpt(); ?>
+                            <!--</div>
+                            <div style="font-size: 14px;">-->
+                                <?php //echo the_date(); ?> <!--/ par--> <?php// echo get_the_author(); ?>
+                            <!--</div>-->
                         </div>
                 </div>
 

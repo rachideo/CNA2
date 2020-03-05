@@ -63,8 +63,10 @@
                 <a href="mailto:contact@le-campus-numerique.fr">CONTACT</a>
             </div>
             <div class="footer-nav-new">
-                <a href="https://www.service-public.fr/particuliers/vosdroits/R40438" target="_blank">TITRES RNCP</a>
-            </div> {
+                <a href="https://www.service-public.fr/particuliers/vosdroits/R40438" target="_blank">
+                    TITRE RNCP <i class="fa fa-external-link" aria-hidden="true"></i>
+                </a>
+            </div>
         </div>
 	</div>
 

@@ -591,18 +591,22 @@ canvas{
 }
 
 
-/* ----- Page Accueil - Block Les Campus ----- */
+/* ----- Bouton Inline-Block ----- */
 
 .widget_sow-button {
     display: inline-block !important;
     margin: 5px !important;
 }
 
-
 .ow-icon-placement-left {
     white-space: nowrap;
 }
 
+/* ----- Block bouton Recrutez ----- */
+
+#panel-w5e56785a5c18c-0-0-1 {
+    display: block !important;
+}
 
 
 
@@ -620,7 +624,8 @@ canvas{
 }
 
 .post-hero-title {
-    background-color: #7F41AB;
+    background-color: #ee2961;
+    color: white;
     font-size: 30px;
     width: 524px;
     height: auto;
@@ -641,6 +646,21 @@ canvas{
     padding: 10px;
     margin-left: 15px;
 }
+
+/* ----- Page Ville - Tabs Formation ----- */
+
+#pgc-w02abf11b-0-0,  #pgc-wed3838bf-0-0, #pgc-w16b47f74-0-0 {
+    justify-content: flex-end;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+#panel-w02abf11b-0-0-0, #panel-wed3838bf-0-0-0, #panel-w16b47f74-0-0-0 {
+    display: flex;
+    align-items: flex-end;
+}
+
+
 
 
 /* ------ Page Formation - Fenêtre ------*/
