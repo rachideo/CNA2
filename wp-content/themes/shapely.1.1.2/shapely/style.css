@@ -441,23 +441,29 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 /* ----- Footer - Liens ----- */
 
 .footer-grey-link {
-    font-weight: 600 !important;
-    font-size: 16px !important;
-    color: #707070 !important;
-    line-height: 200% !important;
+    font-size: 16px;
+    opacity: .6;
+    line-height: 2; 
+    transition: opacity .2s ease;
 }
 
- .footer-grey-link a:visited, .footer-grey-link a:link, .footer-grey-link a:active, .footer-grey-link a:hover, .footer-grey-link a:focus {
-    font-weight: 600 !important;
-    font-size: 16px !important;
-    color: #707070 !important;
-    line-height: 200% !important;
+ .footer-grey-link:active, 
+ .footer-grey-link:hover, 
+ .footer-grey-link:focus {
+    opacity: 1;
 }
 
-.footer-mini-link {
-    font-size: 14px;
-    color: #ffffff;
+footer .footer-mini-link {
+    opacity: .8;
+    line-height: 1.5; 
 }
+
+footer .footer-mini-link:active, 
+footer .footer-mini-link:hover, 
+footer .footer-mini-link:focus {
+    opacity: 1;
+}
+
 
 .footer-mini-link a:visited, .footer-mini-link a:link, .footer-mini-link a:active, .footer-mini-link a:hover, .footer-mini-link a:focus {
     font-size: 14px;
@@ -505,16 +511,25 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 /* ----- Footer - Derniers éléments  ----- */
 
 .footer-nav-new:not(:last-child) {
+    border-right: solid 1px #ffffff50;
+}
+
+.footer-nav-new:not(:last-child) a {
     color : #ffffff;
     font-weight: 600;
     font-size: 14px;
-    border-right: solid 1px;
     padding: 5px 20px 10px 0px
 }
 
-
-.footer-nav-new:not(:first-child) {
+.footer-nav-new:not(:first-child) a {
     padding: 5px 20px 10px 20px
+}
+
+.footer-nav-new a {
+    transition: opacity .2s ease;
+}
+.footer-nav-new a:hover {
+    opacity: 0.7;
 }
 
 .footer-hr {
@@ -745,7 +760,7 @@ canvas{
 
 .badge-hero-about {
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.8);
     border-radius: 10px;
     color: #EE2961;
     font-style: normal;
@@ -1392,8 +1407,22 @@ body .so-widget-sow-button-flat-a64f0c8da63a .ow-button-base a {
 body .so-widget-sow-button-flat-a64f0c8da63a .ow-button-base a:hover,
 body .so-widget-sow-button-flat-a64f0c8da63a .ow-button-base a:focus,
 body .so-widget-sow-button-flat-a64f0c8da63a .ow-button-base a:active {
-    box-shadow: 0 0 0 4px white;
+    box-shadow: 0 0 0 5px white;
 }
+
+/* // Big pink button */
+body .so-widget-sow-button-flat-5063e19350ff .ow-button-base a {
+    border-radius: 1px;
+    box-shadow: 0 0 0 0 #ee2961;
+    transition: .2s box-shadow ease;
+}
+
+body .so-widget-sow-button-flat-5063e19350ff .ow-button-base a:hover,
+body .so-widget-sow-button-flat-5063e19350ff .ow-button-base a:focus,
+body .so-widget-sow-button-flat-5063e19350ff .ow-button-base a:active {
+    box-shadow: 0 0 0 5px #ee2961;
+}
+
 
 /* // Small pink button */
 body .so-widget-sow-button-flat-4436a56391d1 .ow-button-base a.ow-button-hover {
@@ -1420,12 +1449,27 @@ body .so-widget-sow-button-flat-4436a56391d1 .ow-button-base a.ow-button-hover:a
 .so-widget-sow-button-flat-04519316ca85 .ow-button-base a.ow-button-hover:hover,
 .so-widget-sow-button-flat-092d0b96ef11 .ow-button-base a.ow-button-hover:hover, 
 .so-widget-sow-button-flat-418bdae24acb .ow-button-base a.ow-button-hover:hover {
-    opacity: 0.9;
+    text-decoration: underline;
+}
+
+/* Carousel links */
+.carousel-slider .carousel-slider__item a {
+    transition: .2s opacity ease;
+}
+
+.carousel-slider .carousel-slider__item a:hover {
+    opacity: 0.7;
+    display: block;
 }
 
 /*--------------------------------------------------------------
 # Content
 --------------------------------------------------------------*/
+
+/* center "formation" callout block content */
+#pgc-w5e5564f3ec49e-0-0 {
+    text-align: center;
+}
 
 /*--------------------------------------------------------------
 ## Posts and pages
