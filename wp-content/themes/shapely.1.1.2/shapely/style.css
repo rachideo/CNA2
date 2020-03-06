@@ -1462,6 +1462,13 @@ body .so-widget-sow-button-flat-4436a56391d1 .ow-button-base a.ow-button-hover:a
     display: block;
 }
 
+
+/* Formation page pills */
+.so-widget-sow-button-flat-7132f417389e .ow-button-base a:hover,
+.so-widget-sow-button-flat-9e98e103226f .ow-button-base a:hover {
+    text-decoration: underline;
+}
+
 /*--------------------------------------------------------------
 # Content
 --------------------------------------------------------------*/
@@ -2573,8 +2580,9 @@ nav.fixed.scrolled {
 }
 
 .menu > li > ul li a:hover, .dropdown-menu > .active > a:hover {
-    background: #e81341;
+    background: #ed2961;
     color: #fff;
+    opacity: 1;
 }
 
 .dropdown-menu > .active > a, .dropdown-menu > .active > a:focus {
