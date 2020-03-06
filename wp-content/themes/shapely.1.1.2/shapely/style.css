@@ -560,26 +560,53 @@ canvas{
     margin-top: -100px;
 }
 
-
+/* Home hero */
+/* 4 Cities container */
 .ml4 {
-    position: relative;
-    font-weight: 900;
-    font-size: 4.5vw;
-    color:white;
-    flex-wrap: nowrap;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-
+/* single city */
 .ml4 .letters {
     font-weight: 900;
-    font-size: 4.5vw;
+    font-size: 40px;
     color:white;
-    position: relative;
-    margin: auto;
-    left: 0;
-    top: 0;
-    right: 0;
+    flex: 0 0 100%;
+    margin: 5px 0;
     opacity: 0;
+}
+
+@media all and (min-width: 410px) {
+    .ml4 .letters {
+        font-size: 35px;
+        flex: 0 0 50%;
+    }
+}
+
+@media all and (min-width: 768px) {
+    .ml4 .letters {
+        font-size: 40px;
+    }
+}
+
+@media all and (min-width: 990px) {
+    .ml4 .letters {
+        font-size: 50px;
+    }
+}
+
+@media all and (min-width: 1200px) {
+    .ml4 {
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+
+    .ml4 .letters {
+        font-size: 60px;
+    }
 }
 
 /* particles-js-canvas-el est utilisé par le script js */
@@ -1388,6 +1415,13 @@ body .so-widget-sow-button-flat-4436a56391d1 .ow-button-base a.ow-button-hover:a
     box-shadow: 0 0 0 3px #ee2961;
 }
 
+/* // Home pills */
+.so-widget-sow-button-flat-82c6c6725e69 .ow-button-base a.ow-button-hover:hover,
+.so-widget-sow-button-flat-04519316ca85 .ow-button-base a.ow-button-hover:hover,
+.so-widget-sow-button-flat-092d0b96ef11 .ow-button-base a.ow-button-hover:hover, 
+.so-widget-sow-button-flat-418bdae24acb .ow-button-base a.ow-button-hover:hover {
+    opacity: 0.9;
+}
 
 /*--------------------------------------------------------------
 # Content
