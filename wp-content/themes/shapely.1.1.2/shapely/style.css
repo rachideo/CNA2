@@ -2120,8 +2120,19 @@ nav .btn, .nav-bar .btn {
     color: #fff;
 }
 
+.site-title-container {
+    flex: 1;
+    margin-right: 10px;
+}
+
 .logo {
-    height: 60px;
+    max-height: 50px;
+}
+
+@media all and (min-width: 768px) {
+    .logo {
+        max-height: 60px;
+    }
 }
 
 .logo-link:hover {
