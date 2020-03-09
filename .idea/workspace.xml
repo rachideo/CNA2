@@ -2,7 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6359801e-977c-4580-a417-254de4093bb0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/siteorigin-widgets/sow-button-flat-6b101b5d0607.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/siteorigin-widgets/sow-button-flat-a79364261252.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/img/formation/3voies-pink.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/img/formation/3voies-pink.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/img/formation/bg-comment-ca-marche.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/img/formation/bg-comment-ca-marche.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/img/formation/bg-window-asperger-top.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/img/formation/bg-window-asperger-top.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/img/formation/bg-window-data8-top.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/img/formation/bg-window-data8-top.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/img/formation/bg-window-dev-top.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/img/formation/bg-window-dev-top.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/img/formation/bg_formation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/img/formation/bg_formation.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/img/formation/bg_formation_dev.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/img/formation/bg_formation_dev.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/img/formation/bg_formation_dev_.svg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/img/formation/bg_formation_dev_.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/img/formation/icon-comment-ca-marche.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/img/formation/icon-comment-ca-marche.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/img/formation/logo-cnam.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/img/formation/logo-cnam.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/img/formation/logo_inp.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/img/formation/logo_inp.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/img/formation/logo_miai.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/img/formation/logo_miai.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/img/formation/logo_usmb.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/img/formation/logo_usmb.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/img/formation/shema_phase_desktop.svg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/img/formation/shema_phase_desktop.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/img/formation/shema_phase_mobile.svg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/img/formation/shema_phase_mobile.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/img/ville/contact-coordo.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/img/ville/contact-coordo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/img/ville/contact.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/img/ville/contact.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/img/ville/formation.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/img/ville/formation.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/img/ville/pdf-orange.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/img/ville/pdf-orange.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/img/ville/pdf-purple.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/img/ville/pdf-purple.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/img/ville/pdf1.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/img/ville/pdf1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/img/ville/place_50px.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/img/ville/place_50px.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/img/ville/valence_2560.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/img/ville/valence_2560.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely.1.1.2/shapely/mesh3Dhero/index_montagne.html" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/shapely.1.1.2/shapely/mesh3Dhero/index_montagne.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely.1.1.2/shapely/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/shapely.1.1.2/shapely/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,10 +59,15 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="C:/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -78,7 +108,7 @@
       <workItem from="1582714381542" duration="1905000" />
       <workItem from="1582728715453" duration="19939000" />
       <workItem from="1583003735579" duration="11670000" />
-      <workItem from="1583234527089" duration="27264000" />
+      <workItem from="1583234527089" duration="27614000" />
     </task>
     <servers />
   </component>
