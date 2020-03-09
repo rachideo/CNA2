@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1902" height="1864" viewBox="0 0 1902 1864">
+  <defs>
+    <style>
+      .cls-1, .cls-3 {
+        fill: none;
+        stroke: #ee2961;
+        opacity: 0.6;
+      }
+
+      .cls-1 {
+        stroke-width: 18.53px;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #c7c7c7;
+      }
+
+      .cls-3 {
+        stroke-width: 14.04px;
+      }
+    </style>
+  </defs>
+  <path id="Polygone_1" data-name="Polygone 1" class="cls-1" d="M373.413,732.773L-1.258,777.333-227.15,475.061-78.372,128.228,296.3,83.668,522.192,385.941Z"/>
+  <path id="Polygone_2" data-name="Polygone 2" class="cls-2" d="M1977.99,987.615l-179.81,173.4-240-69.11-60.17-242.508L1677.82,676l239.99,69.112Z"/>
+  <path id="Polygone_3" data-name="Polygone 3" class="cls-3" d="M394.8,1704.67l-187.187,63.11L59.32,1637.6l38.9-193.28,187.187-63.1L433.694,1511.4Z"/>
+</svg>
