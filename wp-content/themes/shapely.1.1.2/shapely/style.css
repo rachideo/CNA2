@@ -509,20 +509,47 @@ footer .footer-mini-link:focus {
 
 
 /* ----- Footer - Derniers éléments  ----- */
-
-.footer-nav-new:not(:last-child) {
-    border-right: solid 1px #ffffff50;
+.footer-nav-new {
+    flex: 0 0 50%;
+    margin-top: 15px;
 }
 
-.footer-nav-new:not(:last-child) a {
+.footer-nav-new a {
     color : #ffffff;
     font-weight: 600;
     font-size: 14px;
-    padding: 5px 20px 10px 0px
+    display: block;
+    padding: 15px;
 }
 
-.footer-nav-new:not(:first-child) a {
-    padding: 5px 20px 10px 20px
+.footer-nav-new:nth-child(2n + 1) a {
+    padding-left: 0;
+}
+
+.footer-inner div:last-child {
+    flex-wrap: wrap;
+}
+
+@media all and (min-width: 990px) {    
+    .footer-nav-new {
+        flex: auto;
+    }
+    
+    .footer-nav-new:last-child a {
+        border-right: none;
+    }
+    
+    .footer-nav-new a {
+        border-right: solid 1px #ffffff40;
+    }
+
+    .footer-nav-new:not(:last-child) a {
+        padding: 15px 20px 15px 0px
+    }
+    
+    .footer-nav-new:not(:first-child) a {
+        padding: 15px 20px 15px 20px
+    }
 }
 
 .footer-nav-new a {
@@ -533,9 +560,8 @@ footer .footer-mini-link:focus {
 }
 
 .footer-hr {
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     height: 1px;
-    background-color: #ffffff;
 }
 
 .footer-icon {
