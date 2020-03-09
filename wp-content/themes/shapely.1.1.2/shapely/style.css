@@ -349,6 +349,15 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 
 /* ----- Page Home ----- */
 
+.introhero {
+    color: white;
+    display: block;
+}
+
+.introhero > h1 {
+    color: white !important;
+}
+
 .introdesk {
     display: none;
 }
