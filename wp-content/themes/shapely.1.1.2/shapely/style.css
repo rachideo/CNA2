@@ -72,6 +72,13 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     display: inline-block;
 }
 
+.color-2F82C5 {
+    color: #2F82C5 !important;
+}
+
+.top100 {
+    margin-top: 100px;
+}
 
 /*----- Page Accueil - Navbar -----*/
 
@@ -169,9 +176,12 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
 }
 
+#contact-ville {
+    padding: 30px 30px 30px 30px;
+    margin: 20px 15px 20px 15px;
+}
 
 
 /* ----- Page Home - Block Campus ----- */
@@ -328,6 +338,11 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     color: white;
     height: 696px;
     background-position: center right !important;
+}
+
+#panel-w5e62457013a6e-0-0-1 {
+    justify-content: center;
+    display: flex;
 }
 
 
@@ -661,7 +676,7 @@ canvas{
 }
 
 
-/* ----- Bouton Inline-Block ----- */
+/* ----- Bouton Display Inline-Block ----- */
 
 .widget_sow-button {
     display: inline-block !important;
@@ -672,11 +687,30 @@ canvas{
     white-space: nowrap;
 }
 
-/* ----- Block bouton Recrutez ----- */
+/* ----- Bouton Display Block ----- */
 
-#panel-w5e56785a5c18c-0-0-1 {
+/* Bouton "Contactez nous" Page Villes */
+#panel-977-3-0-2, #panel-985-3-0-2, #panel-983-3-0-2, #panel-987-3-0-2  {
     display: block !important;
 }
+
+/* Bouton Recrutement Page Villes */
+#panel-w5e5675db45992-0-0-1, #panel-w5e56785a5c18c-0-0-1, #panel-w5e5564f3ec49e-0-0-1 {
+    display: block !important;
+}
+
+/* Bouton Hero Page Formations */
+#panel-w5e5d74d4e7ddb-0-0-0, #panel-w5e5d74d4e7ddb-0-0-1, #panel-w5e5d3c9fa1bcb-0-0-0, #panel-w5e5d3c9fa1bcb-0-0-1, #panel-w5e5d3c9fa1bcb-0-0-2 {
+    display: block !important;
+    padding: 5px;
+}
+
+/* Bouton Recrutement Page Formation */
+#panel-w5e58e9d5a885c-0-0-1, #panel-w5e62457013a6e-0-0-1 {
+    display: block !important;
+}
+
+
 
 
 
@@ -719,17 +753,70 @@ canvas{
 
 /* ----- Page Ville - Tabs Formation ----- */
 
-#pgc-w02abf11b-0-0,  #pgc-wed3838bf-0-0, #pgc-w16b47f74-0-0 {
+#pgc-w3d42f0ed-2-0, #pgc-w7d5a7385-2-0, #pgc-w67e12e14-2-0 {
     justify-content: flex-end;
     display: flex;
     margin-bottom: 10px;
 }
 
-#panel-w02abf11b-0-0-0, #panel-wed3838bf-0-0-0, #panel-w16b47f74-0-0-0 {
+#panel-w3d42f0ed-2-0-0, #panel-w7d5a7385-2-0-0, #panel-w67e12e14-2-0-0 {
     display: flex;
     align-items: flex-end;
 }
 
+
+/* ----- Page Formation - Alignement -----*/
+
+#pgc-w5e624570099c1-1-0, #pgc-w5e62a5a97619f-1-0, #pgc-w5e624570108ae-1-0, #pgc-w5e661878df121-1-0, #pgc-w5e66192958c12-1-0  {
+    justify-content: center;
+    display: flex;
+}
+
+.dl-dev-pdf {
+    color: #2F82C5;
+    font-weight: 600;
+    margin-left: 5px;
+}
+
+.white-outline {
+    text-shadow: 0px 0px 4px white;
+    /*-webkit-text-stroke: 1px white;*/
+}
+
+/* ----- Page Formation - Espacement -----*/
+
+#pl-w5e663dad48171, #pl-w5e663dad4a232, #pl-w5e663dad4b7b0, #pl-w5e664247bab63, #pl-w5e664247bc9a7 {
+    margin-top: 130px;
+}
+
+
+/* ----- Bouton / Badge inactif ----- */
+
+.btn-inactif {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 100%;
+    font-size: 1em;
+    padding: 0.5em 1em;
+    color: #ffffff !important;
+    border-radius: 0.5em;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.05);
+}
+
+.bg-color-bleu {
+    background: #2f82c5;
+    border: 1px solid #2f82c5;
+}
+
+.bg-color-orange {
+    background: #f76434;
+    border: 1px solid #f76434;
+}
+
+.bg-color-violet {
+    background: #7f41ab;
+    border: 1px solid #7f41ab;
+}
 
 
 

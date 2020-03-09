@@ -3,19 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="6359801e-977c-4580-a417-254de4093bb0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely.1.1.2/shapely/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/shapely.1.1.2/shapely/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely.1.1.2/shapely/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/shapely.1.1.2/shapely/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/img/ville/contact-coordo.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/img/ville/contact-coordo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/img/ville/contact.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/img/ville/contact.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/img/ville/pdf-orange.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/img/ville/pdf-orange.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/img/ville/pdf-purple.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/img/ville/pdf-purple.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/img/ville/pdf1.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/img/ville/pdf1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/img/ville/place_50px.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/img/ville/place_50px.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely.1.1.2/shapely/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/shapely.1.1.2/shapely/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2020/01/chambery-1024x395.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2020/01/chambery-1110x530.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2020/01/chambery-150x150.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2020/01/chambery-1536x593.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2020/01/chambery-272x182.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2020/01/chambery-300x116.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2020/01/chambery-350x300.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2020/01/chambery-730x350.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2020/01/chambery-768x296.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2020/01/chambery.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/siteorigin-widgets/sow-button-flat-6b101b5d0607.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/siteorigin-widgets/sow-button-flat-a79364261252.css" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -90,7 +86,7 @@
       <workItem from="1582714381542" duration="1905000" />
       <workItem from="1582728715453" duration="19939000" />
       <workItem from="1583003735579" duration="11670000" />
-      <workItem from="1583234527089" duration="9539000" />
+      <workItem from="1583234527089" duration="26120000" />
     </task>
     <servers />
   </component>
