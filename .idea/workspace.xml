@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6359801e-977c-4580-a417-254de4093bb0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely.1.1.2/shapely/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/shapely.1.1.2/shapely/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely.1.1.2/shapely/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/shapely.1.1.2/shapely/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/img/home/hexagone_formation.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/img/home/hexagone_formation.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2020/02/frise.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2020/02/valence-etudiant-250x250.jpg" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -84,7 +84,7 @@
       <workItem from="1582714381542" duration="1905000" />
       <workItem from="1582728715453" duration="19939000" />
       <workItem from="1583003735579" duration="11670000" />
-      <workItem from="1583234527089" duration="29405000" />
+      <workItem from="1583234527089" duration="30001000" />
     </task>
     <servers />
   </component>
