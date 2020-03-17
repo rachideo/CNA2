@@ -58,6 +58,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     font-size: 36px;
     vertical-align: bottom;
     margin-left: 10px;
+    padding-bottom: 20px;
 }
 
 .white-link {
@@ -78,6 +79,11 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 
 .top100 {
     margin-top: 100px;
+}
+
+.link-without-spacing {
+    margin: 0px !important;
+    padding: 0px !important;
 }
 
 /*----- Page Accueil - Navbar -----*/
@@ -180,13 +186,19 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 
 #contact-ville {
     padding: 30px 30px 30px 30px;
-    margin: 20px 15px 20px 15px;
+    margin: 0px 15px 20px 15px;
+    min-height: 300px;
+}
+
+#contact {
+    padding-bottom: 50px;
 }
 
 
 /* ----- Page Home - Block Campus ----- */
 .img-campus-hexa {
-    margin: 0px 8px 12px 0px;
+    margin-right: 8px;
+    vertical-align: bottom;
 }
 
 .font-campus-hexa-label {
@@ -194,8 +206,22 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     font-size: 28px;
 }
 
-#pg-w5e67666ecfea6-0, #pg-w5e67666ecfea6-1, #pg-w5e67666ecfea6-2, #pg-w5e67666ecfea6-3 {
-    margin-bottom: 20px;
+#pg-w5e67699060759-0, #pg-w5e67699060759-1, #pg-w5e67699060759-2, #pg-w5e67699060759-3 {
+    margin-bottom: 30px !important;
+}
+
+#pg-w5e691cbd9b618-0, #pg-w5e691cbd9b618-1, #pg-w5e691cbd9b618-2, #pg-w5e691cbd9b618-3 {
+    margin-bottom: 20px !important;
+}
+
+#pgc-w5e67699060759-0-1, #pgc-w5e67699060759-1-1, #pgc-w5e67699060759-2-1, #pgc-w5e67699060759-3-1 {
+    margin-left: 50px !important;
+}
+
+#bloc-campus-home-desktop {
+    color: white;
+    height: 393px;
+    padding-top: 60px;
 }
 
 
@@ -272,6 +298,10 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 
 
 @media (max-width: 1010px) {
+
+    #bloc-hexa-formation-mobile {
+        margin-top: 50px;
+    }
 
     .hexa-title {
         font-size: 19px;
@@ -698,7 +728,7 @@ canvas{
 /* ----- Bouton Display Inline-Block ----- */
 
 .widget_sow-button {
-    display: inline-block !important;
+    display: inline-block;
     margin: 5px !important;
 }
 
@@ -714,7 +744,7 @@ canvas{
 }
 
 /* Bouton Recrutement Page Villes */
-#panel-w5e5675db45992-0-0-1, #panel-w5e56785a5c18c-0-0-1, #panel-w5e5564f3ec49e-0-0-1 {
+#panel-w5e664bf593c94-0-0-1, #panel-w5e5675db45992-0-0-1, #panel-w5e56785a5c18c-0-0-1, #panel-w5e5564f3ec49e-0-0-1, #panel-w5e70b1eb51b53-0-0-1 {
     display: block !important;
 }
 
@@ -781,6 +811,36 @@ canvas{
 #panel-w3d42f0ed-2-0-0, #panel-w7d5a7385-2-0-0, #panel-w67e12e14-2-0-0 {
     display: flex;
     align-items: flex-end;
+}
+
+.titre-formation-ville {
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.nombre-heure-formation {
+    float:right;
+    color: #ee2961;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.texte-telecharger-form-ville {
+    margin-left: 10px;
+    text-align: right;
+    font-size: 14px;
+}
+
+/*espacement HR dans les blocs formations, page ville */
+#panel-w5e70a78bd3fea-3-0-0, #panel-w5e70a7b488556-3-0-0 {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+/* description formation, page ville */
+#panel-w5e70a78bd3fea-1-0-0, #panel-w5e70a7b488556-1-0-0, #panel-w5e70a7b48f374-1-0-0, #panel-w5e70a8a20175e-1-0-0, #panel-w5e70aab425e24-1-0-0, #panel-w5e70abd2876e8-1-0-0 {
+    font-size: 16px;
+    padding-right: 10px;
 }
 
 
@@ -875,19 +935,30 @@ canvas{
 
 /*------ Page Qui Sommes Nous ------*/
 
-
+#hero-about-bloc {
+    height: calc(100vh - 74px);
+    -webkit-align-items: center !important;
+    align-items: center !important;
+    flex-direction: row !important;
+ }
 .hero-about {
     text-align: center;
 }
 
 .hero-about > p {
-    padding: 20px 30px;
-    font-size: 48px;
-    line-height: 90px;
+    padding: 20px 10px;
+    font-size: 3.4vw;
+    line-height: 6vw;
     text-align: center;
     color: white;
     display: inline;
     background-color: rgba(238,41,97, 0.9);
+}
+
+@media all and (max-width: 990px) {
+    .hero-about > p {
+        line-height: 13vw;
+    }
 }
 
 .badge-hero-about {
@@ -904,11 +975,16 @@ canvas{
     display: inline-block;
 }
 
+.badge-hero-about > p {
+    margin: 0px !important;
+}
 
-.d-inline-block-aaa {
+.d-inline-block-hero-about {
     margin-top: 50px;
     text-align: center;
 }
+
+
 
 .partenaire-gallery-about {
     margin-left: auto;
@@ -1484,7 +1560,7 @@ a:hover, a:active {
 .alignleft {
     display: inline;
     float: left;
-    margin-right: 1em;
+    margin-right: 0em;
 }
 
 .alignright {
@@ -1721,8 +1797,11 @@ embed, iframe, object {
 ## Galleries
 --------------------------------------------------------------*/
 
+#gallery-1, #gallery-2 {
+    padding: 0px 40px;
+}
+
 .gallery {
-    margin-bottom: 1.5em;
 
     color: #707070;
     font-size: 14px;

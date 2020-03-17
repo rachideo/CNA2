@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * { box-sizing: border-box; }
+
+        *, html {
+            padding: 0;
+            margin: 0;
+        }
+
+        .js-grid-refresh:focus { outline: none; }
+
+        .hex-container { overflow: hidden; }
+
+        .hex-grid {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            width: 5000px;
+        }
+        @media (max-width: 768px) {
+
+            .hex-grid { width: 100%; }
+        }
+
+        .hex-grid__item {
+            float: left;
+            width: 200px;
+            width: calc(100vw / 6);
+            -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+            clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+            border-left: 2px solid #fff;
+            border-right: 2px solid #fff;
+            -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+        }
+        @media (min-width: 1200px) {
+
+            .hex-grid__item {
+                border-left: 4px solid #fff;
+                border-right: 4px solid #fff;
+            }
+        }
+        @media (max-width: 768px) {
+
+            .hex-grid__item {
+                width: calc(100vw / 2);
+                margin-bottom: calc(100vw / -7.5);
+            }
+
+            .hex-grid__item:nth-child(3n+1) {
+                margin-left: calc(100vw / 4);
+                clear: left;
+                opacity: 0.4;
+            }
+
+            .hex-grid__item:nth-child(3n+1):last-child { margin-bottom: 0; }
+        }
+
+        .hex-grid__item:hover { opacity: 0.4; }
+        @media (min-width: 768px) {
+
+            .hex-grid__item:nth-child(7), .hex-grid__item:nth-child(14) { clear: left; }
+
+            .hex-grid__item:nth-child(1), .hex-grid__item:nth-child(6), .hex-grid__item:nth-child(7), .hex-grid__item:nth-child(13), .hex-grid__item:nth-child(14), .hex-grid__item:nth-child(19) {
+                opacity: 0.4;
+                z-index: -1;
+            }
+
+            .hex-grid__item:nth-child(n+7):nth-child(-n+13) {
+                position: relative;
+                left: -105px;
+                left: calc(100vw/-12);
+                top: -58px;
+                top: calc(100vw/-24);
+                margin-bottom: -111px;
+                margin-bottom: calc(100vw/-12);
+            }
+        }
+
+        .hex-grid__media {
+            display: block;
+            width: 100%;
+        }
+    </style>
+    <script>
+        var HexGrid = {
+            $container: $('.hex-container'),
+            $gridItems: $('.hex-grid__item:not(.no-refresh)'),
+            animation: {
+                duration: 0.5,
+                visible: {
+                    autoAlpha: 1,
+                    delay: 0.05,
+                    scale: 1
+                },
+                hidden: {
+                    autoAlpha: 0,
+                    scale: 0.8
+                }
+            },
+            init: function() {
+                this.$refreshGrid;
+            },
+            calculate: function() {
+                var w = this.$container.width(),
+                    rowCount = 6,
+                    $newRow = $('.hex-grid__item:nth-child(n+7):nth-child(-n+13)');
+                $('.hex-grid__item').css('width', w / rowCount);
+                $newRow.css({
+                    'left': w / -(rowCount * 2),
+                    'top': w / -(rowCount * 4),
+                    'margin-bottom': w / -(rowCount * 2)
+                });
+            },
+            refreshGrid: function(e) {
+                var _ = HexGrid,
+                    i = 0;
+                e.preventDefault();
+                _.animation.visible.delay = 0.3;
+                TweenLite.to(_.$gridItems, _.animation.duration, _.animation.hidden);
+                for (i; i < _.$gridItems.length; i++) {
+                    _.animation.visible.delay += 0.05;
+                    TweenLite.to(_.$gridItems[i], _.animation.duration, _.animation.visible);
+                }
+            }
+        };
+
+        HexGrid.init();
+
+
+    </script>
+</head>
+<body>
+    <div class="hex-container">
+        <ul class="hex-grid">
+            <li class="hex-grid__item no-refresh"> <a href="#" class="js-grid-refresh"> <img class="hex-grid__media" src="https://unsplash.it/200/230?image=528" alt=""> </a> </li>
+            <li class="hex-grid__item no-refresh"> <a href="#" class="js-grid-refresh"> <img class="hex-grid__media" src="https://unsplash.it/200/230?image=528" alt=""> </a> </li>
+        </ul>
+        <ul class="hex-grid">
+            <li class="hex-grid__item no-refresh"> <a href="#" class="js-grid-refresh"> <img class="hex-grid__media" src="https://unsplash.it/200/230?image=528" alt=""> </a> </li>
+            <li class="hex-grid__item no-refresh"> <a href="#" class="js-grid-refresh"> <img class="hex-grid__media" src="https://unsplash.it/200/230?image=528" alt=""> </a> </li>
+            <li class="hex-grid__item no-refresh"> <a href="#" class="js-grid-refresh"> <img class="hex-grid__media" src="https://unsplash.it/200/230?image=528" alt=""> </a> </li>
+        </ul>
+        <ul class="hex-grid">
+            <li class="hex-grid__item no-refresh"> <a href="#" class="js-grid-refresh"> <img class="hex-grid__media" src="https://unsplash.it/200/230?image=528" alt=""> </a> </li>
+            <li class="hex-grid__item no-refresh"> <a href="#" class="js-grid-refresh"> <img class="hex-grid__media" src="https://unsplash.it/200/230?image=528" alt=""> </a> </li>
+        </ul>
+    </div>
+</body>
+</html>
