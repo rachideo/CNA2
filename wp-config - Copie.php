@@ -29,7 +29,7 @@ define( 'DB_USER', 'campusnuvkrachid' );
 define( 'DB_PASSWORD', 'H7nmAaYPw3' );
 
 /** Adresse de l’hébergement MySQL. */
-define( 'DB_HOST', 'campusnuvkrachid.mysql.db' );
+define( 'DB_HOST', 'localhost' );
 
 /** Jeu de caractères à utiliser par la base de données lors de la création des tables. */
 define( 'DB_CHARSET', 'utf8mb4' );
@@ -86,8 +86,8 @@ $table_prefix = 'wp_';
 define('WP_DEBUG', false);
 define( 'WP_DEBUG_DISPLAY', false );
 
-define('WP_HOME', 'http://v2.le-campus-numerique.fr');
-define('WP_SITEURL', 'http://v2.le-campus-numerique.fr');
+define('WP_HOME', 'http://cnawebsite.fr');
+define('WP_SITEURL', 'http://cnawebsite.fr');
 define('RELOCATE', true);
 
 /* C’est tout, ne touchez pas à ce qui suit ! Bonne publication. */

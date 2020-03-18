@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="6359801e-977c-4580-a417-254de4093bb0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-config.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely.1.1.2/shapely/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/shapely.1.1.2/shapely/functions.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely.1.1.2/shapely/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/shapely.1.1.2/shapely/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,7 +47,7 @@
     <property name="last_opened_file_path" value="C:/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.customizations" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -93,7 +95,8 @@
       <workItem from="1583003735579" duration="11670000" />
       <workItem from="1583234527089" duration="32121000" />
       <workItem from="1583946006787" duration="4842000" />
-      <workItem from="1584005979683" duration="17884000" />
+      <workItem from="1584005979683" duration="23738000" />
+      <workItem from="1584540858778" duration="6081000" />
     </task>
     <servers />
   </component>

@@ -1,5 +1,6 @@
 <?php
-
+update_option( 'siteurl', 'http://v2.le-campus-numerique.fr');
+update_option( 'home', 'http://v2.le-campus-numerique.fr');
 
 
 /**

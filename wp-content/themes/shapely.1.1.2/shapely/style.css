@@ -225,7 +225,19 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 }
 
 
+/* ----- Page Qui sommes nous - Galerie ---- */
 
+.grid-style.style-1 figcaption {
+    left: 0;
+}
+
+.grid-style.style-1 figure {
+    padding: 0 0 90px 0;
+}
+
+#panel-w5e724616bd6a9-0-1-0 {
+    padding-top: 30px;
+}
 
 
 
@@ -356,11 +368,11 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 
 /* ----- Page Home - Testimonial ----- */
 
-#pg-43-5 {
+#pg-43-4 {
     margin-bottom: 100px !important;
 }
 
-#panel-w5e5d754123009-0-0-0 {
+#panel-w5e71f155ef09a-1-0-0 {
     margin-bottom: 30px;
 }
 
@@ -426,6 +438,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 .intromobile.row {
     margin-bottom: 50px;
 }
+
 .intromobile.row p {
     font-size: 16px;
     padding: 0 30px;
@@ -461,6 +474,43 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     font-size: 16px;
     margin-bottom: 0;
     font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .moving-letters {
+        margin-top: 50px !important;
+    }
+
+    .intromobile.row {
+        margin-bottom: 10px !important;
+    }
+
+    .intromobile.row p {
+        font-size: 12px !important;
+        padding: 0 30px;
+    }
+
+    .intromobile .col-xs-6 {
+        margin: 0 auto;
+        position: relative;
+        text-align: center;
+        padding-top: 10px !important;
+    }
+
+    .intromobile span {
+        font-size: 30px !important;
+        margin-bottom: 10px !important;
+        font-weight: bold;
+        display: inline-block;
+        text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.1);
+    }
+
+    .intromobile p {
+        font-size: 12px !important;
+        margin-bottom: 0;
+        font-weight: bold;
+    }
 }
 
 /* DESKTOP KPI blocs  */
