@@ -264,7 +264,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 .hex-formation {
     float: left;
     margin-left: 9px;
-    margin-bottom: -91px;
+    margin-bottom: -82px;
 }
 
 .hex-formation .top-formation {
@@ -656,7 +656,7 @@ canvas{
     position: absolute;
     top: 100px;
     width: 100vw !important;
-    height: 90vh !important;
+    height: calc(100vh - 84px) !important;
     background-color: #ee2961;
     z-index: 0;
 }
@@ -868,6 +868,12 @@ canvas{
     margin-top: 130px;
 }
 
+/* ----- Page Formation Développeur ---- */
+
+.so-widget-sow-image-default-454c8732248b .sow-image-container .so-widget-image {
+    display: block !important;
+    width: 100%;
+}
 
 /* ----- Bouton / Badge inactif ----- */
 
@@ -936,7 +942,7 @@ canvas{
 /*------ Page Qui Sommes Nous ------*/
 
 #hero-about-bloc {
-    height: calc(100vh - 74px);
+    height: calc(100vh - 84px);
     -webkit-align-items: center !important;
     align-items: center !important;
     flex-direction: row !important;
