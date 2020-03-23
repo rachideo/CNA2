@@ -22,7 +22,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 					<?php
 					if ( $members->have_posts() ) :
 						?>
-					<select name="members" id="awsm-members">			
+					<select name="members" id="awsm-members">
 						<?php
 						echo '<option value="" data-img="' . esc_url( $defaultimage ) . '">' . esc_html_e( 'Select members', 'awsm-team-pro' ) . '</option>';
 						while ( $members->have_posts() ) :
@@ -86,9 +86,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 								?>
 								<li data-member-id="<?php echo esc_attr( $team->post->ID ); ?>" class="">
 								<img width="31" height="31" src="<?php echo esc_url( $this->team_thumbnail( $team->post->ID, 'thumbnail' ) ); ?>"/>
-								<p><?php esc_html( the_title() ); ?></p><span class="remove-member-to-list" data-member="<?php echo esc_attr( $team->post->ID ); ?>"><i class="awsm-icon-close"></i></span>
+								<p><?php the_title(); ?></p><span class="remove-member-to-list" data-member="<?php echo esc_attr( $team->post->ID ); ?>"><i class="awsm-icon-close"></i></span>
 								<input type="hidden" name="memberlist[]" value="<?php echo esc_attr( $team->post->ID ); ?>">
-								</li>	 
+								</li>
 								<?php
 							endwhile;
 							wp_reset_postdata();
@@ -149,7 +149,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 							<h2 class="sub-h"><?php esc_html_e( 'Style', 'awsm-team-pro' ); ?></h2>
 							<span>
 							<?php
-								$url = 'http://dev.awsm.in/team/wp-demo/';
+								$url = 'https://demo.awsm.in/team-pro/';
 								printf(
 									wp_kses(
 										/* translators: %s: Team demo link */
@@ -198,7 +198,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 							<p></p>
 							<span><?php esc_html_e( 'Check this option to activate filters in the team', 'awsm-team-pro' ); ?></span>
 						</div><!-- .awsm-heading-group -->
-						
+
 						<div class="awsm-filter-show<?php echo $options['enable_filter'] && $options['enable_filter'] == 1 ? ' show' : ''; ?>">
 							<span> <?php esc_html_e( 'Select the filters and drag and drop to reorder them', 'awsm-team-pro' ); ?></span>
 							<p></p>
@@ -217,7 +217,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 								echo '</select>';
 							}
 							?>
-										
+
 						</div><!-- .awsm-filter-show -->
 					</div><!-- .awsm-filter-wrap -->
 				</div>
@@ -241,6 +241,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 			</div>
 		<# } #>
 		<p class="select2-result-repository__title">{{{data.title}}}</p>
-		
+
    </div>
 </script>

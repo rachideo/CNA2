@@ -1542,7 +1542,6 @@ window.particlesJS.load = function(tag_id, path_config_json, callback){
 
 
 
-JAVASCRIPT
 var ml4 = {};
 ml4.opacityIn = [0,1];
 ml4.scaleIn = [0.2, 1];

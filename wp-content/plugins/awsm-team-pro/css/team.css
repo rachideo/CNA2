@@ -47,8 +47,12 @@ html.awsm-popup-on{
     line-height: 1.2;
 }
 
-.clearfix::after,
-.awsm-grid::after {
+/*.awsm-grid::after {
+    content: "";
+    clear: both;
+    display: block;
+} */
+.clearfix::after{
     content: "";
     clear: both;
     display: block;
@@ -65,7 +69,7 @@ html.awsm-popup-on{
 }
 
 .awsm-grid-wrapper .awsm-grid > .awsm-grid-card {
-    float: left;
+    /* float: left; */
     width: 25%;
     padding: 0 15px;
     margin: 0 0 30px;
@@ -271,6 +275,7 @@ figure figcaption a,
     }
 
 }
+
 @font-face {
   font-family: 'awsmicon';
   src: url('fonts/icomoon.eot');
@@ -3870,6 +3875,22 @@ yx-axis
 	padding: 0;
 }
 
+.awsm-grid:not(.drawer-style){
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	display: flexbox;
+	-webkit-flex-flow: row wrap;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	   -moz-box-orient: horizontal;
+	   -moz-box-direction: normal;
+	    -ms-flex-flow: row wrap;
+	        flex-flow: row wrap;
+	}
+
 .list-style .awsm-personal-info h3 {
 	font-size: 18px;
 	margin: 0 0 5px;
@@ -4015,6 +4036,10 @@ yx-axis
 	-moz-transition: opacity 0.4s, visibility 0.5s;
 }
 
+.awsm-modal-item.awsm-modal-hidden .awsm-modal-content{
+	display: none !important;
+}
+
 .modal-style.style-1 .awsm-modal-item {
 	height: 100%;
 	position: absolute;
@@ -4051,35 +4076,128 @@ yx-axis
 	width: calc(100% - 1px);
 	max-height: 100%;
 	opacity: 0;
-	-webkit-backface-visibility: hidden;
-	-moz-backface-visibility: hidden;
-	backface-visibility: hidden;
-	-ms-transform: translateY(100px);
-	    transform: translateY(100px);
-	-webkit-transform: translateY(100px);
-	-moz-transform: translateY(100px);
-	-webkit-transition: -webkit-transform 0.6s, opacity 0.3s;
-	-moz-transition: -moz-transform 0.6s, opacity 0.3s;
-	-webkit-transition: opacity 0.3s, -webkit-transform 0.6s;
-	transition: opacity 0.3s, -webkit-transform 0.6s;
-	-moz-transition: transform 0.6s, opacity 0.3s, -moz-transform 0.6s;
-	transition: transform 0.6s, opacity 0.3s;
-	transition: transform 0.6s, opacity 0.3s, -webkit-transform 0.6s, -moz-transform 0.6s;
+}
+
+.modal-style.style-1 .awsm-modal-closing .awsm-modal-content{
+	opacity: 1;
+	visibility: visible;
+	-webkit-animation-duration: 0.5s;
+	   -moz-animation-duration: 0.5s;
+	        animation-duration: 0.5s;
+	-webkit-animation-name: animateTeamModalOut;
+	   -moz-animation-name: animateTeamModalOut;
+	        animation-name: animateTeamModalOut;
 }
 
 .modal-style.style-1 .awsm-modal-open .awsm-modal-content {
-	opacity: 1;
-	-ms-transform: translateY(0);
-	    transform: translateY(0);
-	-webkit-transform: translateY(0);
-	-moz-transform: translateY(0);
-	-webkit-transition: -webkit-transform 0.6s 0.3s, opacity 0.3s 0.3s;
-	-moz-transition: -moz-transform 0.6s 0.3s, opacity 0.3s 0.3s;
-	-webkit-transition: opacity 0.3s 0.3s, -webkit-transform 0.6s 0.3s;
-	transition: opacity 0.3s 0.3s, -webkit-transform 0.6s 0.3s;
-	-moz-transition: transform 0.6s 0.3s, opacity 0.3s 0.3s, -moz-transform 0.6s 0.3s;
-	transition: transform 0.6s 0.3s, opacity 0.3s 0.3s;
-	transition: transform 0.6s 0.3s, opacity 0.3s 0.3s, -webkit-transform 0.6s 0.3s, -moz-transform 0.6s 0.3s;
+	-webkit-animation-duration: 0.5s;
+	   -moz-animation-duration: 0.5s;
+	        animation-duration: 0.5s;
+	-webkit-animation-name: animateTeamModalIn;
+	   -moz-animation-name: animateTeamModalIn;
+	        animation-name: animateTeamModalIn;
+	-webkit-animation-delay: 0.3s;
+	   -moz-animation-delay: 0.3s;
+	        animation-delay: 0.3s;
+	-webkit-animation-fill-mode: forwards;
+	   -moz-animation-fill-mode: forwards;
+	        animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes animateTeamModalOut {
+	from {
+		opacity: 1;
+		transform: translate3d(0,0,0);
+		-webkit-transform: translate3d(0,0,0);
+		-moz-transform: translate3d(0,0,0);
+	}
+
+	to {
+		opacity: 0;
+		transform: translate3d(0,100px,0);
+		-webkit-transform: translate3d(0,100px,0);
+		-moz-transform: translate3d(0,100px,0);
+	}
+}
+
+@-moz-keyframes animateTeamModalOut {
+	from {
+		opacity: 1;
+		transform: translate3d(0,0,0);
+		-webkit-transform: translate3d(0,0,0);
+		-moz-transform: translate3d(0,0,0);
+	}
+
+	to {
+		opacity: 0;
+		transform: translate3d(0,100px,0);
+		-webkit-transform: translate3d(0,100px,0);
+		-moz-transform: translate3d(0,100px,0);
+	}
+}
+
+@keyframes animateTeamModalOut {
+	from {
+		opacity: 1;
+		transform: translate3d(0,0,0);
+		-webkit-transform: translate3d(0,0,0);
+		-moz-transform: translate3d(0,0,0);
+	}
+
+	to {
+		opacity: 0;
+		transform: translate3d(0,100px,0);
+		-webkit-transform: translate3d(0,100px,0);
+		-moz-transform: translate3d(0,100px,0);
+	}
+}
+
+@-webkit-keyframes animateTeamModalIn {
+	from {
+		opacity: 0;
+		transform: translate3d(0,100px,0);
+		-webkit-transform: translate3d(0,100px,0);
+		-moz-transform: translate3d(0,100px,0);
+	}
+
+	to {
+		opacity: 1;
+		transform: translate3d(0,0,0);
+		-webkit-transform: translate3d(0,0,0);
+		-moz-transform: translate3d(0,0,0);
+	}
+}
+
+@-moz-keyframes animateTeamModalIn {
+	from {
+		opacity: 0;
+		transform: translate3d(0,100px,0);
+		-webkit-transform: translate3d(0,100px,0);
+		-moz-transform: translate3d(0,100px,0);
+	}
+
+	to {
+		opacity: 1;
+		transform: translate3d(0,0,0);
+		-webkit-transform: translate3d(0,0,0);
+		-moz-transform: translate3d(0,0,0);
+	}
+}
+
+@keyframes animateTeamModalIn {
+	from {
+		opacity: 0;
+		transform: translate3d(0,100px,0);
+		-webkit-transform: translate3d(0,100px,0);
+		-moz-transform: translate3d(0,100px,0);
+	}
+
+	to {
+		opacity: 1;
+		transform: translate3d(0,0,0);
+		-webkit-transform: translate3d(0,0,0);
+		-moz-transform: translate3d(0,0,0);
+	}
 }
 
 .modal-style.style-1 .awsm-modal-content-main {
@@ -4359,17 +4477,29 @@ yx-axis
 	-moz-transition: opacity 0.4s;
 	transition: opacity 0.4s;
 }
-
-.slide-ins-style.style-1 .awsm-modal-open .awsm-modal-content {
-	opacity: 1;
-	-ms-transform: translateX(0);
-	    transform: translateX(0);
-	-webkit-transform: translateX(0);
-	-moz-transform: translateX(0);
-	-webkit-transition: opacity 0.4s 0.3s;
-	-moz-transition: opacity 0.4s 0.3s;
-	transition: opacity 0.4s 0.3s;
+.slide-ins-style.style-1 .awsm-modal-closing .awsm-modal-content{
+	-webkit-animation-duration: 0.5s;
+	   -moz-animation-duration: 0.5s;
+	        animation-duration: 0.5s;
+	-webkit-animation-name: animateTeamFadeOut;
+	   -moz-animation-name: animateTeamFadeOut;
+	        animation-name: animateTeamFadeOut;
 }
+.slide-ins-style.style-1 .awsm-modal-open .awsm-modal-content {
+	-webkit-animation-duration: 0.5s;
+	   -moz-animation-duration: 0.5s;
+	        animation-duration: 0.5s;
+	-webkit-animation-name: animateTeamFadeIn;
+	   -moz-animation-name: animateTeamFadeIn;
+	        animation-name: animateTeamFadeIn;
+	-webkit-animation-delay: 0.3s;
+	   -moz-animation-delay: 0.3s;
+	        animation-delay: 0.3s;
+	-webkit-animation-fill-mode: forwards;
+	   -moz-animation-fill-mode: forwards;
+	        animation-fill-mode: forwards;
+}
+
 
 .slide-ins-style.style-1 .awsm-modal-content-main {
 	height: 100%;
@@ -4635,20 +4765,29 @@ yx-axis
 	overflow: auto;
 	max-height: 100%;
 	opacity: 0;
-	-webkit-transition: opacity 0.4s;
-	-moz-transition: opacity 0.4s;
-	transition: opacity 0.4s;
 }
 
+.slide-ins-style.style-2 .awsm-modal-closing .awsm-modal-content{
+	-webkit-animation-duration: 0.5s;
+	   -moz-animation-duration: 0.5s;
+	        animation-duration: 0.5s;
+	-webkit-animation-name: animateTeamFadeOut;
+	   -moz-animation-name: animateTeamFadeOut;
+	        animation-name: animateTeamFadeOut;
+}
 .slide-ins-style.style-2 .awsm-modal-open .awsm-modal-content {
-	opacity: 1;
-	-ms-transform: translateX(0);
-	    transform: translateX(0);
-	-webkit-transform: translateX(0);
-	-moz-transform: translateX(0);
-	-webkit-transition: opacity 0.4s 0.3s;
-	-moz-transition: opacity 0.4s 0.3s;
-	transition: opacity 0.4s 0.3s;
+	-webkit-animation-duration: 0.5s;
+	   -moz-animation-duration: 0.5s;
+	        animation-duration: 0.5s;
+	-webkit-animation-name: animateTeamFadeIn;
+	   -moz-animation-name: animateTeamFadeIn;
+	        animation-name: animateTeamFadeIn;
+	-webkit-animation-delay: 0.3s;
+	   -moz-animation-delay: 0.3s;
+	        animation-delay: 0.3s;
+	-webkit-animation-fill-mode: forwards;
+	   -moz-animation-fill-mode: forwards;
+	        animation-fill-mode: forwards;
 }
 
 .slide-ins-style.style-2 .awsm-modal-content-main {
@@ -5269,6 +5408,64 @@ yx-axis
 :root .cards-style.style-2 figure:hover figcaption {
 	z-index: 3;
 }
+@-webkit-keyframes animateTeamFadeOut {
+	from {
+		opacity: 1;
+	}
+
+	to {
+		opacity: 0;
+	}
+}
+@-moz-keyframes animateTeamFadeOut {
+	from {
+		opacity: 1;
+	}
+
+	to {
+		opacity: 0;
+	}
+}
+@keyframes animateTeamFadeOut {
+	from {
+		opacity: 1;
+	}
+
+	to {
+		opacity: 0;
+	}
+}
+
+@-webkit-keyframes animateTeamFadeIn {
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+}
+
+@-moz-keyframes animateTeamFadeIn {
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes animateTeamFadeIn {
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+}
+
 /*------- RTL Support -----*/
 
 html[dir='rtl'] .awsm-grid-wrapper .awsm-grid>.awsm-grid-card{

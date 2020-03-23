@@ -3,7 +3,7 @@
  * Plugin Name: AWSM Team Pro
  * Plugin URI: http://awsm.in/team-pro-documentation
  * Description: The most versatile plugin to create and manage your Team page. Packed with 8 unique presets and number of styles to choose from.
- * Version: 1.7.0
+ * Version: 1.7.1
  * Author: AWSM Innovations
  * Author URI: http://awsm.in/
  * License: GPL
@@ -66,7 +66,7 @@ if ( ! class_exists( 'Awsm_Team' ) ) :
 				'plugin_base'     => dirname( plugin_basename( __FILE__ ) ),
 				'plugin_base_url' => plugin_basename( __FILE__ ),
 				'plugin_file'     => __FILE__,
-				'plugin_version'  => '1.7.0',
+				'plugin_version'  => '1.7.1',
 			);
 			$this->load_plugin_textdomain();
 			$this->run_plugin();
@@ -516,6 +516,7 @@ if ( ! class_exists( 'Awsm_Team' ) ) :
 					'title',
 					'editor',
 					'thumbnail',
+					'custom-fields',
 				),
 				'menu_icon'       => 'dashicons-admin-users',
 				'show_in_rest'    => true,
@@ -1000,6 +1001,7 @@ if ( ! class_exists( 'Awsm_Team' ) ) :
 			$args         = array(
 				'post_type'      => 'awsm_team_member',
 				'posts_per_page' => -1,
+				'post_status'    => 'publish',
 			);
 			$members      = new WP_Query( $args );
 			$options      = $this->get_options( 'awsm_team', $post->ID );
@@ -1117,7 +1119,11 @@ if ( ! class_exists( 'Awsm_Team' ) ) :
 							$newdata = array_map( 'wp_strip_all_tags', wp_unslash( $_POST[ $meta_key ] ) );
 						}
 					} else {
-						$newdata = wp_strip_all_tags( wp_unslash( $_POST[ $meta_key ] ) );
+						if ( $meta_key === 'awsm-team-designation' || $meta_key === 'awsm-team-short-desc' ) {
+							$newdata = wp_kses( wp_unslash( $_POST[ $meta_key ] ), 'post' );
+						} else {
+							$newdata = wp_strip_all_tags( wp_unslash( $_POST[ $meta_key ] ) );
+						}
 					}
 					if ( ! empty( $newdata ) && $newdata != $olddata ) {
 						update_post_meta( $post_id, $meta_key, $newdata );

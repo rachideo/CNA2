@@ -10,7 +10,7 @@
 ?>
 <div id="<?php echo esc_attr( $this->add_id( array( 'awsm-team', $id ) ) ); ?>" class="awsm-grid-wrapper">
 	<?php echo $this->show_team_filter( $team, $id ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
-	
+
 	<?php if ( $team->have_posts() ) : ?>
 	<div class=''>
 		<div class="gridder awsm-grid <?php echo esc_attr( $this->item_style( $options ) ); ?>">
@@ -27,13 +27,13 @@
 			}
 			?>
 				<div id="<?php echo esc_attr( $this->add_id( array( 'awsm-member', $id, $team->post->ID ) ) ); ?>" class="awsm-grid-list awsm-grid-card awsm-team-item awsm-scale-anm <?php echo esc_attr( $member_terms ); ?>" data-griddercontent="#awsm-grid-content-<?php echo esc_attr( $team->post->ID ); ?>">
-					<a href="#">
+					<a href="#info">
 						<figure>
 						<?php echo $this->get_team_thumbnail( $team->post->ID ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
 							<figcaption>
 								<div class="awsm-personal-info">
-								<?php $this->checkprint( '<span>%s</span>', esc_html( $teamdata['awsm-team-designation'] ) ); ?>
-									<h3><?php esc_html( the_title() ); ?></h3>
+								<?php $this->checkprint( '<span>%s</span>', wp_kses( $teamdata['awsm-team-designation'], 'post' ) ); ?>
+									<h3><?php the_title(); ?></h3>
 								</div>
 							</figcaption>
 						</figure>
@@ -56,8 +56,8 @@
 						<div class="awsm-personal-details">
 							<div class="awsm-content-scrollbar">
 								<?php
-								$this->checkprint( '<span>%s</span>', esc_html( $teamdata['awsm-team-designation'] ) );
-								esc_html( the_title( '<h2>', '</h2>' ) );
+								$this->checkprint( '<span>%s</span>', wp_kses( $teamdata['awsm-team-designation'], 'post' ) );
+								the_title( '<h2>', '</h2>' );
 								the_content();
 								?>
 							</div>
@@ -77,5 +77,5 @@
 			?>
 		</div>
 	</div>
-	<?php endif; ?>	
+	<?php endif; ?>
 </div>

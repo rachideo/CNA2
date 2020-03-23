@@ -10,7 +10,7 @@
 ?>
 <div id="<?php echo esc_attr( $this->add_id( array( 'awsm-team', $id ) ) ); ?>" class="awsm-grid-wrapper">
 	<?php echo $this->show_team_filter( $team, $id ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
-	
+
 	<div class="awsm-modal">
 	<?php if ( $team->have_posts() ) : ?>
 		<div class="awsm-grid-modal awsm-grid <?php echo esc_attr( $this->item_style( $options ) ); ?>">
@@ -27,13 +27,13 @@
 			}
 			?>
 				<div id="<?php echo esc_attr( $this->add_id( array( 'awsm-member', $id, $team->post->ID ) ) ); ?>" class="awsm-grid-card awsm-team-item awsm-scale-anm  <?php echo esc_attr( $member_terms ); ?>">
-					<a href="#" class="awsm-modal-trigger" data-trigger="#<?php echo esc_attr( $this->add_id( array( 'slide-ins', $id, $team->post->ID ) ) ); ?>">
+					<a href="#info" class="awsm-modal-trigger" data-trigger="#<?php echo esc_attr( $this->add_id( array( 'slide-ins', $id, $team->post->ID ) ) ); ?>">
 						<figure>
 								<?php echo $this->get_team_thumbnail( $team->post->ID ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
 								<figcaption>
 									<div class="awsm-personal-info">
-										<?php $this->checkprint( '<span>%s</span>', esc_html( $teamdata['awsm-team-designation'] ) ); ?>
-										<h3><?php esc_html( the_title() ); ?></h3>
+										<?php $this->checkprint( '<span>%s</span>', wp_kses( $teamdata['awsm-team-designation'], 'post' ) ); ?>
+										<h3><?php the_title(); ?></h3>
 									</div>
 								</figcaption>
 						</figure>
@@ -47,10 +47,10 @@
 		<div class="awsm-modal-items <?php echo esc_attr( $this->item_style( $options ) ); ?>">
 			<div class="awsm-modal-items-main">
 					<div class="awsm-modal-header clearfix">
-						<a href="#" class="awsm-modal-close"></a>
+						<a href="#close" class="awsm-modal-close"></a>
 						<span class="awsm-modal-nav">
-						<a href="#" class="awsm-nav-item awsm-nav-left"><i class="awsm-icon-arrow-left"></i></a>
-						<a href="#" class="awsm-nav-item awsm-nav-right"><i class="awsm-icon-arrow-right"></i></a>
+						<a href="#prev" class="awsm-nav-item awsm-nav-left"><i class="awsm-icon-arrow-left"></i></a>
+						<a href="#next" class="awsm-nav-item awsm-nav-right"><i class="awsm-icon-arrow-right"></i></a>
 						</span>
 					</div>
 					<?php
@@ -68,9 +68,9 @@
 						include $this->get_template_path( 'popup-slide.php', 'partials' );
 					endwhile;
 					?>
-						
+
 			</div>
 		</div>
-	<?php endif; ?>	
+	<?php endif; ?>
 	</div>
 </div>

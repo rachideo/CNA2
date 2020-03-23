@@ -1,4 +1,4 @@
-# Copyright (C) 2019 AWSM Team Pro
+# Copyright (C) 2020 AWSM Team Pro
 # This file is distributed under the same license as the AWSM Team Pro package.
 msgid ""
 msgstr ""
@@ -14,7 +14,7 @@ msgstr ""
 "X-Poedit-SourceCharset: UTF-8\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: awsm-team.php:122, awsm-team.php:123, awsm-team.php:533
+#: awsm-team.php:122, awsm-team.php:123, awsm-team.php:534
 msgid "Awsm Team"
 msgstr ""
 
@@ -22,11 +22,11 @@ msgstr ""
 msgid "Select Team"
 msgstr ""
 
-#: awsm-team.php:293, awsm-team.php:1822
+#: awsm-team.php:293, awsm-team.php:1828
 msgid "Team not found"
 msgstr ""
 
-#: awsm-team.php:296, awsm-team.php:1825
+#: awsm-team.php:296, awsm-team.php:1831
 msgid "No members found"
 msgstr ""
 
@@ -38,7 +38,7 @@ msgstr ""
 msgid "No Teams"
 msgstr ""
 
-#: awsm-team.php:471, awsm-team.php:621
+#: awsm-team.php:471, awsm-team.php:622
 msgid "Team Member"
 msgstr ""
 
@@ -46,7 +46,7 @@ msgstr ""
 msgid "Team Members"
 msgstr ""
 
-#: awsm-team.php:476, awsm-team.php:1892, includes/class-team-elementor-widget.php:33, includes/modules/beaverbuilder/awsmteam.php:26
+#: awsm-team.php:476, awsm-team.php:1898, includes/class-team-elementor-widget.php:33, includes/modules/beaverbuilder/awsmteam.php:26
 msgid "AWSM Team"
 msgstr ""
 
@@ -56,19 +56,19 @@ msgstr ""
 
 #. translators: %s: singular term
 #. translators: %s: singular term
-#: awsm-team.php:479, awsm-team.php:536
+#: awsm-team.php:479, awsm-team.php:537
 msgid "Add %s"
 msgstr ""
 
 #. translators: %s: singular term
 #. translators: %s: singular term
-#: awsm-team.php:481, awsm-team.php:538
+#: awsm-team.php:481, awsm-team.php:539
 msgid "New %s"
 msgstr ""
 
 #. translators: %s: singular term
 #. translators: %s: singular term
-#: awsm-team.php:483, awsm-team.php:540
+#: awsm-team.php:483, awsm-team.php:541
 msgid "Edit %s"
 msgstr ""
 
@@ -76,55 +76,55 @@ msgstr ""
 #. translators: %s: plural term
 #. translators: %s: singular term
 #. translators: %s: plural term
-#: awsm-team.php:485, awsm-team.php:495, awsm-team.php:542, awsm-team.php:551
+#: awsm-team.php:485, awsm-team.php:495, awsm-team.php:543, awsm-team.php:552
 msgid "View %s"
 msgstr ""
 
 #. translators: %s: singular term
-#: awsm-team.php:487, awsm-team.php:848, includes/team-details.php:18
+#: awsm-team.php:487, awsm-team.php:849, includes/team-details.php:18
 msgid "Members"
 msgstr ""
 
 #. translators: %s: plural term
 #. translators: %s: plural term
-#: awsm-team.php:489, awsm-team.php:545
+#: awsm-team.php:489, awsm-team.php:546
 msgid "Search %s"
 msgstr ""
 
 #. translators: %s: plural term
 #. translators: %s: plural term
-#: awsm-team.php:491, awsm-team.php:547
+#: awsm-team.php:491, awsm-team.php:548
 msgid "No %s found"
 msgstr ""
 
 #. translators: %s: plural term
 #. translators: %s: plural term
-#: awsm-team.php:493, awsm-team.php:549
+#: awsm-team.php:493, awsm-team.php:550
 msgid "No %s found in trash"
 msgstr ""
 
 #. translators: %s: singular term
 #. translators: %s: singular term
 #. translators: %s: singular term
-#: awsm-team.php:497, awsm-team.php:553, awsm-team.php:601
+#: awsm-team.php:497, awsm-team.php:554, awsm-team.php:602
 msgid "%s published."
 msgstr ""
 
 #. translators: %s: singular term
 #. translators: %s: singular term
-#: awsm-team.php:499, awsm-team.php:555
+#: awsm-team.php:499, awsm-team.php:556
 msgid "%s published privately."
 msgstr ""
 
 #. translators: %s: singular term
 #. translators: %s: singular term
-#: awsm-team.php:501, awsm-team.php:557
+#: awsm-team.php:501, awsm-team.php:558
 msgid "%s reverted to draft."
 msgstr ""
 
 #. translators: %s: singular term
 #. translators: %s: singular term
-#: awsm-team.php:503, awsm-team.php:559
+#: awsm-team.php:503, awsm-team.php:560
 msgid "%s scheduled."
 msgstr ""
 
@@ -132,316 +132,316 @@ msgstr ""
 #. translators: %s: singular term
 #. translators: %s: singular term
 #. translators: %s: singular term
-#: awsm-team.php:505, awsm-team.php:561, awsm-team.php:593, awsm-team.php:597
+#: awsm-team.php:505, awsm-team.php:562, awsm-team.php:594, awsm-team.php:598
 msgid "%s updated."
 msgstr ""
 
 #. translators: %s: plural term
 #. translators: %s: plural term
-#: awsm-team.php:510, awsm-team.php:566
+#: awsm-team.php:510, awsm-team.php:567
 msgid "This is where you can create and manage %s."
 msgstr ""
 
-#: awsm-team.php:528, awsm-team.php:622, awsm-team.php:776, includes/class-team-elementor-widget.php:73
+#: awsm-team.php:529, awsm-team.php:623, awsm-team.php:777, includes/class-team-elementor-widget.php:73
 msgid "Team"
 msgstr ""
 
-#: awsm-team.php:529, awsm-team.php:543
+#: awsm-team.php:530, awsm-team.php:544
 msgid "Teams"
 msgstr ""
 
-#: awsm-team.php:534, awsm-team.php:963, awsm-team.php:963, includes/popup.php:38
+#: awsm-team.php:535, awsm-team.php:964, awsm-team.php:964, includes/popup.php:38
 msgid "Add Team"
 msgstr ""
 
 #. translators: %1$s: singular term, %2$s: date and time of the revision
-#: awsm-team.php:599
+#: awsm-team.php:600
 msgid "%1$s restored to revision from %2$s."
 msgstr ""
 
 #. translators: %s: singular term
-#: awsm-team.php:603
+#: awsm-team.php:604
 msgid "%s saved."
 msgstr ""
 
 #. translators: %s: singular term
-#: awsm-team.php:605
+#: awsm-team.php:606
 msgid "%s submitted."
 msgstr ""
 
 #. translators: %1$s: singular term, %2$s: scheduled date
-#: awsm-team.php:607
+#: awsm-team.php:608
 msgid "%1$s scheduled for: %2$s."
 msgstr ""
 
 #. translators: %s: singular term
-#: awsm-team.php:609
+#: awsm-team.php:610
 msgid "%s draft updated."
 msgstr ""
 
 #. translators: %s: member count
-#: awsm-team.php:636
+#: awsm-team.php:637
 msgid "%s team member updated."
 msgid_plural "%s team members updated."
 msgstr[0] ""
 msgstr[1] ""
 
 #. translators: %s: member count
-#: awsm-team.php:638
+#: awsm-team.php:639
 msgid "%s team member not updated, somebody is editing it."
 msgid_plural "%s team members not updated, somebody is editing them."
 msgstr[0] ""
 msgstr[1] ""
 
 #. translators: %s: member count
-#: awsm-team.php:640
+#: awsm-team.php:641
 msgid "%s team member permanently deleted."
 msgid_plural "%s team members permanently deleted."
 msgstr[0] ""
 msgstr[1] ""
 
 #. translators: %s: member count
-#: awsm-team.php:642
+#: awsm-team.php:643
 msgid "%s team member moved to the Trash."
 msgid_plural "%s team members moved to the Trash."
 msgstr[0] ""
 msgstr[1] ""
 
 #. translators: %s: member count
-#: awsm-team.php:644
+#: awsm-team.php:645
 msgid "%s team member restored from the Trash."
 msgid_plural "%s team members restored from the Trash."
 msgstr[0] ""
 msgstr[1] ""
 
 #. translators: %s: team count
-#: awsm-team.php:649
+#: awsm-team.php:650
 msgid "%s team updated."
 msgid_plural "%s teams updated."
 msgstr[0] ""
 msgstr[1] ""
 
 #. translators: %s: team count
-#: awsm-team.php:651
+#: awsm-team.php:652
 msgid "%s team not updated, somebody is editing it."
 msgid_plural "%s teams not updated, somebody is editing them."
 msgstr[0] ""
 msgstr[1] ""
 
 #. translators: %s: team count
-#: awsm-team.php:653
+#: awsm-team.php:654
 msgid "%s team permanently deleted."
 msgid_plural "%s teams permanently deleted."
 msgstr[0] ""
 msgstr[1] ""
 
 #. translators: %s: team count
-#: awsm-team.php:655
+#: awsm-team.php:656
 msgid "%s team moved to the Trash."
 msgid_plural "%s teams moved to the Trash."
 msgstr[0] ""
 msgstr[1] ""
 
 #. translators: %s: team count
-#: awsm-team.php:657
+#: awsm-team.php:658
 msgid "%s team restored from the Trash."
 msgid_plural "%s teams restored from the Trash."
 msgstr[0] ""
 msgstr[1] ""
 
-#: awsm-team.php:669
+#: awsm-team.php:670
 msgctxt "taxonomy general name"
 msgid "Filters"
 msgstr ""
 
-#: awsm-team.php:670
+#: awsm-team.php:671
 msgctxt "taxonomy singular name"
 msgid "Filter"
 msgstr ""
 
-#: awsm-team.php:671
+#: awsm-team.php:672
 msgid "Search Filters"
 msgstr ""
 
-#: awsm-team.php:672
+#: awsm-team.php:673
 msgid "Popular Filters"
 msgstr ""
 
-#: awsm-team.php:673
+#: awsm-team.php:674
 msgid "All Filters"
 msgstr ""
 
-#: awsm-team.php:676
+#: awsm-team.php:677
 msgid "Edit Filter"
 msgstr ""
 
-#: awsm-team.php:677
+#: awsm-team.php:678
 msgid "Update Filter"
 msgstr ""
 
-#: awsm-team.php:678
+#: awsm-team.php:679
 msgid "Add New Filter"
 msgstr ""
 
-#: awsm-team.php:679
+#: awsm-team.php:680
 msgid "New Filter Name"
 msgstr ""
 
-#: awsm-team.php:680
+#: awsm-team.php:681
 msgid "Separate Filters with commas"
 msgstr ""
 
-#: awsm-team.php:681
+#: awsm-team.php:682
 msgid "Add or remove Filters"
 msgstr ""
 
-#: awsm-team.php:682
+#: awsm-team.php:683
 msgid "Choose from the most used Filters"
 msgstr ""
 
-#: awsm-team.php:683
+#: awsm-team.php:684
 msgid "No Filters found."
 msgstr ""
 
-#: awsm-team.php:684, awsm-team.php:777
+#: awsm-team.php:685, awsm-team.php:778
 msgid "Filters"
 msgstr ""
 
-#: awsm-team.php:757
+#: awsm-team.php:758
 msgid "Please upload square-cropped photos with a minimum dimension of 500px"
 msgstr ""
 
-#: awsm-team.php:773, awsm-team.php:847, templates/table.php:22
+#: awsm-team.php:774, awsm-team.php:848, templates/table.php:22
 msgid "Name"
 msgstr ""
 
-#: awsm-team.php:774
+#: awsm-team.php:775
 msgid "Photo"
 msgstr ""
 
-#: awsm-team.php:775, includes/member-details.php:14, templates/table.php:25
+#: awsm-team.php:776, includes/member-details.php:14, templates/table.php:25
 msgid "Designation"
 msgstr ""
 
-#: awsm-team.php:849
+#: awsm-team.php:850
 msgid "Preset"
 msgstr ""
 
-#: awsm-team.php:850, includes/team-details.php:149
+#: awsm-team.php:851, includes/team-details.php:149
 msgid "Style"
 msgstr ""
 
-#: awsm-team.php:851, awsm-team.php:890
+#: awsm-team.php:852, awsm-team.php:891
 msgid "Shortcode"
 msgstr ""
 
-#: awsm-team.php:890, awsm-team.php:913
+#: awsm-team.php:891, awsm-team.php:914
 msgid "Copy"
 msgstr ""
 
-#: awsm-team.php:912
+#: awsm-team.php:913
 msgid "Copied"
 msgstr ""
 
-#: awsm-team.php:914
+#: awsm-team.php:915
 msgid "Press \"Ctrl + C\" to copy"
 msgstr ""
 
-#: awsm-team.php:915
+#: awsm-team.php:916
 msgid "Oops! something wrong happened"
 msgstr ""
 
-#: awsm-team.php:916
+#: awsm-team.php:917
 msgid "Select filters"
 msgstr ""
 
-#: awsm-team.php:964, awsm-team.php:964, includes/class-team-elementor-widget.php:64, includes/modules/beaverbuilder/awsmteam.php:83
+#: awsm-team.php:965, awsm-team.php:965, includes/class-team-elementor-widget.php:64, includes/modules/beaverbuilder/awsmteam.php:83
 msgid "Settings"
 msgstr ""
 
-#: awsm-team.php:973
+#: awsm-team.php:974
 msgid "Member Details"
 msgstr ""
 
-#: awsm-team.php:974
+#: awsm-team.php:975
 msgid "Team Details"
 msgstr ""
 
-#: awsm-team.php:975
+#: awsm-team.php:976
 msgid "Add to team"
 msgstr ""
 
-#: awsm-team.php:1589
+#: awsm-team.php:1595
 msgid "Not a valid member ID!"
 msgstr ""
 
-#: awsm-team.php:1593, awsm-team.php:1661
+#: awsm-team.php:1599, awsm-team.php:1667
 msgid "Not authorized to make this request!"
 msgstr ""
 
-#: awsm-team.php:1598
+#: awsm-team.php:1604
 msgid "Team name cannot be emtpy!"
 msgstr ""
 
-#: awsm-team.php:1615
+#: awsm-team.php:1621
 msgid "Error while creating new team"
 msgstr ""
 
-#: awsm-team.php:1657
+#: awsm-team.php:1663
 msgid "Not a valid team ID!"
 msgstr ""
 
-#: awsm-team.php:1666
+#: awsm-team.php:1672
 msgid "Invalid request!"
 msgstr ""
 
-#: awsm-team.php:1890
+#: awsm-team.php:1896
 msgid "Select"
 msgstr ""
 
-#: awsm-team.php:1891
+#: awsm-team.php:1897
 msgid "Nothing to insert"
 msgstr ""
 
-#: awsm-team.php:1913
+#: awsm-team.php:1919
 msgid "AWSM Team Pro"
 msgstr ""
 
 #. translators: %1$s: plugin latest version, %2$s: plugin name, %3$s: html content
-#: awsm-team.php:1915
+#: awsm-team.php:1921
 msgid "There is a new version %1$s of %2$s available. %3$s"
 msgstr ""
 
 #. translators: %1$s: Opening anchor tag, %2$s: closing anchor tag
-#: awsm-team.php:1934
+#: awsm-team.php:1940
 msgid "Please %1$s activate your copy%2$s of AWSM Team Pro to receive automatic updates."
 msgstr ""
 
-#: awsm-team.php:2064
+#: awsm-team.php:2070
 msgid "Thank you, your purchase code has been verified."
 msgstr ""
 
-#: awsm-team.php:2067
+#: awsm-team.php:2073
 msgid "Something is wrong! "
 msgstr ""
 
-#: awsm-team.php:2067
+#: awsm-team.php:2073
 msgid "Either the purchase key is invalid or your support license is expired. "
 msgstr ""
 
-#: awsm-team.php:2067
+#: awsm-team.php:2073
 msgid "Renew Support"
 msgstr ""
 
-#: awsm-team.php:2109
+#: awsm-team.php:2115
 msgid "Dismiss"
 msgstr ""
 
-#: awsm-team.php:2124
+#: awsm-team.php:2130
 msgid "Error in dismissing the notice. Please try again!"
 msgstr ""
 
-#: awsm-team.php:2129
+#: awsm-team.php:2135
 msgid "You don&#8217;t have the permission to dismiss this notice!"
 msgstr ""
 

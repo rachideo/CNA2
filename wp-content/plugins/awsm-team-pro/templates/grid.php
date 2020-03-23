@@ -10,7 +10,7 @@
 ?>
 <div id="<?php echo esc_attr( $this->add_id( array( 'awsm-team', $id ) ) ); ?>" class="awsm-grid-wrapper">
 	<?php echo $this->show_team_filter( $team, $id ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
-	
+
 	<?php if ( $team->have_posts() ) : ?>
 		<div class="awsm-grid <?php echo esc_attr( $this->item_style( $options ) ); ?>">
 		<?php
@@ -30,13 +30,13 @@
 					 <?php echo $this->get_team_thumbnail( $team->post->ID ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
 						 <figcaption>
 							<div class="awsm-personal-info">
-							   <h3><?php esc_html( the_title() ); ?></h3>
-						   <?php $this->checkprint( '<span>%s</span>', esc_html( $teamdata['awsm-team-designation'] ) ); ?>
+							   <h3><?php the_title(); ?></h3>
+							   <?php $this->checkprint( '<span>%s</span>', wp_kses( $teamdata['awsm-team-designation'], 'post' ) ); ?>
 							</div>
 							<div class="awsm-contact-info">
 							<?php
 							if ( $options['preset'] === 'style-4' ) {
-								$this->checkprint( '<p>%s</p>', esc_html( $teamdata['awsm-team-short-desc'] ) );
+								$this->checkprint( '<p>%s</p>', wp_kses( $teamdata['awsm-team-short-desc'], 'post' ) );
 							}
 							include $this->get_template_path( 'social.php', 'partials' );
 							?>

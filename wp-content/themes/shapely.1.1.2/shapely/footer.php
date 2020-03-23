@@ -35,17 +35,17 @@
             <div class="col-sm-6 col-xs-6">
                 <div>
                     <a href="https://www.facebook.com/campusNumeriqueInTheAlps/" target="_blank">
-                        <i class="fa fa-facebook footer-icon"></i>
+                        <i class="fa fa-facebook footer-icon" title="Facebook"></i>
                     </a>
                 </div>
                 <div>
                     <a href="https://twitter.com/CampusAlps" target="_blank">
-                        <i class="fa fa-twitter footer-icon"></i>
+                        <i class="fa fa-twitter footer-icon" title="Twitter"></i>
                     </a>
                 </div>
                 <div>
                     <a href="https://www.linkedin.com/school/campus-numerique-in-the-alps/" target="_blank">
-                        <i class="fa fa-linkedin footer-icon"></i>
+                        <i class="fa fa-linkedin footer-icon" title="Linkedin"></i>
                     </a>
                 </div>
             </div>

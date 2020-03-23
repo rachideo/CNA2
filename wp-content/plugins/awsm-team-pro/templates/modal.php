@@ -10,7 +10,7 @@
 ?>
 <div id="<?php echo esc_attr( $this->add_id( array( 'awsm-team', $id ) ) ); ?>" class="awsm-grid-wrapper">
 	<?php echo $this->show_team_filter( $team, $id ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
-	
+
 	<div class="awsm-modal">
 	<?php if ( $team->have_posts() ) : ?>
 		<div class="awsm-grid-modal awsm-grid <?php echo esc_attr( $this->item_style( $options ) ); ?>">
@@ -27,13 +27,13 @@
 			}
 			?>
 				<div id="<?php echo esc_attr( $this->add_id( array( 'awsm-member', $id, $team->post->ID ) ) ); ?>" class="awsm-grid-card awsm-team-item awsm-scale-anm <?php echo esc_attr( $member_terms ); ?>">
-					<a href="#" id="tigger-style-<?php echo esc_attr( $id . '-' . $team->post->ID ); ?>" class="awsm-modal-trigger" data-trigger="#modal-style-<?php echo esc_attr( $id . '-' . $team->post->ID ); ?>">
+					<a href="#info" id="tigger-style-<?php echo esc_attr( $id . '-' . $team->post->ID ); ?>" class="awsm-modal-trigger" data-trigger="#modal-style-<?php echo esc_attr( $id . '-' . $team->post->ID ); ?>">
 						<figure>
 							<?php echo $this->get_team_thumbnail( $team->post->ID ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
 							<figcaption>
 								<div class="awsm-personal-info">
-									<?php $this->checkprint( '<span>%s</span>', esc_html( $teamdata['awsm-team-designation'] ) ); ?>
-									<h3><?php esc_html( the_title() ); ?></h3>
+									<?php $this->checkprint( '<span>%s</span>', wp_kses( $teamdata['awsm-team-designation'], 'post' ) ); ?>
+									<h3><?php the_title(); ?></h3>
 								</div>
 							</figcaption>
 						</figure>
@@ -45,9 +45,9 @@
 		?>
 		</div>
 		<div class="awsm-modal-items <?php echo esc_attr( $this->item_style( $options ) ); ?>">
-			<a href="#" class="awsm-modal-close"></a>
+			<a href="#close" class="awsm-modal-close"></a>
 			<div class="awsm-modal-items-main">
-				<a href="#" class="awsm-nav-item awsm-nav-left"></a>
+				<a href="#prev" class="awsm-nav-item awsm-nav-left"></a>
 					<?php
 					while ( $team->have_posts() ) :
 						$team->the_post();
@@ -62,10 +62,10 @@
 						include $this->get_template_path( 'popup.php', 'partials' );
 					endwhile;
 					?>
-						
-				<a href="#" class="awsm-nav-item awsm-nav-right"></a>
+
+				<a href="#next" class="awsm-nav-item awsm-nav-right"></a>
 			   </div>
 		</div>
-	<?php endif; ?>	
+	<?php endif; ?>
 	</div>
 </div>

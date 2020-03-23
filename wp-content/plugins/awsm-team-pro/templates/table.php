@@ -10,7 +10,7 @@
 ?>
 <div id="<?php echo esc_attr( $this->add_id( array( 'awsm-team', $id ) ) ); ?>" class="awsm-grid-wrapper">
 	<?php echo $this->show_team_filter( $team, $id ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
-	
+
 	<?php if ( $team->have_posts() ) : ?>
 		<div class="awsm-grid">
 			<div class="awsm-table <?php echo esc_attr( $this->item_style( $options ) ); ?>">
@@ -26,7 +26,7 @@
 					</div>
 					<div class="awsm-table-cell">
 						<?php esc_html_e( 'Short Description', 'awsm-team-pro' ); ?>
-					</div>		
+					</div>
 					<div class="awsm-table-cell">
 						<?php esc_html_e( 'Social Links', 'awsm-team-pro' ); ?>
 					</div>
@@ -50,13 +50,13 @@
 						</div>
 					</div>
 					<div class="awsm-table-cell awsm-table-name">
-						<div class="awsm-table-cell-inner"><?php esc_html( the_title() ); ?></div>
+						<div class="awsm-table-cell-inner"><?php the_title(); ?></div>
 					</div>
 					<div class="awsm-table-cell awsm-table-designation">
-						<div class="awsm-table-cell-inner"><?php $this->checkprint( '%s', esc_html( $teamdata['awsm-team-designation'] ) ); ?></div>
+						<div class="awsm-table-cell-inner"><?php $this->checkprint( '%s', wp_kses( $teamdata['awsm-team-designation'], 'post' ) ); ?></div>
 					</div>
 					<div class="awsm-table-cell awsm-table-description">
-						<div class="awsm-table-cell-inner"><?php $this->checkprint( '<p>%s</p>', esc_html( $teamdata['awsm-team-short-desc'] ) ); ?></div>
+						<div class="awsm-table-cell-inner"><?php $this->checkprint( '<p>%s</p>', wp_kses( $teamdata['awsm-team-short-desc'], 'post' ) ); ?></div>
 					</div>
 					<div class="awsm-table-cell">
 						<?php
@@ -70,5 +70,5 @@
 				?>
 			</div>
 		</div>
-	<?php endif; ?>	
+	<?php endif; ?>
 </div>

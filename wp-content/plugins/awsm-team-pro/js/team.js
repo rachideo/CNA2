@@ -284,18 +284,20 @@ var AwsmModel = (function($) {
     var $teamList = $('.awsm-modal').find(".awsm-grid-modal"),
         $teamItems = $('.awsm-modal').find(".awsm-modal-items"),
         $teamItem = $('.awsm-modal').find(".awsm-modal-item"),
-        $modal=$('.awsm-modal'),
-        Modalclose,
+		$modal=$('.awsm-modal'),
+		customScrollBar,
+		Modalclose,
+		itemClassHandler,
         Modalopen,
         Awsmslider,
         bgclick,
-        keyBinding,
+		keyBinding,
+		enableNav = true,
         Modalplay,
         $circleslide,
         init = function() {
             bindUIActions();
-        },
-
+		},
         bindUIActions = function() {
             $(document).on("click", ".awsm-modal-close", Modalclose);
             $(document).on("click", ".awsm-modal-trigger", Modalopen);
@@ -306,39 +308,71 @@ var AwsmModel = (function($) {
         bgclick = function(e) {
             if (e.target != this) return;
             Modalclose(e);
-        }
+		},
+		customScrollBar = function($popupItem) {
+			if ($('.modal-style.style-1').length > 0) {
+				if ($(window).width() > 830) {
+					if ($popupItem.parents('.modal-style.style-1').length > 0) {
+						$popupItem.find('.awsm-modal-content').mCustomScrollbar({
+							theme:"dark",
+							scrollInertia:400
+						});
+					}
+			   } else{
+				   $('.modal-style.style-1 .awsm-modal-content').mCustomScrollbar('destroy');
+			   }
+			}
+		},
         Modalopen = function(e) {
             e.preventDefault();
             $modal = $(this).parents(".awsm-modal");
-            var popItem = $(this).data('trigger');
-            $(popItem).parents('.awsm-modal-items').addClass('awsm-modal-on');
-            $(popItem).addClass('awsm-modal-open');
+			var popItem = $(this).data('trigger');
+			var $wrapper = $(popItem).parents('.awsm-modal-items');
+
+            $wrapper.find('.awsm-modal-item').addClass('awsm-modal-hidden');
+			$wrapper.addClass('awsm-modal-on');
+			$modal.find('.awsm-nav-item').removeClass('awsm-nav-disabled');
+			if ($wrapper.find('.awsm-modal-item' + '.' + getfilteredItemsClass()).length === 1) {
+				$modal.find('.awsm-nav-item').addClass('awsm-nav-disabled');
+			}
+
+            $(popItem).removeClass('awsm-modal-hidden').addClass('awsm-modal-open');
             $('html').addClass('awsm-popup-on awsm-popup-open');
-            if ($(window).width() > 830) {
-                 $('.modal-style.style-1 .awsm-modal-content').mCustomScrollbar({
-                    theme:"dark",
-                    scrollInertia:400
-                });
-            }else{
-                $('.modal-style.style-1 .awsm-modal-content').mCustomScrollbar('destroy');
-            }
-        },
+            customScrollBar($(popItem));
+		},
+		itemClassHandler = function($item) {
+			$item.removeClass('awsm-modal-open')
+			.addClass('awsm-modal-closing')
+			.delay(500)
+			.queue(function() {
+				$(this).removeClass('awsm-modal-closing').addClass('awsm-modal-hidden');
+				$(this).dequeue();
+				enableNav = true;
+			});
+		},
         Modalclose = function(e) {
             e.preventDefault();
-            $(".awsm-modal-items").removeClass('awsm-modal-on');
-            $(".awsm-modal-item").removeClass('awsm-modal-open');
+			$(".awsm-modal-items").removeClass('awsm-modal-on');
+			itemClassHandler($(".awsm-modal-item"));
             $('html').removeClass('awsm-popup-on');
             setTimeout(function() {
                 $('html').removeClass('awsm-popup-open');
-            }, 600);
-        },
+			}, 600);
+		},
+		getfilteredItemsClass = function() {
+			var itemClass = $modal.parents('.awsm-grid-wrapper').find('.awsm-filter-btn.awsm-active-filter').data('rel');
+			if (typeof itemClass === 'undefined' || itemClass.length === 0) {
+				itemClass = 'awsm-all';
+			}
+			return itemClass;
+		},
         Awsmslider = function(e) {
-            e.preventDefault();
-            var direction = 'forward';
-            if ($(this).hasClass('awsm-nav-left')) {
-                direction = 'rewind';
-            }
-            Modalplay(direction);
+			e.preventDefault();
+			var direction = 'forward';
+			if ($(this).hasClass('awsm-nav-left')) {
+				direction = 'rewind';
+			}
+			Modalplay(direction);
         },
         keyBinding = function(e) {
             switch (e.keyCode) {
@@ -354,21 +388,28 @@ var AwsmModel = (function($) {
             }
         },
         Modalplay = function(direction) {
-            var $curentOpen=$modal.find('.awsm-modal-open:visible').first(),
-                $curenItem =$modal.find('.awsm-modal-item:visible').first(),
-                $slideritem = $curentOpen.prevAll('.awsm-modal-item:visible').first(),
-                $circleslide = $curenItem.last('.awsm-modal-item:visible:first');
-            if (direction == 'forward') {
-                $slideritem =$curentOpen.nextAll('.awsm-modal-item:visible').first();
-                $circleslide = $curenItem.first('.awsm-modal-item:visible:first');
-            }
-            if ($slideritem.length == 0) {
-                $curentOpen.removeClass('awsm-modal-open');
-                $circleslide.addClass('awsm-modal-open');
-            } else {
-                $curentOpen.removeClass('awsm-modal-open');
-                $slideritem.addClass('awsm-modal-open');
-            } 
+			var $navItem = $modal.find('.awsm-nav-item').first();
+			if (!$navItem.hasClass('awsm-nav-disabled') && enableNav) {
+				enableNav = false;
+				var itemSelector = '.awsm-modal-item' + '.' + getfilteredItemsClass();
+
+				var $curentOpen = $modal.find('.awsm-modal-open').first();
+				var $filteredItems = $modal.find(itemSelector);
+				var $slideritem = $curentOpen.prevAll(itemSelector).first();
+				var $circleslide = $filteredItems.last();
+				if (direction == 'forward') {
+					$slideritem =$curentOpen.nextAll(itemSelector).first();
+					$circleslide = $filteredItems.first();
+				}
+				if ($slideritem.length == 0) {
+					$circleslide.removeClass('awsm-modal-hidden').addClass('awsm-modal-open');
+					customScrollBar($circleslide);
+				} else {
+					$slideritem.removeClass('awsm-modal-hidden').addClass('awsm-modal-open');
+					customScrollBar($slideritem);
+				}
+				itemClassHandler($curentOpen);
+			}
         };
     return {
         init: init
@@ -377,6 +418,7 @@ var AwsmModel = (function($) {
 (function($) {
     AwsmModel.init();
 })(jQuery);
+
 var AwsmCustom = (function($) {
     var init = function() {
         bindUIActions();

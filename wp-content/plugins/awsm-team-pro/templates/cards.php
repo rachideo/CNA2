@@ -14,9 +14,9 @@ if ( in_array( $options['preset'], array( 'style-2' ), true ) ) {
 	$flipclass = array( 'awsm-flip-back' );
 }
 ?>
-<div id="<?php echo esc_attr( $this->add_id( array( 'awsm-team', $id ) ) ); ?>" class="awsm-grid-wrapper">	
+<div id="<?php echo esc_attr( $this->add_id( array( 'awsm-team', $id ) ) ); ?>" class="awsm-grid-wrapper">
 	<?php echo $this->show_team_filter( $team, $id ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
-	
+
 	<?php if ( $team->have_posts() ) : ?>
 		<div class="awsm-grid <?php echo esc_attr( $this->item_style( $options ) ); ?>">
 		<?php
@@ -38,20 +38,20 @@ if ( in_array( $options['preset'], array( 'style-2' ), true ) ) {
 					 <?php echo $this->get_team_thumbnail( $team->post->ID ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
 					<?php if ( $flip ) : ?>
 						 <div class="awsm-personal-info">
-							<h3><?php esc_html( the_title() ); ?></h3>
-							<span><?php echo esc_html( $teamdata['awsm-team-designation'] ); ?></span>
+							<h3><?php the_title(); ?></h3>
+							<span><?php echo wp_kses( $teamdata['awsm-team-designation'], 'post' ); ?></span>
 						 </div>
 						<?php endif; ?>
 					<?php $this->checkprint( '</div>', $flip ); ?>
 						 <figcaption class="<?php echo esc_attr( $this->addclass( $flipclass ) ); ?>">
 						<?php $this->checkprint( '<div class="awsm-flip-back-inner">', $flip ); ?>
 							<div class="awsm-personal-info">
-							   <h3><?php esc_attr( the_title() ); ?></h3>
-							   <span><?php echo esc_html( $teamdata['awsm-team-designation'] ); ?></span>
+							   <h3><?php the_title(); ?></h3>
+							   <span><?php echo wp_kses( $teamdata['awsm-team-designation'], 'post' ); ?></span>
 							</div>
 							<div class="awsm-contact-info">
 							<?php
-							$this->checkprint( '<p>%s</p>', esc_html( $teamdata['awsm-team-short-desc'] ) );
+							$this->checkprint( '<p>%s</p>', wp_kses( $teamdata['awsm-team-short-desc'], 'post' ) );
 							include $this->get_template_path( 'social.php', 'partials' );
 							?>
 							</div>
