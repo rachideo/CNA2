@@ -49,10 +49,40 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 /*--------------------------------------------------------------
 # MODIFICATION DE RACHIDEO
 --------------------------------------------------------------*/
+/* >>>
+    # Général
+        ## Bouton - Display inline
+        ## Bouton - Badge
+    # Home
+        ## Hero
+        ## Hexagone Formations
+        ## Block Campus
+        ## Testimonial
+        ## En savoir plus
+    # Villes
+        ## Post Hero
+        ## Mise en forme du dernier article
+        ## Description formation
+        ## Tabs Formation
+        ## HR
+        ## Contact
+    # Formations
+        ## Alignement
+        ## Espacement
+        ## Développeur
+        ## Fenêtre
+    # Qui sommes nous
+        ## Qui sommes nous
+        ## Galerie
+    # 404
+    # Footer
+        ## Widget Area Size
+        ## Liens
+        ## Derniers éléments
+ */
 
 
-
-/*----- Général -----*/
+/*** ---------- GENERAL ---------- ***/
 
 .heading-cna {
     font-size: 36px;
@@ -82,463 +112,55 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 }
 
 .link-without-spacing {
-    margin: 0px !important;
-    padding: 0px !important;
+    margin: 0 !important;
+    padding: 0 !important;
 }
 
-/*----- Page Accueil - Navbar -----*/
+/* -- Général - Bouton Display Inline-Block -- */
 
-.navbar-bg-color {
-    background-color : #262626;
-}
-
-.pink-down-arrow {
-    color : #EE2961;
-}
-
-.menu-item-object-category {
-    color : #EE2961;
+#btn-home-campus .widget_sow-button {
+    display: inline-block;
+    margin: 5px !important;
 }
 
 
-.menu-item-object-custom:last-child {
-    padding: 0px 10px 0px 0px !important;
+.ow-icon-placement-left {
+    white-space: nowrap;
 }
 
+/* -- Général - Bouton / Badge inactif -- */
 
-
-/*------- Page Accueil - Image Cover ---------*/
-#imgTest img {
-    max-height: 35vh;
-    width: auto;
-    display: block;
-    margin: auto;
+.btn-inactif {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 100%;
+    font-size: 1em;
+    padding: 0.5em 1em;
+    color: #ffffff !important;
+    border-radius: 0.5em;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.05);
 }
 
-
-/*------- Page Accueil - Cartes formation ---------*/
-.card {
-    margin: 30px 0px 50px 0px;
-    padding: 0px 15px 0px 15px;
-    background-color: #ffffff;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    border-radius: 10px;
-    min-width: 0;
-    word-wrap: break-word;
-    text-align: center;
+.bg-color-bleu {
+    background: #2f82c5;
+    border: 1px solid #2f82c5;
 }
 
-@media all and (max-width: 767px) {
-    .card {
-        padding: 20px 15px 0px 15px;
-    }
-
+.bg-color-orange {
+    background: #f76434;
+    border: 1px solid #f76434;
 }
 
-.card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+.bg-color-violet {
+    background: #7f41ab;
+    border: 1px solid #7f41ab;
 }
 
 
 
-/*------- Page Accueil - Empeche la selection de div sur Chrome notamment ---------*/
-.noSelect {
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-}
-*:focus {
-    outline: none;
-}
+/*** ---------- PAGE HOME ---------- ***/
 
-
-/*------- Page Ville - Mise en forme du dernier article ---------*/
-.columnArticleVille {
-    float: left;
-    width: 50%;
-}
-
-.rowArticleVille:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-/*------ Page Ville - Block Adresse ------*/
-
-.ville-adresse-titre {
-    font-size: 18px;
-    display: block;
-    padding-bottom: 5px;
-    margin-bottom: 5px !important;
-}
-
-#icon-adresse {
-    padding-top: 5px !important;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#contact-ville {
-    padding: 30px 30px 30px 30px;
-    margin: 0px 15px 20px 15px;
-    min-height: 300px;
-}
-
-#contact {
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-
-
-/* ----- Page Home - Block Campus ----- */
-.img-campus-hexa {
-    margin-right: 8px;
-    vertical-align: bottom;
-}
-
-.font-campus-hexa-label {
-    font-weight: bold;
-    font-size: 28px;
-}
-
-#campus-pills-line {
-    margin-bottom: 20px !important;
-}
-
-#campus-pills-line-mobile {
-    margin-bottom: 30px !important;
-}
-
-.home-pills-mobile {
-    margin-left: 50px !important;
-}
-
-#bloc-campus-home-desktop {
-    color: white;
-    height: 393px;
-    padding-top: 60px;
-}
-
-
-/* ----- Page Qui sommes nous - Galerie ---- */
-
-.grid-style.style-1 figcaption {
-    left: 0;
-}
-
-.grid-style.style-1 figure {
-    padding: 0 0 90px 0;
-}
-
-#panel-w5e724616bd6a9-0-1-0 {
-    padding-top: 30px;
-}
-
-
-
-
-
-/* ----- Page Home - Titre des blocks ----- */
-.img-icone-block {
-    margin: 0px 8px 12px 0px;
-    height: 50px;
-    width: 50px;
-}
-
-.font-titre-block {
-    font-weight: bold;
-    font-size: 36px;
-}
-
-/* ----- Page Home - Hexagone Formations ----- */
-
-.hexa-title {
-    font-size: 38px;
-    font-weight: 900;
-    color: white;
-}
-
-.hexa-text {
-    font-size: 22px;
-    color: white;
-}
-
-.hex-formation-centered {
-    display: flex;
-    justify-content: center !important;
-}
-
-.hex-formation {
-    float: left;
-    margin-left: 9px;
-    margin-bottom: -82px;
-}
-
-.hex-formation .top-formation {
-    width: 0;
-    border-bottom: 90px solid var(--couleur-hexa);
-    border-left: 156px solid transparent;
-    border-right: 156px solid transparent;
-}
-
-.hex-formation .middle-formation {
-    width: 312px;
-    height: 180px;
-    padding: 0px 20px;
-    background: var(--couleur-hexa);
-}
-
-.hex-formation .bottom-formation {
-    width: 0;
-    border-top: 90px solid var(--couleur-hexa);
-    border-left: 156px solid transparent;
-    border-right: 156px solid transparent;
-}
-.hex-formation-row {
-    clear: left;
-    margin-right: 161px;
-
-}
-.hex-formation-row.even {
-    margin-left: 322px;
-}
-
-.bloc-hexa-formation {
-    padding-top: 50px;
-}
-
-@media (max-width: 1010px) {
-
-    #bloc-hexa-formation-mobile {
-        margin-top: 50px;
-    }
-
-    .hexa-title {
-        font-size: 19px;
-        font-weight: 900;
-        color: white;
-    }
-
-    .hexa-text {
-        font-size: 11px;
-        color: white;
-    }
-
-    .hex-formation-centered {
-        display: flex;
-        justify-content: center !important;
-    }
-
-    .hex-formation {
-        float: left;
-        margin-left: 9px;
-        margin-bottom: -54px;
-    }
-
-    .hex-formation .top-formation {
-        width: 0;
-        border-bottom: 60px solid var(--couleur-hexa);
-        border-left: 104px solid transparent;
-        border-right: 104px solid transparent;
-    }
-    .hex-formation .middle-formation {
-        width: 208px;
-        height: 120px;
-        padding: 20px;
-        background: var(--couleur-hexa);
-    }
-    .hex-formation .bottom-formation {
-        width: 0;
-        border-top: 60px solid var(--couleur-hexa);
-        border-left: 104px solid transparent;
-        border-right: 104px solid transparent;
-    }
-    .hex-formation-row {
-        clear: left;
-        margin-right: 106px;
-    }
-    .hex-formation-row.even {
-        margin-left: 212px;
-    }
-
-}
-
-
-/* ----- Page Home - Testimonial ----- */
-
-#testimonials {
-    margin-bottom: 100px !important;
-    margin-bottom: 30px;
-}
-
-
-/* ----- Page Home - Recrute ----- */
-
-#contenu-en-savoir-plus {
-    margin-top: 40px;
-    padding-top: 40px;
-}
-
-#recrute-home {
-    color: white;
-    height: 696px;
-    background-position: center right !important;
-}
-
-#btn-en-savoir-plus {
-    justify-content: center;
-    display: flex;
-}
-
-
-
-/* ----- Page Home ----- */
-
-
-
-
-/* ----- Footer - Liens ----- */
-
-.footer-grey-link {
-    font-size: 16px;
-    opacity: .6;
-    line-height: 2;
-    transition: opacity .2s ease;
-}
-
-.footer-grey-link:active,
-.footer-grey-link:hover,
-.footer-grey-link:focus {
-    opacity: 1;
-}
-
-footer .footer-mini-link {
-    opacity: .8;
-    line-height: 1.5;
-}
-
-footer .footer-mini-link:active,
-footer .footer-mini-link:hover,
-footer .footer-mini-link:focus {
-    opacity: 1;
-}
-
-
-.footer-mini-link a:visited, .footer-mini-link a:link, .footer-mini-link a:active, .footer-mini-link a:hover, .footer-mini-link a:focus {
-    font-size: 14px;
-    color: #ffffff;
-}
-
-
-
-
-
-
-
-
-/* ----- Footer - Widget Area Size ----- */
-
-
-.footer-widget-area .footer-widget:first-child {
-    width: 33.3%;
-}
-.footer-widget-area .footer-widget:nth-child(4n+2) .footer-widget:nth-child(4n+3){
-    width: 25%;
-}
-
-.footer-widget-area .footer-widget:last-child {
-    width: 16.6%;
-}
-
-@media all and (max-width: 990px) {
-
-    .footer-widget-area .footer-widget:first-child {
-        display: none;
-    }
-
-    .footer-widget-area .footer-widget:last-child {
-        display: none;
-    }
-
-    .footer-widget-area .footer-widget {
-        width: 50%;
-        float: left;
-    }
-}
-
-
-/* ----- Footer - Derniers éléments  ----- */
-.footer-nav-new {
-    flex: 0 0 50%;
-    margin-top: 15px;
-}
-
-.footer-nav-new a {
-    color : #ffffff;
-    font-weight: 600;
-    font-size: 14px;
-    display: block;
-    padding: 15px;
-}
-
-.footer-nav-new:nth-child(2n + 1) a {
-    padding-left: 0;
-}
-
-.footer-inner div:last-child {
-    flex-wrap: wrap;
-}
-
-@media all and (min-width: 990px) {
-    .footer-nav-new {
-        flex: auto;
-    }
-
-    .footer-nav-new:last-child a {
-        border-right: none;
-    }
-
-    .footer-nav-new a {
-        border-right: solid 1px #ffffff40;
-    }
-
-    .footer-nav-new:not(:last-child) a {
-        padding: 15px 20px 15px 0px
-    }
-
-    .footer-nav-new:not(:first-child) a {
-        padding: 15px 20px 15px 20px
-    }
-}
-
-.footer-nav-new a {
-    transition: opacity .2s ease;
-}
-.footer-nav-new a:hover {
-    opacity: 0.7;
-}
-
-.footer-hr {
-    margin-bottom: 0px;
-    height: 1px;
-}
-
-.footer-icon {
-    color: white;
-    margin: 100px 10px 20px 10px;
-    font-size: 24px;
-    float:right;
-}
-
-
-
-/* ----- Page Accueuil - Mesh 3D Hero ----- */
+/* -- Page Home - Hero -- */
 
 .moving-letters {
     position: relative;
@@ -560,16 +182,15 @@ footer .footer-mini-link:focus {
 
 #home-hero {
     background-color: #EE2961;
-    height: calc(100vh - 86px);
+    height: calc(100vh - 84px) !important;
 }
 
-/* particles-js-canvas-el est utilisé par le script js */
 .particles-js-canvas-el{
     position: absolute;
     z-index: 1;
     top: 0px !important;
     width: 100vw !important;
-    height: calc(100vh - 86px) !important;
+    height: calc(100vh - 84px) !important;
     background-color: transparent !important;
 }
 
@@ -577,17 +198,27 @@ canvas{
     position: absolute;
     top: 86px;
     width: 100vw !important;
-    height: calc(100vh - 86px) !important;
+    height: calc(100vh - 84px) !important;
     background-color: #ee2961;
     z-index: 0;
 }
 
 #herocanvas {
-    margin-top: -86px;
+    margin-top: -84px;
 }
 
-/* Home hero */
-/* 4 Cities container */
+@media (min-width: 2000px) {
+    #home-hero {
+        height: 60vh !important;
+    }
+    .particles-js-canvas-el{
+        height: 60vh !important;
+    }
+    canvas{
+        height: 60vh !important;
+    }
+}
+
 .ml4 {
     margin-top: 60px;
     margin-bottom: 60px;
@@ -595,7 +226,6 @@ canvas{
     flex-wrap: wrap;
 }
 
-/* single city */
 .ml4 .letters {
     font-weight: 900;
     font-size: 40px;
@@ -670,7 +300,6 @@ canvas{
     }
 }
 
-/* First mobile line of content */
 .intromobile.row {
     margin-bottom: 50px;
 }
@@ -680,7 +309,6 @@ canvas{
     padding: 0 30px;
 }
 
-/* Mobile KPI blocs  */
 .intromobile .col-xs-6 {
     margin: 0 auto;
     position: relative;
@@ -774,7 +402,6 @@ canvas{
     }
 }
 
-/* DESKTOP KPI blocs  */
 .introdesk .col-xs-3 {
     margin: 0 auto;
     position: relative;
@@ -811,44 +438,178 @@ canvas{
     font-weight: bold;
 }
 
+/* -- Page Home - Hexagone Formations -- */
 
+.hexa-title {
+    font-size: 38px;
+    font-weight: 900;
+    color: white;
+}
 
-/* ----- Bouton Display Inline-Block ----- */
+.hexa-text {
+    font-size: 22px;
+    color: white;
+}
 
-#btn-home-campus .widget_sow-button {
-    display: inline-block;
-    margin: 5px !important;
+.hex-formation-centered {
+    display: flex;
+    justify-content: center !important;
+}
+
+.hex-formation {
+    float: left;
+    margin-left: 9px;
+    margin-bottom: -82px;
+}
+
+.hex-formation .top-formation {
+    width: 0;
+    border-bottom: 90px solid var(--couleur-hexa);
+    border-left: 156px solid transparent;
+    border-right: 156px solid transparent;
+}
+
+.hex-formation .middle-formation {
+    width: 312px;
+    height: 180px;
+    padding: 0 20px;
+    background: var(--couleur-hexa);
+}
+
+.hex-formation .bottom-formation {
+    width: 0;
+    border-top: 90px solid var(--couleur-hexa);
+    border-left: 156px solid transparent;
+    border-right: 156px solid transparent;
+}
+.hex-formation-row {
+    clear: left;
+    margin-right: 161px;
+
+}
+.hex-formation-row.even {
+    margin-left: 322px;
+}
+
+.bloc-hexa-formation {
+    padding-top: 50px;
+}
+
+@media (max-width: 1010px) {
+
+    #bloc-hexa-formation-mobile {
+        margin-top: 50px;
+    }
+
+    .hexa-title {
+        font-size: 19px;
+        font-weight: 900;
+        color: white;
+    }
+
+    .hexa-text {
+        font-size: 11px;
+        color: white;
+    }
+
+    .hex-formation-centered {
+        display: flex;
+        justify-content: center !important;
+    }
+
+    .hex-formation {
+        float: left;
+        margin-left: 9px;
+        margin-bottom: -54px;
+    }
+
+    .hex-formation .top-formation {
+        width: 0;
+        border-bottom: 60px solid var(--couleur-hexa);
+        border-left: 104px solid transparent;
+        border-right: 104px solid transparent;
+    }
+    .hex-formation .middle-formation {
+        width: 208px;
+        height: 120px;
+        padding: 20px;
+        background: var(--couleur-hexa);
+    }
+    .hex-formation .bottom-formation {
+        width: 0;
+        border-top: 60px solid var(--couleur-hexa);
+        border-left: 104px solid transparent;
+        border-right: 104px solid transparent;
+    }
+    .hex-formation-row {
+        clear: left;
+        margin-right: 106px;
+    }
+    .hex-formation-row.even {
+        margin-left: 212px;
+    }
+
+}
+
+/* -- Page Home - Block Campus -- */
+
+.img-campus-hexa {
+    margin-right: 8px;
+    vertical-align: bottom;
+}
+
+.font-campus-hexa-label {
+    font-weight: bold;
+    font-size: 28px;
+}
+
+#campus-pills-line {
+    margin-bottom: 20px !important;
+}
+
+#campus-pills-line-mobile {
+    margin-bottom: 30px !important;
+}
+
+.home-pills-mobile {
+    margin-left: 50px !important;
+}
+
+#bloc-campus-home-desktop {
+    color: white;
+    height: 393px;
+    padding-top: 60px;
+}
+
+/* -- Page Home - Testimonial -- */
+
+#testimonials {
+    margin-bottom: 30px;
+}
+
+/* -- Page Home - En savoir plus -- */
+
+#contenu-en-savoir-plus {
+    margin-top: 40px;
+    padding-top: 40px;
+}
+
+#recrute-home {
+    color: white;
+    height: 696px;
+    background-position: center right !important;
+}
+
+#btn-en-savoir-plus {
+    justify-content: center;
+    display: flex;
 }
 
 
-.ow-icon-placement-left {
-    white-space: nowrap;
-}
 
-/* ----- Bouton Display Block ----- */
+/*** ---------- PAGES VILLES ----------***/
 
-
-/* Bouton Recrutement Page Villes
-#panel-w5e664bf593c94-0-0-1, #panel-w5e5675db45992-0-0-1, #panel-w5e56785a5c18c-0-0-1, #panel-w5e5564f3ec49e-0-0-1, #panel-w5e70b1eb51b53-0-0-1 {
-    display: block !important;
-}*/
-
-/* Bouton Hero Page Formations
-#panel-w5e5d74d4e7ddb-0-0-0, #panel-w5e5d74d4e7ddb-0-0-1, #panel-w5e5d3c9fa1bcb-0-0-0, #panel-w5e5d3c9fa1bcb-0-0-1, #panel-w5e5d3c9fa1bcb-0-0-2 {
-    display: block !important;
-    padding: 5px;
-} */
-
-/* Bouton Recrutement Page Formation
-#panel-w5e58e9d5a885c-0-0-1, #panel-w5e62457013a6e-0-0-1 {
-    display: block !important;
-} */
-
-
-
-
-
-/* ----- Page Ville - Post Hero ----- */
+/* -- Page Ville - Post Hero -- */
 
 .post-hero {
     background-position: center;
@@ -885,43 +646,35 @@ canvas{
     margin-left: 15px;
 }
 
-/* ----- Page Ville - Tabs Formation ----- */
+/* -- Page Ville - Mise en forme du dernier article -- */
 
-.formation-list-module {
-    font-size: 14px;
-    color: black;
+.columnArticleVille {
+    float: left;
+    width: 50%;
 }
 
-@media all and (max-width: 720px) {
-    .formation-list-module {
-        font-size: 12px;
-        color: black;
-    }
-
+.rowArticleVille:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
+/* -- Page Ville - Description formation -- */
 
-
-
-/*
-#pgc-w3d42f0ed-2-0, #pgc-w7d5a7385-2-0, #pgc-w67e12e14-2-0 {
-    justify-content: flex-end;
-    display: flex;
-    margin-bottom: 10px;
+#desc-formation {
+    font-size: 16px;
+    padding-right: 10px;
 }
 
-#panel-w3d42f0ed-2-0-0, #panel-w7d5a7385-2-0-0, #panel-w67e12e14-2-0-0 {
-    display: flex;
-    align-items: flex-end;
+#galerie-formateur {
+    padding-top: 100px;
+    padding-bottom: 30px;
 }
-*/
 
-/* Page Ville - alignement correct des logos des partenaires, bloc Formations */
 .logo-partenaire-align {
     display: flex;
     justify-content: flex-end;
 }
-
 
 .titre-formation-ville {
     font-size: 28px;
@@ -941,24 +694,53 @@ canvas{
     font-size: 14px;
 }
 
-/*espacement HR dans les blocs formations, page ville */
+/* -- Page Ville - Tabs Formation -- */
+
+.formation-list-module {
+    font-size: 14px;
+    color: black;
+}
+
+@media all and (max-width: 720px) {
+    .formation-list-module {
+        font-size: 12px;
+        color: black;
+    }
+
+}
+
+/* -- Page Ville - Espacement HR dans les blocs formations -- */
+
 #hr-padding {
     padding-top: 35px;
     padding-bottom: 20px;
 }
 
-/* description formation, page ville */
-#desc-formation {
-    font-size: 16px;
-    padding-right: 10px;
+/* -- Page Ville - Contact -- */
+
+.ville-adresse-titre {
+    font-size: 18px;
+    display: block;
+    padding-bottom: 5px;
+    margin-bottom: 5px !important;
 }
 
+#icon-adresse {
+    padding-top: 5px !important;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
-/* ----- Page Formation - Alignement -----*/
+#contact-ville {
+    padding: 30px 30px 30px 30px;
+    margin: 0 15px 20px 15px;
+    min-height: 300px;
+}
 
-.justify-center-flex {
-    justify-content: center;
-    display: flex;
+#contact {
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 #formation-ville {
@@ -972,6 +754,17 @@ canvas{
     margin-right: auto;
 }
 
+
+
+/*** ---------- PAGES FORMATIONS ---------- ***/
+
+/* -- Page Formation - Alignement --*/
+
+.justify-center-flex {
+    justify-content: center;
+    display: flex;
+}
+
 .dl-dev-pdf {
     color: #2F82C5;
     font-weight: 600;
@@ -983,55 +776,24 @@ canvas{
     /*-webkit-text-stroke: 1px white;*/
 }
 
-/* ----- Page Formation - Espacement ----- */
+/* -- Page Formation - Espacement -- */
 
 .mt80mb40 {
     padding-top: 120px;
     padding-bottom: 40px;
 }
 
-
-/* ----- Page Formation Développeur ---- */
+/* -- Page Formation - Développeur -- */
 
 #comment-ca-marche-mobile .sow-image-container .so-widget-image {
     display: block !important;
     width: 100%;
 }
 
-/* ----- Bouton / Badge inactif ----- */
-
-.btn-inactif {
-    box-sizing: border-box;
-    width: 100%;
-    max-width: 100%;
-    font-size: 1em;
-    padding: 0.5em 1em;
-    color: #ffffff !important;
-    border-radius: 0.5em;
-    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.05);
-}
-
-.bg-color-bleu {
-    background: #2f82c5;
-    border: 1px solid #2f82c5;
-}
-
-.bg-color-orange {
-    background: #f76434;
-    border: 1px solid #f76434;
-}
-
-.bg-color-violet {
-    background: #7f41ab;
-    border: 1px solid #7f41ab;
-}
-
-
-
-/* ------ Page Formation - Fenêtre ------*/
+/* -- Page Formation - Fenêtre --*/
 
 .formation-window {
-    font-family: "Courier New" !important;
+    font-family: "Courier New", Courier, monospace;
     font-size: 16px;
     font-weight: 600 !important;
     padding: 60px 10px 20px 50px;
@@ -1072,13 +834,9 @@ canvas{
     background-image: url("/wp-content/img/formation/bg-window-asperger-top.png");
 }
 
-.dl-formation {
-    float: right;
-    margin-right: 10px;
-}
 
 
-/*------ Page Qui Sommes Nous ------*/
+/*** ---------- PAGE QUI SOMMES NOUS ---------- ***/
 
 #hero-about-bloc {
     height: calc(100vh - 84px);
@@ -1129,8 +887,6 @@ canvas{
     text-align: center;
 }
 
-
-
 .partenaire-gallery-about {
     margin-left: auto;
     margin-right: auto;
@@ -1160,18 +916,165 @@ canvas{
     margin-top: 20px;
 }
 
-.equipe-rapagraphe-noir {
-    font-size: 14px;
-    line-height: 19px;
-    color: #000000;
+/* ----- Page Qui sommes nous - Galerie ---- */
+
+.grid-style.style-1 figcaption {
+    left: 0;
+}
+
+.grid-style.style-1 figure {
+    padding: 0 0 90px 0;
 }
 
 
 
+/*** ---------- PAGE 404 ---------- ***/
+
+.text404 {
+    color: black;
+    display: block;
+    padding: 40px ;
+}
+
+.text404 > h1 {
+    color: #EE2961; !important;
+    font-weight: 900;
+    padding: 50px;
+}
+
+.page404 {
+    position: relative;
+    text-align:center !important;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 300px;
+    margin-bottom: 300px;
+}
+
+@media screen and (min-width: 1600px) {
+    .page404 {
+        height: 50vh;
+    }
+}
 
 
 
+/*** ---------- FOOTER ---------- ***/
 
+/* -- Footer - Widget Area Size -- */
+
+.footer-widget-area .footer-widget:first-child {
+    width: 33.3%;
+}
+
+.footer-widget-area .footer-widget:last-child {
+    width: 16.6%;
+}
+
+@media all and (max-width: 990px) {
+
+    .footer-widget-area .footer-widget:first-child {
+        display: none;
+    }
+
+    .footer-widget-area .footer-widget:last-child {
+        display: none;
+    }
+
+    .footer-widget-area .footer-widget {
+        width: 50%;
+        float: left;
+    }
+}
+
+/* ----- Footer - Liens ----- */
+
+.footer-grey-link {
+    font-size: 16px;
+    opacity: .6;
+    line-height: 2;
+    transition: opacity .2s ease;
+}
+
+.footer-grey-link:active,
+.footer-grey-link:hover,
+.footer-grey-link:focus {
+    opacity: 1;
+}
+
+footer .footer-mini-link {
+    opacity: .8;
+    line-height: 1.5;
+}
+
+footer .footer-mini-link:active,
+footer .footer-mini-link:hover,
+footer .footer-mini-link:focus {
+    opacity: 1;
+}
+
+/* -- Footer - Derniers éléments  -- */
+.footer-nav-new {
+    flex: 0 0 50%;
+    margin-top: 15px;
+}
+
+.footer-nav-new a {
+    color : #ffffff;
+    font-weight: 600;
+    font-size: 14px;
+    display: block;
+    padding: 15px;
+}
+
+.footer-nav-new:nth-child(2n + 1) a {
+    padding-left: 0;
+}
+
+.footer-inner div:last-child {
+    flex-wrap: wrap;
+}
+
+@media all and (min-width: 990px) {
+    .footer-nav-new {
+        flex: auto;
+    }
+
+    .footer-nav-new:last-child a {
+        border-right: none;
+    }
+
+    .footer-nav-new a {
+        border-right: solid 1px #ffffff40;
+    }
+
+    .footer-nav-new:not(:last-child) a {
+        padding: 15px 20px 15px 0px
+    }
+
+    .footer-nav-new:not(:first-child) a {
+        padding: 15px 20px 15px 20px
+    }
+}
+
+.footer-nav-new a {
+    transition: opacity .2s ease;
+}
+.footer-nav-new a:hover {
+    opacity: 0.7;
+}
+
+.footer-hr {
+    margin-bottom: 0;
+    height: 1px;
+}
+
+.footer-icon {
+    color: white;
+    margin: 100px 10px 20px 10px;
+    font-size: 24px;
+    float:right;
+}
 
 
 
