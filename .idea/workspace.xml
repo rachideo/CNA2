@@ -2,18 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6359801e-977c-4580-a417-254de4093bb0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Utilisateur.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely.1.1.2/shapely/404.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/shapely.1.1.2/shapely/404.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/img/home/open_quote.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely.1.1.2/shapely/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/shapely.1.1.2/shapely/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2020/02/Florian-150x150.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2020/02/Florian-250x250.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2020/02/Florian-272x182.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2020/02/Florian-300x300.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2020/02/Florian-350x300.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2020/02/Florian-400x350.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2020/02/Florian.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/visualcomposer-assets/assets-bundles/a7d0577aef3f7b787b7287366f47a35c.source.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2020/02/open-quote.png" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -108,7 +100,7 @@
       <workItem from="1584611339996" duration="34000" />
       <workItem from="1584625972526" duration="20670000" />
       <workItem from="1584779710568" duration="4725000" />
-      <workItem from="1584958504391" duration="18675000" />
+      <workItem from="1584958504391" duration="23575000" />
     </task>
     <servers />
   </component>

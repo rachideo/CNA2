@@ -584,8 +584,13 @@ canvas{
 /* -- Page Home - Testimonial -- */
 
 #testimonials {
-    margin-bottom: 30px;
+    margin-bottom: 80px;
 }
+
+.sow-testimonial-user .sow-text::before {
+    content: url(/wp-content/img/home/open-quote.png);
+}
+
 
 /* -- Page Home - En savoir plus -- */
 
@@ -598,6 +603,14 @@ canvas{
     color: white;
     height: 696px;
     background-position: center right !important;
+    background-color: #262626;
+}
+
+@media screen and (max-width: 940px) {
+    #recrute-home {
+        color: white;
+        background-color: dimgrey;
+    }
 }
 
 #btn-en-savoir-plus {
@@ -890,7 +903,7 @@ canvas{
 .partenaire-gallery-about {
     margin-left: auto;
     margin-right: auto;
-    padding: 70px 60px;
+    padding: 90px 60px 70px 50px;
     height: 611px;
     background-image: url(/wp-content/img/about/white-hexagone-transparent.png);
     background-position: center center;
