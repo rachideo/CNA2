@@ -54,6 +54,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
         ## Bouton - Display inline
         ## Bouton - Badge
     # Home
+        ## H2 Title
         ## Hero
         ## Hexagone Formations
         ## Block Campus
@@ -84,7 +85,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 
 /*** ---------- GENERAL ---------- ***/
 
-.heading-cna {
+.heading-cna  {
     font-size: 36px;
     vertical-align: bottom;
     margin-left: 10px;
@@ -114,6 +115,16 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 .link-without-spacing {
     margin: 0 !important;
     padding: 0 !important;
+}
+
+#map-campus {
+    height: 500px;
+}
+
+@media (max-width: 990px) {
+    #map-campus {
+        height: 300px;
+    }
 }
 
 /* -- Général - Bouton Display Inline-Block -- */
@@ -159,6 +170,55 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 
 
 /*** ---------- PAGE HOME ---------- ***/
+
+/* -- Page Home - H2 Title -- */
+
+#title-hexa-home h2, #title-testi-home h2 {
+    color: #001c28; !important;
+    font-weight: bold !important;
+    font-size: 36px !important;
+}
+
+#title-hexa-home h2::before {
+    content:"";
+    display:inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    background:url(/wp-content/img/home/formation.png) no-repeat;
+    background-size:100%;
+}
+
+#title-testi-home h2::before {
+    content:"";
+    display:inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    background:url(/wp-content/img/home/quote.png) no-repeat;
+    background-size:100%;
+}
+
+#title-campus-home h2 {
+    color: #ffffff; !important;
+    font-weight: bold !important;
+    font-size: 36px !important;
+    vertical-align: bottom !important;
+}
+
+#title-campus-home h2::before {
+    content:"";
+    display:inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    background:url(/wp-content/img/home/location.png) no-repeat;
+    background-size:100%;
+}
+
 
 /* -- Page Home - Hero -- */
 
@@ -553,14 +613,23 @@ canvas{
 
 /* -- Page Home - Block Campus -- */
 
-.img-campus-hexa {
-    margin-right: 8px;
-    vertical-align: bottom;
+#h3-campus-hexa h3 {
+    color: #ffffff; !important;
+    font-weight: bold !important;
+    font-size: 28px !important;
+    vertical-align: middle !important;
+    margin-bottom: 10px !important;
 }
 
-.font-campus-hexa-label {
-    font-weight: bold;
-    font-size: 28px;
+#h3-campus-hexa h3::before {
+    content:"";
+    display:inline-block;
+    margin-right: 8px;
+    vertical-align: bottom !important;
+    width: 30px;
+    height: 34px;
+    background:url(/wp-content/img/home/hexagone_formation.png) no-repeat;
+    background-size:100%;
 }
 
 #campus-pills-line {
@@ -580,6 +649,19 @@ canvas{
     height: 393px;
     padding-top: 60px;
 }
+
+@media (max-width: 990px) {
+    #btn-home-campus {
+        margin-left: 50px;
+    }
+
+    #bloc-campus-home-desktop {
+        height: auto;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}
+
 
 /* -- Page Home - Testimonial -- */
 
@@ -622,6 +704,53 @@ canvas{
 
 /*** ---------- PAGES VILLES ----------***/
 
+/* -- Page Ville - Titres --*/
+
+#title-campus-ville h2, #title-formateur-ville h2, #title-contact-ville h2 {
+    color: #001c28; !important;
+    font-size: 36px !important;
+}
+
+#title-campus-ville h2::before {
+    content:"";
+    display:inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    background:url(/wp-content/img/home/location.png) no-repeat;
+    background-size:100%;
+}
+
+#title-contact-ville h2::before {
+    content:"";
+    display:inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    background:url(/wp-content/img/ville/contact.png) no-repeat;
+    background-size:100%;
+}
+
+#title-formateur-ville h2::before {
+    content:"";
+    display:inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    background:url(/wp-content/img/ville/team-formateur.png) no-repeat;
+    background-size:100%;
+}
+
+#title-entreprise-ville h2 {
+    text-align: center;
+    font-size: 28px;
+    color: white;
+}
+
+
 /* -- Page Ville - Post Hero -- */
 
 .post-hero {
@@ -655,7 +784,7 @@ canvas{
     width: 600px;
     height: auto;
     color: white !important;
-    padding: 10px;
+    padding: 10px 10px 2px 10px;
     margin-left: 15px;
 }
 
@@ -687,11 +816,6 @@ canvas{
 .logo-partenaire-align {
     display: flex;
     justify-content: flex-end;
-}
-
-.titre-formation-ville {
-    font-size: 28px;
-    font-weight: 800;
 }
 
 .nombre-heure-formation {
@@ -770,6 +894,41 @@ canvas{
 
 
 /*** ---------- PAGES FORMATIONS ---------- ***/
+
+/* -- Page Formation - Titres --*/
+
+#title-how-it-works h2, #title-formation-parcours h2 {
+    color: #001c28; !important;
+    font-weight: bold !important;
+    font-size: 36px !important;
+}
+
+.titre-formation-ville h2 {
+    font-size: 28px;
+    font-weight: 800;
+}
+
+#title-how-it-works h2::before {
+    content:"";
+    display:inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    background:url(/wp-content/img/formation/icon-comment-ca-marche.png) no-repeat;
+    background-size:100%;
+}
+
+#title-formation-parcours h2::before {
+    content:"";
+    display:inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    background:url(/wp-content/img/formation/3voies-pink.png) no-repeat;
+    background-size:100%;
+}
 
 /* -- Page Formation - Alignement --*/
 
@@ -851,12 +1010,46 @@ canvas{
 
 /*** ---------- PAGE QUI SOMMES NOUS ---------- ***/
 
+#title-equipe-ope h2 {
+    color: #001c28; !important;
+    font-weight: bold !important;
+    font-size: 36px !important;
+}
+
+#title-partenaire-about h2 {
+    color: white;
+    font-size: 28px;
+    line-height: 38px;
+    padding-right: 40px;
+}
+
+#title-entreprise-about h2  {
+    font-size: 36px;
+    vertical-align: bottom;
+    margin-left: 10px;
+    padding-bottom: 20px;
+}
+
+
+
+#title-equipe-ope h2::before {
+    content:"";
+    display:inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    background:url(/wp-content/img/about/team_icon.png) no-repeat;
+    background-size:100%;
+}
+
 #hero-about-bloc {
     height: calc(100vh - 84px);
     -webkit-align-items: center !important;
     align-items: center !important;
     flex-direction: row !important;
  }
+
 .hero-about {
     text-align: center;
 }
@@ -3462,7 +3655,7 @@ iframe {
 .post-meta {
     overflow: hidden;
     display: inline-block;
-    margin-bottom: 12px;
+    margin-bottom: 30px;
 }
 
 .post-meta > li {
@@ -4592,7 +4785,7 @@ blockquote:after {
 * Content
 */
 .post-content {
-    margin-bottom: 20px; }
+    margin-bottom: 80px; }
 .post-content .entry-header {
     position: relative; }
 .post-content .entry-header img {
@@ -4621,20 +4814,19 @@ blockquote:after {
 .post-content .entry-content .post-title {
     font-size: 30px;
     line-height: 35px;
-    margin-top: 25px;
+    margin-top: 45px;
     margin-bottom: 10px; }
 .post-content .entry-content .post-title a {
-    font-weight: 300;
+    font-weight: 600;
     color: #001c28; }
 .post-content .entry-content p {
-    color: #8c979e; }
+    color: #001c28; }
 .post-content.post-grid-small .shapely-category {
     width: 70%; }
 .post-content .shapely-category {
     position: absolute;
     background: #fff;
-    height: 62px;
-    width: 45%;
+    padding: 0px 15px 0px 15px;
     bottom: 0;
     left: 0; }
 .post-content .shapely-category a {
@@ -4651,21 +4843,7 @@ blockquote:after {
     position: relative; }
 .post-content .shapely-category a:hover, .post-content .shapely-category a:focus {
     color: #e81341; }
-.post-content .shapely-category a:after {
-    content: '';
-    display: block;
-    width: 45px;
-    height: 1px;
-    background: #ebebeb;
-    position: absolute;
-    left: 50%;
-    -webkit-transform: translateX(-50%);
-    -khtml-transform: translateX(-50%);
-    -moz-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    -o-transform: translateX(-50%);
-    transform: translateX(-50%);
-    bottom: 0; }
+
 .post-content .more-link {
     display: block;
     width: 140px;
@@ -4678,6 +4856,7 @@ blockquote:after {
     background: #e81341; }
 
 .shapely-next-prev {
+    padding-top: 30px;
     padding-bottom: 35px; }
 
 .shapely-tags {

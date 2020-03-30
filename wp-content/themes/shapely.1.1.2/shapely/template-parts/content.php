@@ -11,12 +11,13 @@ $dropcaps    = get_theme_mod( 'first_letter_caps', true );
 $enable_tags = get_theme_mod( 'tags_post_meta', true );
 $post_author = get_theme_mod( 'post_author_area', true );
 $left_side   = get_theme_mod( 'post_author_left_side', false );
+$category = get_the_category();
 
 ?>
 <article id="post-<?php the_ID(); ?>" <?php post_class('post-content post-grid-wide'); ?>>
 	<header class="entry-header nolist">
 		<?php
-		$category = get_the_category();
+
 		if ( has_post_thumbnail() ) {
 			$layout = shapely_get_layout_class();
 			$size   = 'shapely-featured';
@@ -40,18 +41,7 @@ $left_side   = get_theme_mod( 'post_author_left_side', false );
 			),
 			'noscript' => array()
 		);
-		?>
-		<a href="<?php echo esc_url( get_the_permalink() ); ?>">
-			<?php echo wp_kses( $image, $allowed_tags ); ?>
-		</a>
-
-		<?php if ( isset( $category[0] ) ): ?>
-			<span class="shapely-category">
-				<a href="<?php echo esc_url( get_category_link( $category[0]->term_id ) ); ?>">
-					<?php echo esc_html( $category[0]->name ); ?>
-				</a>
-			</span>
-		<?php endif; ?>
+		?><?php echo wp_kses( $image, $allowed_tags ); ?>
 		<?php } ?>
 	</header><!-- .entry-header -->
 	<div class="entry-content">
@@ -60,8 +50,7 @@ $left_side   = get_theme_mod( 'post_author_left_side', false );
 		</h2>
 
 		<div class="entry-meta">
-			<?php
-			shapely_posted_on_no_cat(); ?><!-- post-meta -->
+			<?php shapely_posted_on_no_cat(); ?><!-- post-meta -->
 		</div>
 
 		<?php if ( $post_author && $left_side ): ?>

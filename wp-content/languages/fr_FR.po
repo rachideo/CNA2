@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 5.3.x package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-02-07 15:53:24+0000\n"
+"PO-Revision-Date: 2020-03-27 15:29:38+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10745,7 +10745,7 @@ msgstr "Taille personnalisée"
 
 #: wp-includes/media-template.php:1033
 msgid "Display Settings"
-msgstr "Réglages de l’affichage"
+msgstr "Réglages d’affichage"
 
 #: wp-includes/media-template.php:995 wp-includes/media-template.php:1117
 msgid "Image URL"
@@ -10884,7 +10884,7 @@ msgstr "Alignement"
 
 #: wp-includes/media-template.php:707
 msgid "Attachment Display Settings"
-msgstr "Réglages de l’affichage du fichier joint"
+msgstr "Réglages d’affichage du fichier joint"
 
 #: wp-includes/media-template.php:696
 msgid "Edit Selection"
