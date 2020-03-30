@@ -2768,7 +2768,7 @@ nav .btn, .nav-bar .btn {
     opacity: 1;
 }
 
-.menu > li:after {
+.menu > li:not(:first-child):before {
     content: '';
     position: absolute;
     border-right: 1px solid #ffffff45;
