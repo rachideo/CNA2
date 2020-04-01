@@ -213,8 +213,37 @@ select.awsm-select-default {
 .awsm-team-customize-footer {
 	text-align: right;
 }
+.awsm-sorable-table-label, #member_details label{
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+#member_details label{
+	display: block;
+}
 .awsm-sorable-table {
 	position: relative;
+	border-collapse: collapse;
+}
+.awsm-sorable-table td{
+	border: 1px solid #ccc;
+	padding: 10px;
+	background: #fff;
+}
+.awsm-sorable-table thead td {
+	background: #efefef;
+}
+.awsm-sorable-table tbody tr:nth-child(2n) td{
+	background: #efefef;
+}
+.awsm-sorable-table .remove-row{
+	color: #E85F5B;
+	border-color: #E85F5B;
+	background: rgba(232, 95, 91, 0.05);
+}
+.awsm-sorable-table .remove-row:hover, .awsm-sorable-table .remove-row:focus{
+	background: rgba(232, 95, 91, 0.15);
+	color: #E85F5B;
+	border-color: #E85F5B;
 }
 #member_details .awsm-sorable-table tbody tr:first-child td:last-child .remove-row {
     display: none;

@@ -57,8 +57,7 @@ if ( ! function_exists( 'shapely_posted_on_no_cat' ) ) :
 		<ul class="post-meta">
         <li><span><?php echo $time_string; ?></span></li>
 		<li><span><?php echo esc_html__( 'par ', 'shapely' ); ?><?php esc_html( the_author() ); ?></span></li>
-        <li><span><?php if ( isset( $category[0] ) ): ?><a href="<?php echo esc_url( get_category_link( $category[0]->term_id ) ); ?>"
-                     title="<?php echo esc_html( $category[0]->name ); ?>"><?php echo esc_html( $category[0]->name ); ?></a><?php endif; ?></span></li>
+        <li><span><?php if ( isset( $category[0] ) ): ?><?php echo esc_html( $category[0]->name ); ?><?php endif; ?></span></li>
 		</ul><?php
 	}
 endif;

@@ -22,11 +22,11 @@ msgstr ""
 msgid "Select Team"
 msgstr ""
 
-#: awsm-team.php:293, awsm-team.php:1828
+#: awsm-team.php:293, awsm-team.php:1831
 msgid "Team not found"
 msgstr ""
 
-#: awsm-team.php:296, awsm-team.php:1831
+#: awsm-team.php:296, awsm-team.php:1834
 msgid "No members found"
 msgstr ""
 
@@ -46,7 +46,7 @@ msgstr ""
 msgid "Team Members"
 msgstr ""
 
-#: awsm-team.php:476, awsm-team.php:1898, includes/class-team-elementor-widget.php:33, includes/modules/beaverbuilder/awsmteam.php:26
+#: awsm-team.php:476, awsm-team.php:1901, includes/class-team-elementor-widget.php:33, includes/modules/beaverbuilder/awsmteam.php:26
 msgid "AWSM Team"
 msgstr ""
 
@@ -395,53 +395,53 @@ msgstr ""
 msgid "Invalid request!"
 msgstr ""
 
-#: awsm-team.php:1896
+#: awsm-team.php:1899
 msgid "Select"
 msgstr ""
 
-#: awsm-team.php:1897
+#: awsm-team.php:1900
 msgid "Nothing to insert"
 msgstr ""
 
-#: awsm-team.php:1919
+#: awsm-team.php:1922
 msgid "AWSM Team Pro"
 msgstr ""
 
 #. translators: %1$s: plugin latest version, %2$s: plugin name, %3$s: html content
-#: awsm-team.php:1921
+#: awsm-team.php:1924
 msgid "There is a new version %1$s of %2$s available. %3$s"
 msgstr ""
 
 #. translators: %1$s: Opening anchor tag, %2$s: closing anchor tag
-#: awsm-team.php:1940
+#: awsm-team.php:1943
 msgid "Please %1$s activate your copy%2$s of AWSM Team Pro to receive automatic updates."
 msgstr ""
 
-#: awsm-team.php:2070
+#: awsm-team.php:2073
 msgid "Thank you, your purchase code has been verified."
 msgstr ""
 
-#: awsm-team.php:2073
+#: awsm-team.php:2076
 msgid "Something is wrong! "
 msgstr ""
 
-#: awsm-team.php:2073
+#: awsm-team.php:2076
 msgid "Either the purchase key is invalid or your support license is expired. "
 msgstr ""
 
-#: awsm-team.php:2073
+#: awsm-team.php:2076
 msgid "Renew Support"
 msgstr ""
 
-#: awsm-team.php:2115
+#: awsm-team.php:2118
 msgid "Dismiss"
 msgstr ""
 
-#: awsm-team.php:2130
+#: awsm-team.php:2133
 msgid "Error in dismissing the notice. Please try again!"
 msgstr ""
 
-#: awsm-team.php:2135
+#: awsm-team.php:2138
 msgid "You don&#8217;t have the permission to dismiss this notice!"
 msgstr ""
 

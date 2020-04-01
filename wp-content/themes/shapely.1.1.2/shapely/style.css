@@ -117,6 +117,11 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     padding: 0 !important;
 }
 
+#post-3880 { /* hauteur page Actualité */
+    min-height: 800px;
+    margin-bottom: 50px;
+}
+
 #map-campus {
     height: 500px;
 }
@@ -134,6 +139,9 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     margin: 5px !important;
 }
 
+#btn-home-campus a span {
+    font-weight: 600 !important;
+}
 
 .ow-icon-placement-left {
     white-space: nowrap;
@@ -621,6 +629,10 @@ canvas{
     margin-bottom: 10px !important;
 }
 
+#h3-campus-hexa h3 a {
+    color: #ffffff; !important;
+}
+
 #h3-campus-hexa h3::before {
     content:"";
     display:inline-block;
@@ -1096,7 +1108,7 @@ canvas{
 .partenaire-gallery-about {
     margin-left: auto;
     margin-right: auto;
-    padding: 90px 60px 70px 50px;
+    padding: 90px 60px 90px 50px;
     height: 611px;
     background-image: url(/wp-content/img/about/white-hexagone-transparent.png);
     background-position: center center;
@@ -2056,8 +2068,19 @@ embed, iframe, object {
     padding: 0px 40px;
 }
 
-.gallery {
+.partenaire-gallery-about > .so-widget-sow-editor {
+    height: 100%;
+}
 
+/* Donne l'espace Space-Around aux parents des galeries */
+.partenaire-gallery-about > .so-widget-sow-editor > .siteorigin-widget-tinymce {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.gallery {
     color: #707070;
     font-size: 14px;
 }
@@ -2149,7 +2172,7 @@ embed, iframe, object {
 body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    font-size: 14px;
+    font-size: 15px;
     line-height: normal;
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #001c28;
@@ -2356,9 +2379,11 @@ p.lead {
         line-height: 24px;
     }
 
-    p {
+    p, li {
         font-size: 12px;
     }
+
+
 }
 
 a, a:visited, a:focus, a:active, a:hover {
@@ -3633,16 +3658,11 @@ img {
 /*!---------- 18. BLOG ----------*/
 
 .post-title a, .post-title {
-    font-size: 40px;
-    font-weight: 300;
+    font-size: 46px;
+    font-weight: 800;
+    color: #ee2961 !important;
+    margin-bottom: 10px;
 }
-
-
-
-.post-title a:hover {
-    color: #292929;
-}
-
 
 video:-webkit-full-screen, audio:-webkit-full-screen {
     -webkit-transform: translateY(0%);
@@ -4790,6 +4810,9 @@ blockquote:after {
     position: relative; }
 .post-content .entry-header img {
     width: 100%; }
+.entry-meta {
+    margin-bottom: 20px;
+}
 .post-content .post-meta {
     list-style-type: none;
     margin-left: 0; }

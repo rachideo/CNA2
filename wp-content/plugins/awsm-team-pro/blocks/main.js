@@ -4,12 +4,12 @@
  * Registering a basic block with Gutenberg.
  */
 
-import ATPHelper from './modules/helper';
 import ATPInspector from './modules/inspector';
 
 const { __ } = wp.i18n; // Import __() from wp.i18n
 const { registerBlockType } = wp.blocks; // Import registerBlockType() from wp.blocks
-const { ServerSideRender, IconButton } = wp.components;
+const { ServerSideRender, Placeholder, Button } = wp.components;
+
 /**
  * Register: a Gutenberg Block.
  *
@@ -57,9 +57,11 @@ registerBlockType( 'gutenberg-awsm/awsm-team-dynamic', {
 			];
 		} else {
 			return (
-				<div className="components-placeholder atp-block-wrapper">
-					<IconButton className="awsm-team-btn" icon="media-document" onClick={ setBlockProps } isLarge>{ __( 'Select Team', 'awsm-team-pro' ) }</IconButton>
-				</div>
+				<Placeholder label={ __( 'AWSM Team', 'awsm-team-pro' ) } instructions={ __( 'Pick a team to add to your page.', 'awsm-team-pro' ) } icon="admin-users" className="atp-block-wrapper">
+					<Button className="awsm-team-btn" onClick={ setBlockProps } isSecondary isLarge>
+						{ __( 'Select Team', 'awsm-team-pro' ) }
+					</Button>
+				</Placeholder>
 			);
 		}
 	},

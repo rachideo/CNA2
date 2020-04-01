@@ -15,11 +15,11 @@ if ( ! defined( 'ABSPATH' ) ) {
 	<input class="widefat" type="text" name="awsm-team-designation" id="awsm-team-designation" value="<?php echo esc_html( get_post_meta( $post->ID, 'awsm-team-designation', true ) ); ?>"/>
 </p>
 <p>
-	<label for="awsm-team-short-desc"><?php esc_html_e( 'Short Description (In 140 characters or less)', 'awsm-team-pro' ); ?></label><br/>
+	<label for="awsm-team-short-desc"><?php esc_html_e( 'Short Description (In 140 characters or less)', 'awsm-team-pro' ); ?></label>
 	<textarea id="awsm-team-short-desc" name="awsm-team-short-desc" class="widefat" type="text" maxlength="140"><?php echo esc_textarea( get_post_meta( $post->ID, 'awsm-team-short-desc', true ) ); ?></textarea>
 </p>
 
-<p><?php esc_html_e( 'Additional Information (for Email, Telephone, Fax, etc)', 'awsm-team-pro' ); ?></p>
+<p class="awsm-sorable-table-label"><?php esc_html_e( 'Additional Information (for Email, Telephone, Fax, etc)', 'awsm-team-pro' ); ?></p>
 <table id="repeatable-fieldset-one" width="100%" class="awsm-sorable-table">
 	<thead>
 		<tr>
@@ -63,7 +63,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 </table>
 <p><a class="button awsm-add-row" href="#" data-table="repeatable-fieldset-one"><?php esc_html_e( 'Add row', 'awsm-team-pro' ); ?></a></p>
 
-<p><?php esc_html_e( 'Links (Twitter, LinkedIn, etc)', 'awsm-team-pro' ); ?></p>
+<p class="awsm-sorable-table-label"><?php esc_html_e( 'Links (Twitter, LinkedIn, etc)', 'awsm-team-pro' ); ?></p>
 <table id="repeatable-fieldset-two" width="100%" class="awsm-sorable-table">
 	<thead>
 		<tr>

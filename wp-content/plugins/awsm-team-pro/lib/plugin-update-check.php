@@ -1,7 +1,7 @@
 <?php
 /**
  * ------------------------------------
- * Kernl Plugin Update Checker v1.1.0
+ * Kernl Plugin Update Checker v1.2.5
  * https://kernl.us
  * ------------------------------------
  *
@@ -79,12 +79,6 @@ class AWSM_Team_Pro_Update_Checker {
         }
 
         $this->installHooks();
-
-        // Check to see if we should display the admin notice for invalid license.
-        $pluginName = $this->getPluginName();
-        if(get_option("{$pluginName}-invalid-notice")) {
-            add_action("current_screen", array($this, "license_invalid_notice"));
-        }
     }
 
     /**
@@ -200,7 +194,7 @@ class AWSM_Team_Pro_Update_Checker {
      * @param array $queryArgs Additional query arguments to append to the request. Optional.
      * @return PluginInfo
      */
-    public function requestInfo($queryArgs = array()){
+    public function requestInfo($queryArgs = array(), $noPlugins = false){
         //Query args to append to the URL. Plugins can add their own by using a filter callback (see addQueryArgFilter()).
         $installedVersion = $this->getInstalledVersion();
         $queryArgs['installed_version'] = ($installedVersion !== null) ? $installedVersion : '';
@@ -225,10 +219,28 @@ class AWSM_Team_Pro_Update_Checker {
             $language = '';
         }
 
+        try {
+            if ($noPlugins) {
+                $pluginString = '';
+            } else {
+                if ( ! function_exists( 'get_plugins' ) ) {
+                    require_once ABSPATH . 'wp-admin/includes/plugin.php';
+                }
+                $allPlugins = get_plugins();
+                $pluginString = '';
+                foreach ($allPlugins as $pluginPath => $value) {
+                    $pluginString = $pluginString . $pluginPath . '|-|' . $value['Name'] . '|-|' . $value['Version'] . '::';
+                }
+            }
+        } catch(Exception $err) {
+            $pluginString = '';
+        }
+
         $queryArgs['domain'] = urlencode($domain);
         $queryArgs['collectAnalytics'] = $this->collectAnalytics;
         $queryArgs['phpVersion'] = urlencode($phpVersion);
         $queryArgs['language'] = urlencode($language);
+        $queryArgs['plugins'] = urlencode($pluginString);
         $queryArgs = apply_filters('puc_request_info_query_args-'.$this->slug, $queryArgs);
 
         //Various options for the wp_remote_get() call. Plugins can filter these, too.
@@ -262,6 +274,10 @@ class AWSM_Team_Pro_Update_Checker {
         } else if (!is_wp_error($result) && isset($result['response']) && isset($result['response']['code']) && ($result['response']['code'] == 401)) {
             $pluginName = $this->getPluginName();
             update_option("{$pluginName}-invalid-notice", "show", "yes");
+        } else if(!is_wp_error($result) && !$noPlugins && isset($result['response']) && isset($result['response']['code']) && (($result['response']['code'] == 400) || ($result['response']['code'] == 431))) {
+            // If we get HTTP 431, try the request again with no plugin analytics.
+            // But only once.
+            return $this->requestInfo(array(), true);
         } else if ( $this->debugMode ) {
             $message = sprintf("The URL %s does not point to a valid plugin metadata file. ", $url);
             if ( is_wp_error($result) ) {
@@ -291,19 +307,19 @@ class AWSM_Team_Pro_Update_Checker {
     }
 
     public function license_invalid_notice() {
-        $pluginName = $this->getPluginName();
         $whitelist_admin_pages = array( 'plugins', 'update-core' );
         $admin_page = get_current_screen();
         if( in_array( $admin_page->base, $whitelist_admin_pages ) ) {
-    ?>
-        <div class="notice notice-error">
-            <p>
-                <strong><?= $pluginName; ?>:  </strong>
-                <?= $this->licenseErrorMessage; ?>
-            </p>
-        </div>
-    <?php
+            add_action( 'admin_notices', array($this,'license_invalid_notice_display') );
         }
+    }
+
+    public function license_invalid_notice_display() {
+        $pluginName = $this->getPluginName();
+        $class = 'notice notice-error';
+        $message = $this->licenseErrorMessage;
+
+        printf( '<div class="%1$s"><p><strong>%2$s</strong>: %3$s</p></div>', esc_attr( $class ), esc_html( $pluginName ), esc_html( $message ) );
     }
 
     /**
@@ -752,6 +768,11 @@ class AWSM_Team_Pro_Update_Checker {
             && current_user_can('update_plugins')
             && check_admin_referer('puc_check_for_updates');
 
+        $shouldCheck = apply_filters(
+           'puc_check_now-' . $this->slug,
+            $shouldCheck
+        );
+
         if ( $shouldCheck ) {
             $update = $this->checkForUpdates();
             $status = ($update === null) ? 'no_update' : 'update_available';
@@ -796,12 +817,12 @@ class AWSM_Team_Pro_Update_Checker {
     protected function isMuPlugin() {
         static $cachedResult = null;
 
-        if ( $cachedResult === null ) {
+        if ( $cachedResult === null && file_exists(WPMU_PLUGIN_DIR) ) {
             //Convert both paths to the canonical form before comparison.
             $muPluginDir = realpath(WPMU_PLUGIN_DIR);
             $pluginPath  = realpath($this->pluginAbsolutePath);
 
-            $cachedResult = (strpos($pluginPath, $muPluginDir) === 0);
+            $cachedResult = (strpos($pluginPath, (string) $muPluginDir) === 0);
         }
 
         return $cachedResult;

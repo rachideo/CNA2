@@ -3,7 +3,19 @@
   <component name="ChangeListManager">
     <list default="true" id="6359801e-977c-4580-a417-254de4093bb0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/awsm-team-pro/awsm-team.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/awsm-team-pro/awsm-team.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/awsm-team-pro/blocks/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/awsm-team-pro/blocks/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/awsm-team-pro/blocks/modules/helper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/awsm-team-pro/blocks/modules/inspector.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/awsm-team-pro/blocks/modules/inspector.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/awsm-team-pro/blocks/team-block.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/awsm-team-pro/blocks/team-block.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/awsm-team-pro/css/admin.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/awsm-team-pro/css/admin.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/awsm-team-pro/includes/member-details.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/awsm-team-pro/includes/member-details.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/awsm-team-pro/language/awsm-team-pro.pot" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/awsm-team-pro/language/awsm-team-pro.pot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/awsm-team-pro/lib/plugin-update-check.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/awsm-team-pro/lib/plugin-update-check.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely.1.1.2/shapely/inc/template-tags.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/shapely.1.1.2/shapely/inc/template-tags.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely.1.1.2/shapely/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/shapely.1.1.2/shapely/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely.1.1.2/shapely/template-parts/content.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/shapely.1.1.2/shapely/template-parts/content.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/siteorigin-widgets/sow-hero-default-015f08ce17f9.css" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -100,7 +112,8 @@
       <workItem from="1584779710568" duration="4725000" />
       <workItem from="1584958504391" duration="34427000" />
       <workItem from="1585330357839" duration="1410000" />
-      <workItem from="1585487957581" duration="14553000" />
+      <workItem from="1585487957581" duration="20317000" />
+      <workItem from="1585667664578" duration="2726000" />
     </task>
     <servers />
   </component>
