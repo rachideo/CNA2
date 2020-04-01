@@ -1,17 +1,16 @@
-# Fichier wp-config.php, il contient les informations de la base de donnée (qui sont différents en local et en ligne)
+#Fichier wp-config.php, il contient les informations de la base de donnée (qui sont différents en local et en ligne)
 wp-config.php
 
+.idea/
 
-
-# Ignore tous fichiers log ou de base de donnée
 *.log
 *.sql
 *.sqlite
 
 
 
-# Dossier .idea
-.idea/
+
+
 
 
 
